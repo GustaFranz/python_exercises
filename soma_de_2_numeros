@@ -1,0 +1,14 @@
+# Exercício: Soma de dois números
+# Este programa solicita dois números ao usuário, calcula a soma e exibe o resultado de forma formatada.
+
+# Solicita ao usuário o primeiro número e converte para inteiro
+n1 = int(input("Digite um número: ")) 
+
+# Solicita ao usuário o segundo número e converte para inteiro
+n2 = int(input("Digite outro número: ")) 
+
+# Calcula a soma dos dois números
+s = n1 + n2 
+
+# Exibe a soma de forma formatada
+print(f'A soma entre {n1} e {n2} é igual a {s}')
