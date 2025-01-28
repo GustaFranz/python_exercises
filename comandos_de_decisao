@@ -27,3 +27,6 @@ else:
 # A idade não é múltiplo de 2.
 # A idade não é múltiplo de 3.
    print ("que pena, você não ganhou nenhum chocolate")
+
+#Obrigado por visualizar meu código!
+#Há algo que queira acrescentar em minha jornada de aprendizado?
