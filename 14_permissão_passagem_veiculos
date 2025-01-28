@@ -7,7 +7,7 @@
 
 
 peso = float(input("Qual é o peso do seu veículo? "))
-print ("seu veículo possui", peso, "km")
+print ("seu veículo possui", peso, "kg")
 if  peso >= 0.9 and peso <= 1.8:
     print ("Acesso de veículo permitido")
 elif peso < 0.9:
