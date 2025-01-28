@@ -1,5 +1,5 @@
-#CONVERTER TEMPERATURA EM CELSIUS PARA FAHRENHEIT
-#Através das operações matemáticas básicas, elaborar um programa que converte graus Célsius em Fahrenheit
+#CONVERTER TEMPERATURA EM CELSIUS PARA KELVIN
+#Através das operações matemáticas básicas, elaborar um programa que converte graus Célsius em Kelvin
 
 #A conversão de temperatura é uma tarefa comum em diversas áreas, como ciências, engenharia, meteorologia e até no cotidiano.
 #Um código que realiza essas conversões (entre Celsius, Fahrenheit e Kelvin) é útil para garantir precisão em cálculos, análises de dados e comunicação de resultados.
