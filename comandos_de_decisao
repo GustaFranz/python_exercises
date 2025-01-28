@@ -1,0 +1,29 @@
+#TREINANDO COMANDOS DE DECISÃO, CASTINGS E CONCATENAÇÃO (24/01/24)
+# A dinâmica a seguir avalia se a idade do usuário é um multiplo de 2 ou de 3
+#Caso seja múltiplo de 2 ganhará um chocolate preto.
+#Caso sua idade seja múltiplo de 3 ganhará um chocolate branco
+#Se a idade for múltiplo tanto de 2 quanto de 3, ganhará os dois chocolates
+
+
+idade = int(input("Qual é a sua idade? "))
+if idade % 2 == 0 and idade % 3 == 0:
+#O if é usado para verificar a condição mais específica e prioritária
+#Se a idade for múltiplo de 2 e de 3 ao mesmo tempo (ou seja, múltiplo de 6)
+#Caso essa condição seja verdadeira, o código executa o bloco correspondente e ignora os outros casos
+   print ("parabéns, você ganhou um chocolate branco e um chocolate preto")
+elif idade % 2 == 0:
+#O elif é usado para verificar uma segunda condição apenas se a condição anterior (do if) for falsa.
+#Aqui, verifica se a idade é múltiplo de 2 (mas não múltiplo de 6, pois esse caso já foi tratado pelo if).
+#Se essa condição for verdadeira, o código executa esse bloco e não verifica mais nenhum elif ou else abaixo
+   print ("parabéns, você ganhou um chocolate preto")
+elif idade % 3 == 0:
+#Novamente, o elif é usado para verificar outra condição:
+#Se a idade for múltiplo de 3, mas não múltiplo de 6 (pois múltiplos de 6 foram tratados no if)
+#O código entra nesse bloco se as condições do if e do primeiro elif forem falsas
+   print ("parabéns,você ganhou um chocolate branco")
+else:
+#O else é um bloco padrão, que será executado somente se nenhuma das condições anteriores (if ou elif) for verdadeira
+#Esse bloco lida com todos os outros casos em que:
+# A idade não é múltiplo de 2.
+# A idade não é múltiplo de 3.
+   print ("que pena, você não ganhou nenhum chocolate")
