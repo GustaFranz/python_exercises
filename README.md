@@ -19,6 +19,7 @@
   - [Matematica e geometria (14-20)](#matematica-e-geometria-14-20)
   - [Random, strings e jogos (21-29)](#random-strings-e-jogos-21-29)
   - [Condicionais avancadas (30-36)](#condicionais-avancadas-30-36)
+- [Materiais de apoio](#materiais-de-apoio)
 - [Como executar](#-como-executar)
 - [Convencoes](#convencoes)
 - [Estrutura do repositorio](#estrutura-do-repositorio)
@@ -28,7 +29,7 @@
 
 ## Sobre
 
-Repositorio com exercicios e projetos desenvolvidos durante meu aprendizado em programacao. Inclui scripts em Python e praticas de logica, organizados em pastas numeradas do basico ao avancado.
+Repositorio com exercicios e projetos desenvolvidos durante meu aprendizado em programacao. Inclui scripts em Python, praticas de logica organizadas em pastas numeradas do basico ao avancado, e materiais de apoio (Git, ferramentas e referencias).
 
 Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica ao longo do tempo.
 
@@ -112,6 +113,14 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 
 ---
 
+## Materiais de apoio
+
+| Material | Descricao | Link |
+|----------|-----------|------|
+| Guia Git para iniciantes | Comandos, fluxo, erros comuns e exercicio pratico | [Abrir](./materiais/git/) |
+
+---
+
 ## 🚀 Como executar
 
 1. Clone o repositorio
@@ -150,9 +159,13 @@ Cada exercicio fica em uma pasta numerada (`NN` = numero sequencial):
 exercicios_python/
 ├── LICENSE
 ├── README.md
-└── NN_nome_exercicio/
-    ├── README.md
-    └── main.py
+├── NN_nome_exercicio/
+│   ├── README.md
+│   └── main.py
+└── materiais/
+    └── git/
+        ├── README.md
+        └── Git Guia completo.png
 ```
 
 ---
