@@ -1,13 +1,27 @@
-# 13 converter celsius fahrenheit
+# 13 - Converter Celsius para Fahrenheit
 
-## Objetivo
+## 🎯 Objetivo
 
+Transformar graus Celsius informados em Fahrenheit.
 
-## Instruções
+## 🧠 O que pratiquei
 
+- Formula `(celsius * 1.8) + 32`
+- Conversao de temperatura
+- Mensagem final com unidade correta
 
-## Como executar
+## 🧾 Código
+
+Arquivo: [`main.py`](https://github.com/GustaFranz/exercicios_python/blob/main/13_converter_celsius_fahrenheit/main.py)
+
+## 🚀 Como executar
+
 
 ```bash
+cd "13_converter_celsius_fahrenheit"
 python main.py
 ```
+
+## ▶️ Testar no Replit
+
+[![Run on Replit](https://replit.com/badge/github/GustaFranz/exercicios_python)](https://replit.com/new/github/GustaFranz/exercicios_python?path=13_converter_celsius_fahrenheit)
