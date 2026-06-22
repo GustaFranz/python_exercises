@@ -40,6 +40,7 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 - Documentar minha evolucao no aprendizado de programacao
 - Compartilhar exemplos praticos de logica em Python
 - Servir de referencia para outras pessoas
+- Disponibilizar materiais de apoio, como o [guia Git para iniciantes](./materiais/git/)
 
 ---
 
@@ -117,7 +118,7 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 
 | Material | Descricao | Link |
 |----------|-----------|------|
-| Guia Git para iniciantes | Comandos, fluxo, erros comuns e exercicio pratico | [Abrir](./materiais/git/) |
+| Guia Git para iniciantes | Comandos, fluxo, erros comuns e exercicio pratico | [Abrir](./materiais/git/) · [Link publico](https://github.com/GustaFranz/exercicios_python/tree/main/materiais/git) |
 
 ---
 

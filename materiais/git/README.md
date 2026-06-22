@@ -1,5 +1,7 @@
 # Guia Git para iniciantes
 
+**Link publico para compartilhar:** https://github.com/GustaFranz/exercicios_python/tree/main/materiais/git
+
 Material criado durante meus estudos de programacao. Sou professor em transicao para a area de TI e compartilho aqui o que aprendo no caminho — nao como especialista, mas como alguem que ainda lembra das dificuldades iniciais.
 
 **Se so lembrar de 3 comandos hoje:** `git status`, `git add .`, `git commit -m "mensagem"`.
