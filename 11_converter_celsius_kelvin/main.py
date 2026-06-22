@@ -1,5 +1,5 @@
-# CONVERTER TEMPERATURA DE FAHRENHEIT PARA KELVIN
-# Através das operações matemáticas básicas, elaborar um programa que converte temperatura Fahrenheit em Kelvin
+# CONVERTER TEMPERATURA EM CELSIUS PARA KELVIN
+# Através das operações matemáticas básicas, elaborar um programa que converte graus Célsius em Kelvin
 
 # A conversão de temperatura é uma tarefa comum em diversas áreas, como ciências, engenharia, meteorologia e até no cotidiano.
 # Um código que realiza essas conversões (entre Celsius, Fahrenheit e Kelvin) é útil para garantir precisão em cálculos, análises de dados e comunicação de resultados.
@@ -8,11 +8,18 @@
 # Ter um programa automatizado para essa conversão não só economiza tempo, mas também minimiza erros, 
 # o que é essencial em aplicações onde a precisão é crítica, como na engenharia de processos industriais ou no planejamento de projetos térmicos.
 
-# Solicita ao usuário a temperatura em graus Fahrenheit
-fahrenheit = float(input("Digite a temperatura em graus Fahrenheit: "))
+# Conversão de Temperatura de Celsius para Kelvin
+
+# Solicita ao usuário a temperatura em graus Celsius
+celsius = float(input("Digite a temperatura em graus Celsius: "))
 
 # Converte a temperatura para Kelvin
-kelvin = ((fahrenheit - 32) / 1.8) + 273.15
+kelvin = celsius + 273.15
 
 # Exibe o resultado
 print(f"A temperatura em Kelvin é {kelvin} K.")
+
+
+
+# Esse foi bem fácil! Se tiver sugestões para contribuir com meu aprendizado fique a vontade!
+

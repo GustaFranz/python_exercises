@@ -14,5 +14,5 @@ s = n1 + n2
 print(f'A soma entre {n1} e {n2} é igual a {s}')
 
 
-#Obrigavo por visualizar meu código.
-#Se quiser, comente algo para contribuir com minha jornada de aprendizado!
+# Obrigavo por visualizar meu código.
+# Se quiser, comente algo para contribuir com minha jornada de aprendizado!

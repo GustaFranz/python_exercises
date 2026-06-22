@@ -17,5 +17,5 @@ s = n1 + n2
 print("A soma entre {} e {} é {}".format(n1, n2, s))
 
 
-#Obrigado por visualizar meu código!
-#Há algo que queira acrescentar em minha jornada de aprendizado?
+# Obrigado por visualizar meu código!
+# Há algo que queira acrescentar em minha jornada de aprendizado?

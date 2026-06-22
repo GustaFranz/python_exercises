@@ -1,12 +1,12 @@
-#TRANSFORMANDO EM PALAVRAS MAIUSCULAS
-#Comando para transformar o nome informado pelo usuário em um string totalmente com palavras maiúsculas.
+# TRANSFORMANDO EM PALAVRAS MAIUSCULAS
+# Comando para transformar o nome informado pelo usuário em um string totalmente com palavras maiúsculas.
 
 name = input ("Qual o seu nome?")
 upper_name = name.upper() 
 print (upper_name)
 
-#Depois de criar a variável 1 (name), criei outra variável (upper_name) e, em seguida, dei o comando para que essa variável seja convertida tada em letras maiúsculas.
+# Depois de criar a variável 1 (name), criei outra variável (upper_name) e, em seguida, dei o comando para que essa variável seja convertida tada em letras maiúsculas.
 
 
-#Obrigado por visualizar meu código!
-#Há algo que queira acrescentar em minha jornada de aprendizado?
+# Obrigado por visualizar meu código!
+# Há algo que queira acrescentar em minha jornada de aprendizado?

@@ -1,6 +1,7 @@
-#Controle de Velocidade
-#Um programa essencial para simular sistemas de fiscalização de trânsito. 
-Ele ensina a trabalhar com condições e cálculos simples, mostrando como automatizar verificações importantes do cotidiano.
+# Controle de Velocidade
+# Um programa essencial para simular sistemas de fiscalização de trânsito. 
+# Ele ensina a trabalhar com condições e cálculos simples, mostrando como automatizar verificações importantes do cotidiano.
+
 
 # Escreva um programa que leia a velocidade de um carro
 # se ele ultrapassar 80 km/h, mostre uma mensagem dizendo que ele foi multado:
@@ -16,5 +17,5 @@ else:
     print ('MULTA: Você está acima da velocidade permitida. Sua multa é de R$ {} reais'.format(multa))
 
 
-    #OBRIGADO!
-#FIQUE A CONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO!
+    # OBRIGADO!
+# FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO!

@@ -1,6 +1,7 @@
-#Cálculo de Passagem
-#Este exercício ensina a estruturar condições para cálculos diferenciados, como preços progressivos. 
-Esse conceito é aplicado em diversas áreas, como transporte e economia.
+# Cálculo de Passagem
+# Este exercício ensina a estruturar condições para cálculos diferenciados, como preços progressivos. 
+# Esse conceito é aplicado em diversas áreas, como transporte e economia.
+
 
 
 # Desenvolva um programa que pergunte a distância de uma viagem em km.
@@ -23,5 +24,5 @@ print ('Obrigado por viajar conosco!')
 print ('Dirija-se ao caixa para realizar o seu pagamento.')
 
 
-#OBRIGADO!
-#FIQUE A CONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO!
+# OBRIGADO!
+# FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO!

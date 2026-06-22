@@ -1,6 +1,7 @@
-#Cálculo de Aumento Salarial
-#Um exemplo prático do uso de condições para definir reajustes salariais. 
-Ele ajuda a entender como sistemas de pagamento e benefícios são calculados automaticamente.
+# Cálculo de Aumento Salarial
+# Um exemplo prático do uso de condições para definir reajustes salariais. 
+# Ele ajuda a entender como sistemas de pagamento e benefícios são calculados automaticamente.
+
 
 
 # Desenvolva um programa que pergunte o salário de um funcionpario e calcule o valor
@@ -20,5 +21,5 @@ if salario <= 1250:
 else:
     print ('Seu novo salário será R$ {}'.format(s10))
 
-    #OBRIGADO!
-#FIQUE A CONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO!
+    # OBRIGADO!
+# FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO!

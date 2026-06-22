@@ -19,7 +19,8 @@
   - [Matematica e geometria (14-20)](#matematica-e-geometria-14-20)
   - [Random, strings e jogos (21-29)](#random-strings-e-jogos-21-29)
   - [Condicionais avancadas (30-36)](#condicionais-avancadas-30-36)
-- [Como usar](#-como-usar)
+- [Como executar](#-como-executar)
+- [Convencoes](#convencoes)
 - [Estrutura do repositorio](#estrutura-do-repositorio)
 - [Contribuicao](#contribuicao)
 
@@ -47,9 +48,9 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 01 | Meu primeiro codigo | [Abrir](./01_%20meu_primeiro_codigo/) |
-| 02 | Soma de dois numeros | [Abrir](./02_%20soma_de_dois_numeros/) |
-| 03 | Comandos de decisao | [Abrir](./03_%20comandos_de_decisao/) |
+| 01 | Meu primeiro codigo | [Abrir](./01_meu_primeiro_codigo/) |
+| 02 | Soma de dois numeros | [Abrir](./02_soma_de_dois_numeros/) |
+| 03 | Comandos de decisao | [Abrir](./03_comandos_de_decisao/) |
 | 04 | Funcao format | [Abrir](./04_funcao_format/) |
 
 ### Strings e numeros basicos (05-07)
@@ -67,7 +68,7 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 | 08 | Conversao do sistema metrico decimal | [Abrir](./08_conversao_sistema_metrico_decimal/) |
 | 09 | Conversao de volume em litros | [Abrir](./09_conversao_unidades_volume_litros/) |
 | 10 | Capacidade em litros | [Abrir](./10_capacidade_em_litros/) |
-| 11 | Converter Celsius para Kelvin | [Abrir](./11_%20converter_celsius_kelvin/) |
+| 11 | Converter Celsius para Kelvin | [Abrir](./11_converter_celsius_kelvin/) |
 | 12 | Converter Fahrenheit para Kelvin | [Abrir](./12_converter_fahrenheit_kelvin/) |
 | 13 | Converter Celsius para Fahrenheit | [Abrir](./13_converter_celsius_fahrenheit/) |
 
@@ -75,7 +76,7 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 14 | Permissao de passagem de veiculos | [Abrir](./14_permiss%C3%A3o_passagem_veiculos/) |
+| 14 | Permissao de passagem de veiculos | [Abrir](./14_permissao_passagem_veiculos/) |
 | 15 | Aluguel de carros | [Abrir](./15_aluguel_carros/) |
 | 16 | Parte inteira de numero real | [Abrir](./16_parte_inteira_num_real/) |
 | 17 | Hipotenusa do triangulo | [Abrir](./17_hipotenusa_triangulo/) |
@@ -111,7 +112,7 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 
 ---
 
-## 🚀 Como usar
+## 🚀 Como executar
 
 1. Clone o repositorio
 2. Entre na pasta do exercicio desejado
@@ -125,12 +126,29 @@ python main.py
 
 ---
 
+## Convencoes
+
+Este repositorio segue regras simples para manter organizacao e compatibilidade:
+
+| Onde | Regra |
+|------|-------|
+| **Pastas** | `NN_snake_case` — numero + nome sem espacos e sem acentos (ex.: `14_permissao_passagem_veiculos`) |
+| **READMEs** | Titulos e textos de documentacao sem acentos, para leitura uniforme e links simples |
+| **Codigo Python** | Mensagens ao usuario podem usar acentos; comentarios seguem PEP 8 (`#` com espaco apos a tralha) |
+| **Links de navegacao** | Caminhos relativos diretos, sem codificacao URL (ex.: `./04_funcao_format/`) |
+| **Secoes dos READMEs** | Sempre `Objetivo`, `Enunciado` e `Como executar` — inclusive no README principal |
+
+Novos exercicios devem seguir esse padrao desde a criacao da pasta.
+
+---
+
 ## Estrutura do repositorio
 
 Cada exercicio fica em uma pasta numerada (`NN` = numero sequencial):
 
 ```
 exercicios_python/
+├── LICENSE
 ├── README.md
 └── NN_nome_exercicio/
     ├── README.md

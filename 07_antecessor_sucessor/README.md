@@ -1,5 +1,13 @@
 # 07 - Antecessor e sucessor
 
+## Objetivo
+
+Calcular antecessor e sucessor de um numero inteiro.
+
+## Enunciado
+
+Pergunta um numero e informa antecessor e sucessor.
+
 ## 🚀 Como executar
 
 ```bash

@@ -14,11 +14,11 @@ ml = litros * 1000
 # Exibe os resultados das conversões
 print("O valor em kl é", kl)
 print("O valor em hl é", hl)
-print("O valor em dal é", dl)
+print("O valor em dal é", dal)
 print("O valor em dl é", dl)
 print("O valor em cl é", cl)
 print("O valor em ml é", ml)
 
 
-#Obrigavo por visualizar meu código.
-#Se quiser, comente algo para contribuir com minha jornada de aprendizado!
+# Obrigavo por visualizar meu código.
+# Se quiser, comente algo para contribuir com minha jornada de aprendizado!
