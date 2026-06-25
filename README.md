@@ -1,50 +1,89 @@
 # exercicios_python
 
-*Scripts e praticas de logica em Python durante minha jornada de aprendizado.*
+**De professor de Ciencias e Biologia a desenvolvedor Python — documentando a jornada em codigo aberto.**
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?logo=github&logoColor=white)](https://github.com/GustaFranz/exercicios_python)
-[![Issues](https://img.shields.io/badge/Issues-Sugestões-238636?logo=github&logoColor=white)](https://github.com/GustaFranz/exercicios_python/issues)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Git](https://img.shields.io/badge/Git-controle%20de%20versao-F05133?logo=git&logoColor=white)](https://git-scm.com/)
+[![Educacao](https://img.shields.io/badge/Foco-educacao%20%2B%20logica-2E7D32)](https://github.com/GustaFranz/exercicios_python)
+[![Open Source](https://img.shields.io/badge/Open%20Source-compartilhado-181717?logo=github)](https://github.com/GustaFranz/exercicios_python)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
----
-
-## Indice
-
-- [Sobre](#sobre)
-- [Objetivo](#objetivo)
-- [Navegacao](#navegacao)
-  - [Fundamentos (01-04)](#fundamentos-01-04)
-  - [Strings e numeros basicos (05-07)](#strings-e-numeros-basicos-05-07)
-  - [Conversoes e unidades (08-13)](#conversoes-e-unidades-08-13)
-  - [Matematica e geometria (14-20)](#matematica-e-geometria-14-20)
-  - [Random, strings e jogos (21-29)](#random-strings-e-jogos-21-29)
-  - [Condicionais avancadas (30-36)](#condicionais-avancadas-30-36)
-- [Materiais de apoio](#materiais-de-apoio)
-- [Como executar](#-como-executar)
-- [Convencoes](#convencoes)
-- [Estrutura do repositorio](#estrutura-do-repositorio)
-- [Contribuicao](#contribuicao)
+> **Prof. Gustavo Franz (Science/Biology)** · Python Developer in Progress · Building Educational Solutions with Python  
+> GitHub: [github.com/GustaFranz](https://github.com/GustaFranz)
 
 ---
 
-## Sobre
+## Por que olhar este repositorio?
 
-Repositorio com exercicios e projetos desenvolvidos durante meu aprendizado em programacao. Inclui scripts em Python, praticas de logica organizadas em pastas numeradas do basico ao avancado, e materiais de apoio (Git, ferramentas e referencias).
+Sou professor de **Ciencias e Biologia desde 2013**. Hoje estou em transicao para a area de tecnologia, estudando programacao de forma **estruturada, consistente e publica**.
 
-Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica ao longo do tempo.
+Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** — do primeiro `print` ate projetos com estruturas de dados, validacao, modulos e integracao com APIs. Cada exercicio tem pasta propria, README e codigo executavel.
+
+**Em uma frase:** alguem que ja ensina, aprende com metodo e compartilha o caminho para ajudar outros.
+
+---
+
+## Destaques
+
+| | |
+|---|---|
+| **50 exercicios progressivos** | Do basico ao avancado, numerados e documentados (`01` a `50`) |
+| **5 guias em PDF** | Git + Python (listas, tuplas, dicionarios, strings) — texto nitido, pronto para estudo |
+| **Padrao profissional** | Pastas `NN_snake_case`, README por exercicio, convencoes claras |
+| **Projeto publicado** | [EasyAnsi](https://github.com/GustaFranz/easyansi) — biblioteca open source para cores no terminal |
+
+---
+
+## Materiais de apoio (PDF)
+
+Guias criados durante meus estudos — compartilhados para quem esta comecando:
+
+| Material | Descricao | Acesso |
+|----------|-----------|--------|
+| **Git para iniciantes** | Commits, branches, merge, fluxo de trabalho | [PDF](./materiais/git/Git_para_iniciantes.pdf) · [Pasta](./materiais/git/) |
+| **Dicionarios em Python** | Operacoes, metodos, exercicio pratico | [PDF](./materiais/python/Dicionarios_em_Python.pdf) |
+| **Listas em Python** | Indices, slice, metodos, carrinho de compras | [PDF](./materiais/python/Listas_em_Python.pdf) |
+| **Tuplas em Python** | Imutabilidade, fatiamento, medias escolares | [PDF](./materiais/python/Tuplas_em_Python.pdf) |
+| **Tratamento de Strings** | Metodos, validacoes, analisador de frases | [PDF](./materiais/python/Tratamento_de_Strings_em_Python.pdf) |
+
+Indice completo: [materiais/](./materiais/)
+
+---
+
+## Competencias demonstradas
+
+- **Python:** tipos, strings, condicionais, loops, funcoes, listas, tuplas, dicionarios
+- **Logica:** problemas do mundo real (IMC, conversores, sorteios, analise de texto)
+- **Organizacao:** projetos modulares, validacao de entrada, relatorios e menus interativos
+- **Git:** versionamento, branches e fluxo colaborativo (material documentado)
+- **Comunicacao:** documentacao clara em READMEs — perfil de quem veio da educacao e sabe explicar
 
 ---
 
 ## Objetivo
 
 - Documentar minha evolucao no aprendizado de programacao
-- Compartilhar exemplos praticos de logica em Python
-- Servir de referencia para outras pessoas
-- Disponibilizar materiais de apoio, como o [guia Git para iniciantes](./materiais/git/)
+- Compartilhar exemplos praticos para outros iniciantes
+- Oferecer materiais de revisao (PDF) alinhados aos exercicios
+- Construir portfolio transparente para oportunidades na area de tecnologia
 
 ---
 
-## Navegacao
+## Como executar
+
+```bash
+git clone https://github.com/GustaFranz/exercicios_python.git
+cd exercicios_python/04_funcao_format
+python main.py
+```
+
+1. Clone o repositorio
+2. Entre na pasta do exercicio desejado
+3. Execute o script com Python 3
+
+---
+
+## Navegacao dos exercicios
 
 ### Fundamentos (01-04)
 
@@ -112,49 +151,39 @@ Os exercicios ficam mais complexos a medida que vou desenvolvendo minha pratica 
 | 35 | Aumento salarial | [Abrir](./35_aumento_salarial/) |
 | 36 | Condicao de existencia do triangulo | [Abrir](./36_condicao_existencia_triangulo/) |
 
----
+### Estruturas de dados e sistemas (37-50)
 
-## Materiais de apoio
-
-| Material | Descricao | Link |
-|----------|-----------|------|
-| Guia Git para iniciantes | Comandos, fluxo, erros comuns e exercicio pratico | [Abrir](./materiais/git/) · [Link publico](https://github.com/GustaFranz/exercicios_python/tree/main/materiais/git) |
-
----
-
-## 🚀 Como executar
-
-1. Clone o repositorio
-2. Entre na pasta do exercicio desejado
-3. Execute o script com Python
-
-```bash
-git clone https://github.com/GustaFranz/exercicios_python.git
-cd exercicios_python/04_funcao_format
-python main.py
-```
+| # | Exercicio | Link |
+|---|-----------|------|
+| 37 | Sistema de medias da turma | [Abrir](./37_sistema_medias_turma/) |
+| 38 | Analisador de gastos mensais | [Abrir](./38_analisador_gastos_mensais/) |
+| 39 | Tabuada inteligente | [Abrir](./39_tabuada_inteligente/) |
+| 40 | Classificador de palavras | [Abrir](./40_classificador_palavras/) |
+| 41 | Simulador de presenca escolar | [Abrir](./41_simulador_presenca_escolar/) |
+| 42 | Sistema de frequencia com relatorio | [Abrir](./42_sistema_frequencia_com_validacao_e_relatorio/) |
+| 43 | Cadastro de alunos | [Abrir](./43_cadastro_alunos_parada_manual/) |
+| 44 | Simulador de caixa de supermercado | [Abrir](./44_simulador_caixa_supermercado/) |
+| 45 | Monitor de temperatura com alerta | [Abrir](./45_monitor_temperatura_alerta/) |
+| 46 | Controle de acesso com bloqueio | [Abrir](./46_controle_acesso_bloqueio/) |
+| 47 | Sistema de comandos no console | [Abrir](./47_sistema_comandos_console/) |
+| 48 | Registro de disciplinas | [Abrir](./48_registro_disciplinas/) |
+| 49 | Registro de coordenadas de campo | [Abrir](./49_registro_coordenadas_campo/) |
+| 50 | Ranking imutavel de alunos | [Abrir](./50_ranking_imutavel_alunos/) |
 
 ---
 
 ## Convencoes
 
-Este repositorio segue regras simples para manter organizacao e compatibilidade:
-
 | Onde | Regra |
 |------|-------|
-| **Pastas** | `NN_snake_case` — numero + nome sem espacos e sem acentos (ex.: `14_permissao_passagem_veiculos`) |
-| **READMEs** | Titulos e textos de documentacao sem acentos, para leitura uniforme e links simples |
-| **Codigo Python** | Mensagens ao usuario podem usar acentos; comentarios seguem PEP 8 (`#` com espaco apos a tralha) |
-| **Links de navegacao** | Caminhos relativos diretos, sem codificacao URL (ex.: `./04_funcao_format/`) |
-| **Secoes dos READMEs** | Sempre `Objetivo`, `Enunciado` e `Como executar` — inclusive no README principal |
-
-Novos exercicios devem seguir esse padrao desde a criacao da pasta.
+| **Pastas** | `NN_snake_case` — numero + nome sem espacos e sem acentos |
+| **READMEs** | Titulos sem acentos, para links simples |
+| **Codigo Python** | Mensagens ao usuario podem usar acentos; comentarios seguem PEP 8 |
+| **Secoes** | `Objetivo`, `Enunciado` e `Como executar` em cada exercicio |
 
 ---
 
 ## Estrutura do repositorio
-
-Cada exercicio fica em uma pasta numerada (`NN` = numero sequencial):
 
 ```
 exercicios_python/
@@ -164,13 +193,33 @@ exercicios_python/
 │   ├── README.md
 │   └── main.py
 └── materiais/
-    └── git/
-        ├── README.md
-        └── Git Guia completo.png
+    ├── README.md
+    ├── git/
+    │   ├── Git_para_iniciantes.pdf
+    │   └── README.md
+    └── python/
+        ├── Dicionarios_em_Python.pdf
+        ├── Listas_em_Python.pdf
+        ├── Tuplas_em_Python.pdf
+        ├── Tratamento_de_Strings_em_Python.pdf
+        └── README.md
 ```
+
+---
+
+## Outros projetos
+
+| Projeto | Descricao |
+|---------|-----------|
+| [easyansi](https://github.com/GustaFranz/easyansi) | Formatacao colorida no terminal — zero dependencias, docs em 4 idiomas |
+| [exercicios_python](https://github.com/GustaFranz/exercicios_python) | Este repositorio |
 
 ---
 
 ## Contribuicao
 
-Sugestoes sao bem-vindas! Se encontrar algo que possa ser melhorado ou tiver ideias de novos exercicios, abra uma [issue](https://github.com/GustaFranz/exercicios_python/issues) no GitHub.
+Sugestoes sao bem-vindas! Abra uma [issue](https://github.com/GustaFranz/exercicios_python/issues) ou envie um Pull Request.
+
+---
+
+*Quem estuda com perseveranca e confia em Deus, sempre vence!* — Prof. Gustavo Franz

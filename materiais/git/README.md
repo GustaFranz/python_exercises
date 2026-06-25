@@ -41,16 +41,26 @@ Material criado durante meus estudos de programacao. Sou professor em transicao 
 
 ## Como usar
 
-1. Consulte a **imagem** abaixo para ter uma visao geral do fluxo
+1. Baixe o **[PDF do guia](./Git_para_iniciantes.pdf)** para ter a visao geral do fluxo
 2. Use as **tabelas** deste README para copiar comandos no terminal
 3. Em caso de erro, va direto para a secao [Erros comuns](#erros-comuns)
 4. Pratique com o [Exercicio pratico](#exercicio-pratico) usando este repositorio
 
 ---
 
-## Guia visual
+## Guia em PDF (recomendado)
 
-![Git - Guia completo para iniciantes](./Git%20Guia%20completo.png)
+Material completo em alta qualidade, com texto selecionavel e layout profissional:
+
+**[Baixar Git_para_iniciantes.pdf](./Git_para_iniciantes.pdf)**
+
+O PDF inclui: fluxo basico, stage, commits, branches, merge, push/pull, fluxo recomendado, conceitos, boas praticas e comandos de emergencia.
+
+---
+
+## Guia visual (referencia rapida)
+
+Use o PDF acima como material principal. As secoes abaixo complementam com comandos copiaveis e exercicio pratico.
 
 ---
 
