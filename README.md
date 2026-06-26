@@ -56,6 +56,10 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** â
 
 ---
 
+## Atividades em Destaque
+
+---
+
 ## Materiais de apoio (PDF)
 
 Guias criados durante meus estudos â€” compartilhados para quem esta comecando. **Clique no card para abrir o PDF.**

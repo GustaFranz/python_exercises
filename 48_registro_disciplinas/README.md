@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Cadastrar disciplinas imutaveis usando tuplas e listas.
 
 ## Enunciado
 
-A definir durante o treino.
+Permite cadastrar varias disciplinas com nome e carga horaria em tuplas, armazena em lista e exibe todas ao final sem alterar os dados.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "48_registro_disciplinas"

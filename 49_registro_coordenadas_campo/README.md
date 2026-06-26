@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Registrar pontos geograficos de uma excursao escolar e gerar mapa interativo.
 
 ## Enunciado
 
-A definir durante o treino.
+Simula coleta de dados em campo: cadastra locais com latitude e longitude, salva os registros em JSON e gera um mapa HTML com os pontos visitados.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "49_registro_coordenadas_campo"

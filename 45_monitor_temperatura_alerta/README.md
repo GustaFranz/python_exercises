@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Monitorar temperaturas com classificacao e encerramento por falha no sensor.
 
 ## Enunciado
 
-A definir durante o treino.
+Recebe temperaturas continuamente, classifica como normal (ate 70) ou critica (acima de 70) e encerra quando a temperatura for negativa.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "45_monitor_temperatura_alerta"

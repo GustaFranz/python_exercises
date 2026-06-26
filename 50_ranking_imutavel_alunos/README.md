@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Montar ranking final de alunos com tuplas imutaveis e ordenacao.
 
 ## Enunciado
 
-A definir durante o treino.
+Recebe nome e nota dos alunos, armazena como tuplas (nome, nota) e exibe o ranking ordenado da maior para a menor nota.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "50_ranking_imutavel_alunos"

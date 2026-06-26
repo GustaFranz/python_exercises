@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Cadastrar alunos em lista com parada manual e validacao de duplicidade.
 
 ## Enunciado
 
-A definir durante o treino.
+Solicita nomes de alunos continuamente, armazena em lista e encerra quando o usuario digitar "fim", exibindo o total e a lista final.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "43_cadastro_alunos_parada_manual"

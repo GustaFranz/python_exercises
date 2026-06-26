@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Registrar compras com listas, dicionario e total acumulado.
 
 ## Enunciado
 
-A definir durante o treino.
+Registra produtos e valores sucessivamente, armazena em listas e dicionario, soma o total e encerra quando o usuario digitar 0 no nome do produto.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "44_simulador_caixa_supermercado"

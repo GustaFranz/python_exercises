@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Calcular frequencia escolar com validacao de entrada e percentual.
 
 ## Enunciado
 
-A definir durante o treino.
+Registra presenca ou falta em 12 aulas, calcula totais e percentual de frequencia e informa se o aluno foi aprovado (>= 75%).
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "41_simulador_presenca_escolar"

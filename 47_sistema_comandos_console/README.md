@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Simular um menu de comandos no terminal com loop infinito e break.
 
 ## Enunciado
 
-A definir durante o treino.
+Le comandos como status, ajuda, calcular e sair, responde a cada um e encerra apenas quando o usuario digitar "sair".
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "47_sistema_comandos_console"

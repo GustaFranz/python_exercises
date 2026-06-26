@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Simular login com limite de tentativas e uso de break.
 
 ## Enunciado
 
-A definir durante o treino.
+Permite ate 3 tentativas para acertar a senha, encerra imediatamente ao acertar (break) ou bloqueia o acesso apos 3 erros.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "46_controle_acesso_bloqueio"

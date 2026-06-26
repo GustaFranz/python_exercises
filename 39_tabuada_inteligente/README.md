@@ -2,13 +2,13 @@
 
 ## Objetivo
 
-A definir durante o treino.
+Gerar tabuada filtrando resultados pares e armazenando em lista.
 
 ## Enunciado
 
-A definir durante o treino.
+Recebe um numero inteiro, exibe multiplicacoes de 1 a 10 cujo resultado seja par, conta quantas operacoes foram exibidas e armazena os resultados.
 
-## Como executar
+## 🚀 Como executar
 
 ```bash
 cd "39_tabuada_inteligente"
