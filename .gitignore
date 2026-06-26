@@ -7,3 +7,7 @@ venv/
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
+
+# Config local de editor / hooks Git (nao versionar)
+.local/
+.githooks/
