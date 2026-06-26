@@ -32,21 +32,15 @@ def main() -> None:
     draw.text((48, 52), "exercicios_python", fill="#FFD43B", font=_fonte(42, True))
     draw.text(
         (48, 110),
-        "De professor de Ciencias e Biologia a desenvolvedor Python",
+        "Prof. Gustavo Franz  ·  Science/Biology  ·  Python Developer in Progress",
         fill="#E6EDF3",
         font=_fonte(22),
     )
     draw.text(
-        (48, 150),
+        (48, 155),
         "50+ exercicios progressivos  |  5 guias em PDF  |  codigo aberto",
         fill="#7FA7C2",
         font=_fonte(18),
-    )
-    draw.text(
-        (48, 220),
-        "Prof. Gustavo Franz  ·  Science/Biology  ·  Python Developer in Progress",
-        fill="#FFFFFF",
-        font=_fonte(16),
     )
 
     SAIDA.parent.mkdir(parents=True, exist_ok=True)
