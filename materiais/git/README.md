@@ -6,6 +6,14 @@ Material criado durante meus estudos de programacao. Sou professor em transicao 
 
 **Se so lembrar de 3 comandos hoje:** `git status`, `git add .`, `git commit -m "mensagem"`.
 
+<p align="center">
+  <a href="./Git_para_iniciantes.pdf">
+    <img src="../assets/cards/git.png" alt="Git para iniciantes — preview do PDF" width="70%">
+  </a>
+  <br><br>
+  <a href="./Git_para_iniciantes.pdf"><strong>Baixar Git_para_iniciantes.pdf</strong></a>
+</p>
+
 ---
 
 ## Indice

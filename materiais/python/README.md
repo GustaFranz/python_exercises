@@ -8,12 +8,48 @@ Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado
 
 ## Downloads
 
-| Guia | Arquivo |
-|------|---------|
-| Dicionarios em Python | [Dicionarios_em_Python.pdf](./Dicionarios_em_Python.pdf) |
-| Listas em Python | [Listas_em_Python.pdf](./Listas_em_Python.pdf) |
-| Tuplas em Python | [Tuplas_em_Python.pdf](./Tuplas_em_Python.pdf) |
-| Tratamento de Strings | [Tratamento_de_Strings_em_Python.pdf](./Tratamento_de_Strings_em_Python.pdf) |
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="./Dicionarios_em_Python.pdf">
+<img src="../assets/cards/dicionarios.png" alt="Dicionarios em Python" width="100%">
+</a>
+<br><br>
+<strong>Dicionarios em Python</strong><br>
+<sub>Criacao, .get(), metodos, aninhamento, iteracao</sub><br><br>
+<a href="./Dicionarios_em_Python.pdf">Baixar PDF</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="./Listas_em_Python.pdf">
+<img src="../assets/cards/listas.png" alt="Listas em Python" width="100%">
+</a>
+<br><br>
+<strong>Listas em Python</strong><br>
+<sub>Indices, fatiamento, metodos, exercicio de carrinho</sub><br><br>
+<a href="./Listas_em_Python.pdf">Baixar PDF</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="./Tuplas_em_Python.pdf">
+<img src="../assets/cards/tuplas.png" alt="Tuplas em Python" width="100%">
+</a>
+<br><br>
+<strong>Tuplas em Python</strong><br>
+<sub>Imutabilidade, operacoes, fatiamento, medias escolares</sub><br><br>
+<a href="./Tuplas_em_Python.pdf">Baixar PDF</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="./Tratamento_de_Strings_em_Python.pdf">
+<img src="../assets/cards/strings.png" alt="Tratamento de Strings" width="100%">
+</a>
+<br><br>
+<strong>Tratamento de Strings</strong><br>
+<sub>Metodos de manipulacao, verificacoes, analisador de frases</sub><br><br>
+<a href="./Tratamento_de_Strings_em_Python.pdf">Baixar PDF</a>
+</td>
+</tr>
+</table>
 
 ---
 
