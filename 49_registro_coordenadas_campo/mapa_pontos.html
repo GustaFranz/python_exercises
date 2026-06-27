@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_226ab6985195aa0ea4e776551af50abc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background-color: white;
+    color: #1f2937;
+    padding: 10px 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    font-family: Arial, sans-serif;
+    text-align: center;
+">
+    <strong>GeoExplorer Educacional | Gustavo Franz</strong><br>
+    <span style="font-size: 13px;">Simulação de excursão escolar para a Serra da Capivara</span>
+</div>
+    
+            <div class="folium-map" id="map_226ab6985195aa0ea4e776551af50abc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_226ab6985195aa0ea4e776551af50abc = L.map(
+                "map_226ab6985195aa0ea4e776551af50abc",
+                {
+                    center: [-7.7359285714285715, -42.35664285714286],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_226ab6985195aa0ea4e776551af50abc);
+
+            
+
+        
+    
+            var tile_layer_a9d7249b5b745233091afaea40b58e12 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri World Imagery",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a9d7249b5b745233091afaea40b58e12.addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var marker_827abf10e2d286d070b3394683e1eb7c = L.marker(
+                [-5.0892, -42.8016],
+                {
+}
+            ).addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var icon_bd00415fbf861750d07b9e6297afe7d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39e9d536b98c39eae7689d122e51b975 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_232cddb4575ebf09ad8608f6fb4d5e6b = $(`<div id="html_232cddb4575ebf09ad8608f6fb4d5e6b" style="width: 100.0%; height: 100.0%;">     <div style="width:240px; font-family: Arial, sans-serif;">         <h4>1. Teresina (PI)</h4>         <p><b>Latitude:</b> -5.0892</p>         <p><b>Longitude:</b> -42.8016</p>         <p><b>Projeto:</b> GeoExplorer Educacional</p>         <p><b>Autor:</b> Gustavo Franz</p>     </div>     </div>`)[0];
+                popup_39e9d536b98c39eae7689d122e51b975.setContent(html_232cddb4575ebf09ad8608f6fb4d5e6b);
+            
+        
+
+        marker_827abf10e2d286d070b3394683e1eb7c.bindPopup(popup_39e9d536b98c39eae7689d122e51b975)
+        ;
+
+        
+    
+    
+            marker_827abf10e2d286d070b3394683e1eb7c.bindTooltip(
+                `<div>
+                     1. Teresina (PI) (clique)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_827abf10e2d286d070b3394683e1eb7c.setIcon(icon_bd00415fbf861750d07b9e6297afe7d1);
+            
+    
+            var marker_66493fc283c6c62001a569df2d771e0f = L.marker(
+                [-7.0765, -41.4677],
+                {
+}
+            ).addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var icon_be71ff9e24575a5890e68b05705d7cb6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_286dfd424342b02e236a2fe1333ce28f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_345d8b0f64f5b80b2e82e1510d2c7bc9 = $(`<div id="html_345d8b0f64f5b80b2e82e1510d2c7bc9" style="width: 100.0%; height: 100.0%;">     <div style="width:240px; font-family: Arial, sans-serif;">         <h4>2. Picos (PI)</h4>         <p><b>Latitude:</b> -7.0765</p>         <p><b>Longitude:</b> -41.4677</p>         <p><b>Projeto:</b> GeoExplorer Educacional</p>         <p><b>Autor:</b> Gustavo Franz</p>     </div>     </div>`)[0];
+                popup_286dfd424342b02e236a2fe1333ce28f.setContent(html_345d8b0f64f5b80b2e82e1510d2c7bc9);
+            
+        
+
+        marker_66493fc283c6c62001a569df2d771e0f.bindPopup(popup_286dfd424342b02e236a2fe1333ce28f)
+        ;
+
+        
+    
+    
+            marker_66493fc283c6c62001a569df2d771e0f.bindTooltip(
+                `<div>
+                     2. Picos (PI) (clique)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66493fc283c6c62001a569df2d771e0f.setIcon(icon_be71ff9e24575a5890e68b05705d7cb6);
+            
+    
+            var marker_4676080091c25f046ed6f8c79062f0d6 = L.marker(
+                [-7.8539, -41.9103],
+                {
+}
+            ).addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var icon_0990842134b63b9b772666793c0fd1a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d934013439a03269d0107417819d589 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca419d180de584491fb30302cb6b4fa0 = $(`<div id="html_ca419d180de584491fb30302cb6b4fa0" style="width: 100.0%; height: 100.0%;">     <div style="width:240px; font-family: Arial, sans-serif;">         <h4>3. Simplício Mendes (PI)</h4>         <p><b>Latitude:</b> -7.8539</p>         <p><b>Longitude:</b> -41.9103</p>         <p><b>Projeto:</b> GeoExplorer Educacional</p>         <p><b>Autor:</b> Gustavo Franz</p>     </div>     </div>`)[0];
+                popup_5d934013439a03269d0107417819d589.setContent(html_ca419d180de584491fb30302cb6b4fa0);
+            
+        
+
+        marker_4676080091c25f046ed6f8c79062f0d6.bindPopup(popup_5d934013439a03269d0107417819d589)
+        ;
+
+        
+    
+    
+            marker_4676080091c25f046ed6f8c79062f0d6.bindTooltip(
+                `<div>
+                     3. Simplício Mendes (PI) (clique)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4676080091c25f046ed6f8c79062f0d6.setIcon(icon_0990842134b63b9b772666793c0fd1a1);
+            
+    
+            var marker_c145dccf322f5ed9cffd7904c22e894d = L.marker(
+                [-7.4637, -42.5586],
+                {
+}
+            ).addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var icon_00068ae223daafff28b0e2ea0a45ab3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f34dd72378892d9885ffb41cd522b60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe77d6029280bd1ab648caf4eaee81fd = $(`<div id="html_fe77d6029280bd1ab648caf4eaee81fd" style="width: 100.0%; height: 100.0%;">     <div style="width:240px; font-family: Arial, sans-serif;">         <h4>4. Rio Grande do Piauí (PI)</h4>         <p><b>Latitude:</b> -7.4637</p>         <p><b>Longitude:</b> -42.5586</p>         <p><b>Projeto:</b> GeoExplorer Educacional</p>         <p><b>Autor:</b> Gustavo Franz</p>     </div>     </div>`)[0];
+                popup_0f34dd72378892d9885ffb41cd522b60.setContent(html_fe77d6029280bd1ab648caf4eaee81fd);
+            
+        
+
+        marker_c145dccf322f5ed9cffd7904c22e894d.bindPopup(popup_0f34dd72378892d9885ffb41cd522b60)
+        ;
+
+        
+    
+    
+            marker_c145dccf322f5ed9cffd7904c22e894d.bindTooltip(
+                `<div>
+                     4. Rio Grande do Piauí (PI) (clique)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c145dccf322f5ed9cffd7904c22e894d.setIcon(icon_00068ae223daafff28b0e2ea0a45ab3b);
+            
+    
+            var marker_ac904f180310e3ea632400e37b8cdccc = L.marker(
+                [-9.0123, -42.6983],
+                {
+}
+            ).addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var icon_fe390fe77328d94133a9614f0a1982f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d994fff74aa53b1a64fa329bc4d6b094 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7bb3f4f1e83e98b85c6bd69c37aef5e = $(`<div id="html_a7bb3f4f1e83e98b85c6bd69c37aef5e" style="width: 100.0%; height: 100.0%;">     <div style="width:240px; font-family: Arial, sans-serif;">         <h4>5. São Raimundo Nonato (PI)</h4>         <p><b>Latitude:</b> -9.0123</p>         <p><b>Longitude:</b> -42.6983</p>         <p><b>Projeto:</b> GeoExplorer Educacional</p>         <p><b>Autor:</b> Gustavo Franz</p>     </div>     </div>`)[0];
+                popup_d994fff74aa53b1a64fa329bc4d6b094.setContent(html_a7bb3f4f1e83e98b85c6bd69c37aef5e);
+            
+        
+
+        marker_ac904f180310e3ea632400e37b8cdccc.bindPopup(popup_d994fff74aa53b1a64fa329bc4d6b094)
+        ;
+
+        
+    
+    
+            marker_ac904f180310e3ea632400e37b8cdccc.bindTooltip(
+                `<div>
+                     5. São Raimundo Nonato (PI) (clique)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ac904f180310e3ea632400e37b8cdccc.setIcon(icon_fe390fe77328d94133a9614f0a1982f9);
+            
+    
+            var marker_f1063b1b300f02af2e0e27f8fcae7e91 = L.marker(
+                [-8.8292, -42.5522],
+                {
+}
+            ).addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var icon_a46c1d3925dff032eb61a93c605c02f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7c76389fac1c51bcc8c8de5c5a7377c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcb1870876a90c40c47536486365446d = $(`<div id="html_bcb1870876a90c40c47536486365446d" style="width: 100.0%; height: 100.0%;">     <div style="width:240px; font-family: Arial, sans-serif;">         <h4>6. Parque Nacional da Serra da Capivara</h4>         <p><b>Latitude:</b> -8.8292</p>         <p><b>Longitude:</b> -42.5522</p>         <p><b>Projeto:</b> GeoExplorer Educacional</p>         <p><b>Autor:</b> Gustavo Franz</p>     </div>     </div>`)[0];
+                popup_e7c76389fac1c51bcc8c8de5c5a7377c.setContent(html_bcb1870876a90c40c47536486365446d);
+            
+        
+
+        marker_f1063b1b300f02af2e0e27f8fcae7e91.bindPopup(popup_e7c76389fac1c51bcc8c8de5c5a7377c)
+        ;
+
+        
+    
+    
+            marker_f1063b1b300f02af2e0e27f8fcae7e91.bindTooltip(
+                `<div>
+                     6. Parque Nacional da Serra da Capivara (clique)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f1063b1b300f02af2e0e27f8fcae7e91.setIcon(icon_a46c1d3925dff032eb61a93c605c02f5);
+            
+    
+            var marker_e689b5c4c50ed3ab0b8faf098b01ffeb = L.marker(
+                [-8.8267, -42.5078],
+                {
+}
+            ).addTo(map_226ab6985195aa0ea4e776551af50abc);
+        
+    
+            var icon_0f091f3867cec834d558afe96a172c21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_598b4ea1c8d82bb15805f3fb82a0769c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64e7ba1461f5ca2f6bb5038426dfd638 = $(`<div id="html_64e7ba1461f5ca2f6bb5038426dfd638" style="width: 100.0%; height: 100.0%;">     <div style="width:240px; font-family: Arial, sans-serif;">         <h4>7. Coronel José Dias (PI)</h4>         <p><b>Latitude:</b> -8.8267</p>         <p><b>Longitude:</b> -42.5078</p>         <p><b>Projeto:</b> GeoExplorer Educacional</p>         <p><b>Autor:</b> Gustavo Franz</p>     </div>     </div>`)[0];
+                popup_598b4ea1c8d82bb15805f3fb82a0769c.setContent(html_64e7ba1461f5ca2f6bb5038426dfd638);
+            
+        
+
+        marker_e689b5c4c50ed3ab0b8faf098b01ffeb.bindPopup(popup_598b4ea1c8d82bb15805f3fb82a0769c)
+        ;
+
+        
+    
+    
+            marker_e689b5c4c50ed3ab0b8faf098b01ffeb.bindTooltip(
+                `<div>
+                     7. Coronel José Dias (PI) (clique)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e689b5c4c50ed3ab0b8faf098b01ffeb.setIcon(icon_0f091f3867cec834d558afe96a172c21);
+            
+    
+            map_226ab6985195aa0ea4e776551af50abc.fitBounds(
+                [[-5.0892, -42.8016], [-7.0765, -41.4677], [-7.8539, -41.9103], [-7.4637, -42.5586], [-9.0123, -42.6983], [-8.8292, -42.5522], [-8.8267, -42.5078]],
+                {}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,20 @@
+===============================================================================================
+GEOEXPLORER EDUCACIONAL | GUSTAVO FRANZ
+===============================================================================================
+
+===============================================================================================
+PONTOS GEOGRÁFICOS CADASTRADOS
+===============================================================================================
+01. Teresina (PI)............ │ Latitude: -5.0892 │ Longitude: -42.8016
+02. Picos (PI)............... │ Latitude: -7.0765 │ Longitude: -41.4677
+03. Simplício Mendes (PI).... │ Latitude: -7.8539 │ Longitude: -41.9103
+04. Rio Grande do Piauí (PI). │ Latitude: -7.4637 │ Longitude: -42.5586
+05. São Raimundo Nonato (PI). │ Latitude: -9.0123 │ Longitude: -42.6983
+06. Parque Nacional da Serra da Capivara │ Latitude: -8.8292 │ Longitude: -42.5522
+07. Coronel José Dias (PI)... │ Latitude: -8.8267 │ Longitude: -42.5078
+===============================================================================================
+Total de pontos cadastrados: 7
+===============================================================================================
+
+Dados salvos em: dados_coordenadas.json
+Mapa salvo em: mapa_pontos.html

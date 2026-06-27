@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "Teresina (PI)",
+        "latitude": -5.0892,
+        "longitude": -42.8016
+    },
+    {
+        "nome": "Picos (PI)",
+        "latitude": -7.0765,
+        "longitude": -41.4677
+    },
+    {
+        "nome": "Simplício Mendes (PI)",
+        "latitude": -7.8539,
+        "longitude": -41.9103
+    },
+    {
+        "nome": "Rio Grande do Piauí (PI)",
+        "latitude": -7.4637,
+        "longitude": -42.5586
+    },
+    {
+        "nome": "São Raimundo Nonato (PI)",
+        "latitude": -9.0123,
+        "longitude": -42.6983
+    },
+    {
+        "nome": "Parque Nacional da Serra da Capivara",
+        "latitude": -8.8292,
+        "longitude": -42.5522
+    },
+    {
+        "nome": "Coronel José Dias (PI)",
+        "latitude": -8.8267,
+        "longitude": -42.5078
+    }
+]

@@ -58,6 +58,44 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** �
 
 ## Atividades em Destaque
 
+Projeto integrando Python, dados geograficos e visualizacao interativa — simulacao de excursao escolar pela Serra da Capivara (PI).
+
+<table>
+<tr>
+<td colspan="3" align="center" valign="top">
+<strong>49 — GeoExplorer Educacional</strong><br>
+<sub>Cadastro de pontos com latitude e longitude, exportacao em JSON e mapa HTML com Folium</sub><br><br>
+<a href="./49_registro_coordenadas_campo/">Abrir exercicio</a> · <a href="./49_registro_coordenadas_campo/mapa_pontos.html">Ver mapa interativo</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="./49_registro_coordenadas_campo/">
+<img src="./49_registro_coordenadas_campo/imagens/relatorio_terminal.png" alt="Relatorio de pontos geograficos no terminal" width="100%">
+</a>
+<br><br>
+<strong>Relatorio</strong><br>
+<sub>Lista formatada no terminal</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="./49_registro_coordenadas_campo/">
+<img src="./49_registro_coordenadas_campo/imagens/mapa_visao_geral.png" alt="Mapa com sete pontos da excursao escolar" width="100%">
+</a>
+<br><br>
+<strong>Mapa geral</strong><br>
+<sub>Sete cidades e pontos no Piaui</sub>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="./49_registro_coordenadas_campo/">
+<img src="./49_registro_coordenadas_campo/imagens/mapa_popup_ponto.png" alt="Popup do Parque Nacional da Serra da Capivara" width="100%">
+</a>
+<br><br>
+<strong>Detalhe do ponto</strong><br>
+<sub>Popup ao clicar no marcador</sub>
+</td>
+</tr>
+</table>
+
 ---
 
 ## Materiais de apoio (PDF)
