@@ -14,3 +14,12 @@ Solicita nomes de alunos continuamente, armazena em lista e encerra quando o usu
 cd "43_cadastro_alunos_parada_manual"
 python main.py
 ```
+## Conceitos trabalhados
+
+while True, listas, validacao, break/continue
+
+## Status
+
+Resolvido.
+
+Dependencias: easyansi.
