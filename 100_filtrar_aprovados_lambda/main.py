@@ -1,0 +1,28 @@
+# EXERCICIO 100 - Filtrar aprovados com lambda (contexto educacional)
+#
+# ENUNCIADO
+# Considere a lista de notas de uma turma:
+# notas = [7.5, 3.2, 8.0, 6.5, 4.0, 9.1, 2.8, 5.5, 6.0, 10.0]
+# Gere uma nova lista apenas com as notas dos aprovados (nota >= 6).
+# Exiba a lista de aprovados e a quantidade de aprovados.
+#
+# ORIENTACOES
+## Use filter() com uma lambda que retorna True para nota >= 6.
+## Converta o resultado de filter() para list().
+## Use len() para contar quantos aprovados existem.
+#
+# --- Implemente sua solucao abaixo ---
+#
+# =============================================================================
+# # RESOLUCAO DO EXERCICIO
+# =============================================================================
+
+
+# =============================================================================
+# # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
+# =============================================================================
+
+#
+#
+# OBRIGADO!
+# FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
