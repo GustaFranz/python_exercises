@@ -93,31 +93,22 @@ def main() -> None:
     pasta_originais = pasta / "originais"
     pasta_originais.mkdir(parents=True, exist_ok=True)
 
-    pasta_assets = Path(
-        r"C:\Users\mgran\.local\projects"
-        r"\c-Users-mgran-OneDrive-rea-de-Trabalho-GUSTAVO-PROGRAMA-O-PROJETOS-exercicios-python"
-        r"\assets"
-    )
-
     entradas = [
         (
-            "c__Users_mgran_AppData_Roaming_User_workspaceStorage_9b1cbaa6aa3909c8494eef4b560af7b6_images_image-04df2534-2e87-4564-ab0e-89c5657ba664.png",
             pasta_originais / "mapa_visao_geral_original.png",
             pasta / "mapa_visao_geral.png",
         ),
         (
-            "c__Users_mgran_AppData_Roaming_User_workspaceStorage_9b1cbaa6aa3909c8494eef4b560af7b6_images_image-7ca5f66f-eb4d-47ce-97e6-3b5444cdda3b.png",
             pasta_originais / "mapa_popup_ponto_original.png",
             pasta / "mapa_popup_ponto.png",
         ),
     ]
 
-    for nome_assets, caminho_original, caminho_final in entradas:
+    for caminho_original, caminho_final in entradas:
         if not caminho_original.exists():
-            origem_assets = caminho_windows(pasta_assets / nome_assets)
-            if not origem_assets.exists():
-                raise FileNotFoundError(f"Arquivo não encontrado: {origem_assets}")
-            caminho_original.write_bytes(origem_assets.read_bytes())
+            raise FileNotFoundError(
+                f"Coloque a captura original em: {caminho_original}"
+            )
 
         adicionar_moldura(caminho_original, caminho_final)
         print(f"Gerado: {caminho_final.name}")
