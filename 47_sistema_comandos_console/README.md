@@ -14,3 +14,12 @@ Le comandos como status, ajuda, calcular e sair, responde a cada um e encerra ap
 cd "47_sistema_comandos_console"
 python main.py
 ```
+## Conceitos trabalhados
+
+menu de comandos, break por comando
+
+## Status
+
+Resolvido.
+
+Dependencias: easyansi.
