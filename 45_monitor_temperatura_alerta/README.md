@@ -14,3 +14,12 @@ Recebe temperaturas continuamente, classifica como normal (ate 70) ou critica (a
 cd "45_monitor_temperatura_alerta"
 python main.py
 ```
+## Conceitos trabalhados
+
+condicionais, limites de alerta
+
+## Status
+
+Resolvido.
+
+Dependencias: easyansi.
