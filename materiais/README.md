@@ -1,6 +1,6 @@
 # Materiais de apoio
 
-Guias em **PDF com texto selecionavel** (alta qualidade para estudo e impressao), criados para organizar conceitos de forma clara durante minha jornada em programacao.
+Guias em **PDF com texto selecionavel** (alta qualidade para estudo e impressao), criados para organizar conceitos de forma clara durante minha jornada em programacao Python.
 
 **Autor:** [Prof. Gustavo Franz](https://github.com/GustaFranz) — Science/Biology | Python Developer in Progress
 

@@ -2,7 +2,7 @@
 
 Materiais didaticos em PDF: exemplos, tabelas de comandos, exercicios praticos e boas praticas.
 
-Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado para estudo autonomo e revisao rapida antes de provas ou entrevistas tecnicas de nivel inicial.
+Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado para estudo autonomo, revisao rapida e apoio aos [exercicios do repositorio](../README.md).
 
 ---
 

@@ -183,7 +183,7 @@ Sincronizar seu repositorio local com o remoto (GitHub).
 
 ## Pull Request
 
-Pull Request (PR) nao e um comando Git — e uma funcionalidade do GitHub.
+Pull Request (PR) nao e um comando do Git. E um recurso do GitHub.
 
 1. Voce envia sua branch com `git push`
 2. No GitHub, abre um PR pedindo para mesclar sua branch na `main`
@@ -234,7 +234,7 @@ Pull Request (PR) nao e um comando Git — e uma funcionalidade do GitHub.
 | Erro | Causa provavel | O que fazer |
 |------|----------------|-------------|
 | `fatal: not a git repository` | Voce nao esta dentro de uma pasta Git | Use `cd` ate a pasta do projeto |
-| `Please tell me who you are` | Git sem nome/e-mail configurados | `git config --global user.name` e `user.email` |
+| `Please tell me who you are` | Git sem nome e e-mail configurados | Configure `user.name` e `user.email` |
 | `rejected (fetch first)` | O remoto tem commits que voce ainda nao tem | Rode `git pull` antes do `git push` |
 | `merge conflict` | Mesmo arquivo editado em lugares diferentes | Resolva manualmente, depois `git add` e `git commit` |
 | `error: failed to push some refs` | Branch remota mais atualizada | `git pull --rebase` ou `git pull`, resolva conflitos, tente de novo |
