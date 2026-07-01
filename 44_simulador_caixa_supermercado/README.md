@@ -14,3 +14,12 @@ Registra produtos e valores sucessivamente, armazena em listas e dicionario, som
 cd "44_simulador_caixa_supermercado"
 python main.py
 ```
+## Conceitos trabalhados
+
+acumulador, loop de compras, formatacao
+
+## Status
+
+Resolvido.
+
+Dependencias: easyansi.
