@@ -14,3 +14,12 @@ Permite ate 3 tentativas para acertar a senha, encerra imediatamente ao acertar 
 cd "46_controle_acesso_bloqueio"
 python main.py
 ```
+## Conceitos trabalhados
+
+tentativas, break, validacao de senha
+
+## Status
+
+Resolvido.
+
+Dependencias: easyansi.
