@@ -39,10 +39,8 @@
 import json
 import webbrowser
 import os
-
 import easyansi
 import folium
-
 easyansi.activate()
 
 
@@ -228,18 +226,21 @@ if len(list_coordenadas) > 0:
 
 
 
-
-
-
-
-
-
-
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDAÇÃO DE CONCEITOS
 # =============================================================================
 
+# Oportunidade de construir minha própria função para organização dos dados
+# Aplicação de bibliotecas externas para enriquecimento do projeto
+# Contato com integração entre diferentes tecnologias e linguagens
+# Manipulação de dados estruturados com foco em contexto real
+# Geração de resultado visual interativo e didático
+# Aplicação prática em cenário educacional (atividade próxima da realidade escolar)
+# Uso de bibliotecas: json, webbrowser, folium
+# Utilização da biblioteca EasyAnsi para melhoria visual do sistema
+
+# Link do repositório da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
-#
+# 
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

@@ -17,6 +17,14 @@ python main.py
 
 Dependencias: `folium`, `easyansi`.
 
+## Conceitos trabalhados
+
+Cadastro de pontos geograficos, JSON, mapa interativo com Folium, relatorio formatado no terminal.
+
+## Status
+
+Resolvido.
+
 ## Relatorio no terminal
 
 Saida gerada apos cadastrar os pontos da excursao escolar pelo Piaui.

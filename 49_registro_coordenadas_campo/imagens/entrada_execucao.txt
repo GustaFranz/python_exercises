@@ -1,0 +1,42 @@
+Teresina (PI)
+-5.0892
+S
+-42.8016
+S
+S
+Picos (PI)
+-7.0765
+S
+-41.4677
+S
+S
+Simplício Mendes (PI)
+-7.8539
+S
+-41.9103
+S
+S
+Rio Grande do Piauí (PI)
+-7.4637
+S
+-42.5586
+S
+S
+São Raimundo Nonato (PI)
+-9.0123
+S
+-42.6983
+S
+S
+Parque Nacional da Serra da Capivara
+-8.8292
+S
+-42.5522
+S
+S
+Coronel José Dias (PI)
+-8.8267
+S
+-42.5078
+S
+N
