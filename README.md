@@ -32,7 +32,7 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** â
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<img src="https://img.shields.io/badge/50+-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="50+ exercicios"><br><br>
+<img src="https://img.shields.io/badge/128-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="128 exercicios"><br><br>
 <strong>Progressivos</strong><br>
 <sub>Do basico ao avancado, numerados e documentados</sub>
 </td>
@@ -307,6 +307,164 @@ python main.py
 | 48 | Registro de disciplinas | [Abrir](./48_registro_disciplinas/) |
 | 49 | Registro de coordenadas de campo | [Abrir](./49_registro_coordenadas_campo/) |
 | 50 | Ranking imutavel de alunos | [Abrir](./50_ranking_imutavel_alunos/) |
+
+</details>
+
+<details>
+<summary><strong>Tuplas (51-60)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 51 | Catalogo de produtos fixos | [Abrir](./51_catalogo_produtos_fixos/) |
+| 52 | Registro de sessoes de estudo | [Abrir](./52_registro_sessoes_estudo/) |
+| 53 | Criar tupla basica | [Abrir](./53_criar_tupla_basica/) |
+| 54 | Acessar elementos da tupla | [Abrir](./54_acessar_elementos_tupla/) |
+| 55 | Fatiar tupla | [Abrir](./55_fatiar_tupla/) |
+| 56A | Percorrer tupla | [Abrir](./56A_percorrer_tupla/) |
+| 56B | Materiais escolares em tupla | [Abrir](./56B_materiais_escolares_tupla/) |
+| 57 | Desempacotar tupla | [Abrir](./57_desempacotar_tupla/) |
+| 58 | Boletim de medias com tuplas | [Abrir](./58_boletim_medias_tuplas/) |
+| 59 | Registro de temperaturas com tuplas | [Abrir](./59_registro_temperaturas_tuplas/) |
+| 60 | Catalogo de precos com tuplas | [Abrir](./60_catalogo_precos_tuplas/) |
+
+</details>
+
+<details>
+<summary><strong>Listas (61-73)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 61 | Criar lista basica | [Abrir](./61_criar_lista_basica/) |
+| 62 | Acessar elementos da lista | [Abrir](./62_acessar_elementos_lista/) |
+| 63 | Adicionar e remover itens da lista | [Abrir](./63_adicionar_remover_lista/) |
+| 64 | Fatiar lista | [Abrir](./64_fatiar_lista/) |
+| 65 | Ordenar lista | [Abrir](./65_ordenar_lista/) |
+| 66 | Verificar item na lista | [Abrir](./66_verificar_item_lista/) |
+| 67 | Percorrer lista com enumerate | [Abrir](./67_percorrer_lista_enumerate/) |
+| 68 | Analise de notas com filtragem | [Abrir](./68_analise_notas_filtragem/) |
+| 69 | Limpeza de dados de vendas | [Abrir](./69_limpeza_dados_vendas/) |
+| 70 | Classificador de palavras por tamanho | [Abrir](./70_classificador_palavras_tamanho/) |
+| 71 | Controle de presenca com correcao | [Abrir](./71_controle_presenca_correcao/) |
+| 72 | Analisador de desempenho de posts | [Abrir](./72_analisador_desempenho_posts/) |
+| 73 | Otimizacao de lista de tarefas | [Abrir](./73_otimizacao_lista_tarefas/) |
+
+</details>
+
+<details>
+<summary><strong>Dicionarios (74-86)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 74 | Criar dicionario basico | [Abrir](./74_criar_dicionario_basico/) |
+| 75 | Acessar valores do dicionario | [Abrir](./75_acessar_valores_dicionario/) |
+| 76 | Adicionar e atualizar dicionario | [Abrir](./76_adicionar_atualizar_dicionario/) |
+| 77 | Percorrer dicionario | [Abrir](./77_percorrer_dicionario/) |
+| 78 | Verificar chave no dicionario | [Abrir](./78_verificar_chave_dicionario/) |
+| 79 | Remover chave do dicionario | [Abrir](./79_remover_chave_dicionario/) |
+| 80 | Listar chaves e valores do dicionario | [Abrir](./80_chaves_valores_dicionario/) |
+| 81 | Sistema de notas por aluno | [Abrir](./81_sistema_notas_aluno/) |
+| 82 | Controle de estoque de loja | [Abrir](./82_controle_estoque_loja/) |
+| 83 | Analise de engajamento de posts | [Abrir](./83_analise_engajamento_posts/) |
+| 84 | Cadastro de alunos com multiplas infos | [Abrir](./84_cadastro_alunos_multiplas_infos/) |
+| 85 | Avaliacao de produtos | [Abrir](./85_avaliacao_produtos/) |
+| 86 | Controle de frequencia por disciplina | [Abrir](./86_controle_frequencia_disciplina/) |
+
+</details>
+
+<details>
+<summary><strong>Funcoes (87-95)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 87 | Criar funcao simples | [Abrir](./87_criar_funcao_simples/) |
+| 88 | Funcao com parametro | [Abrir](./88_funcao_com_parametro/) |
+| 89 | Funcao com retorno | [Abrir](./89_funcao_com_retorno/) |
+| 90 | Funcao com parametro padrao | [Abrir](./90_funcao_parametro_padrao/) |
+| 91 | Calculadora de desempenho escolar | [Abrir](./91_calculadora_desempenho_escolar/) |
+| 92 | Simulador de orcamento mensal | [Abrir](./92_simulador_orcamento_mensal/) |
+| 93 | Validacao de senha | [Abrir](./93_validacao_senha/) |
+| 94 | Analise de texto | [Abrir](./94_analise_texto/) |
+| 95 | Gerador de relatorios de turma | [Abrir](./95_gerador_relatorios_turma/) |
+
+</details>
+
+<details>
+<summary><strong>Funcoes lambda (96-101)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 96 | Lambda simples | [Abrir](./96_lambda_simples/) |
+| 97 | Lambda com dois parametros | [Abrir](./97_lambda_dois_parametros/) |
+| 98 | Lambda com condicao | [Abrir](./98_lambda_condicao/) |
+| 99 | Ordenar produtos com lambda | [Abrir](./99_ordenar_produtos_lambda/) |
+| 100 | Filtrar aprovados com lambda | [Abrir](./100_filtrar_aprovados_lambda/) |
+| 101 | Reajuste de precos com lambda | [Abrir](./101_reajuste_precos_lambda/) |
+
+</details>
+
+<details>
+<summary><strong>Modulos e pacotes (102-107)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 102 | Calculadora modular | [Abrir](./102_calculadora_modular/) |
+| 103 | Analise de notas com modulos | [Abrir](./103_analise_notas_modulos/) |
+| 104 | Organizador de arquivos por modulos | [Abrir](./104_organizador_arquivos_modulos/) |
+| 105 | Cadastro de alunos modular | [Abrir](./105_cadastro_alunos_modular/) |
+| 106 | Analise de vendas com modulos | [Abrir](./106_analise_vendas_modulos/) |
+| 107 | Modulos em pacotes | [Abrir](./107_modulos_em_pacotes/) |
+
+</details>
+
+<details>
+<summary><strong>Bibliotecas (108-113)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 108 | Planejamento de estudos com datas | [Abrir](./108_planejamento_estudos_datas/) |
+| 109 | Gerador de numeros para questoes | [Abrir](./109_gerador_numeros_questoes/) |
+| 110 | Simulador de sorteio de alunos | [Abrir](./110_simulador_sorteio_alunos/) |
+| 111 | Analisador de texto com biblioteca padrao | [Abrir](./111_analisador_texto_biblioteca_padrao/) |
+| 112 | Tempo de execucao de tarefas | [Abrir](./112_tempo_execucao_tarefas/) |
+| 113 | Analisador de estatisticas com NumPy | [Abrir](./113_analisador_estatisticas_numpy/) |
+
+</details>
+
+<details>
+<summary><strong>Manipulacao de dados (114-118)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 114 | Limpeza de base de dados de alunos | [Abrir](./114_limpeza_base_dados_alunos/) |
+| 115 | Analise de vendas com estrutura de dados | [Abrir](./115_analise_vendas_estrutura_dados/) |
+| 116 | Agrupamento de usuarios por idade | [Abrir](./116_agrupamento_usuarios_idade/) |
+| 117 | Transformacao de dados para relatorio | [Abrir](./117_transformacao_dados_relatorio/) |
+| 118 | Consolidacao de registros de sensores | [Abrir](./118_consolidacao_registros_sensores/) |
+
+</details>
+
+<details>
+<summary><strong>APIs (119-122)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 119 | Consulta de clima via API | [Abrir](./119_consulta_clima_api/) |
+| 120 | Cotacao de moeda em tempo real | [Abrir](./120_cotacao_moeda_tempo_real/) |
+| 121 | Consulta de livros via API | [Abrir](./121_consulta_livros_api/) |
+| 122 | Gerador de fatos aleatorios | [Abrir](./122_gerador_fatos_aleatorios/) |
+
+</details>
+
+<details>
+<summary><strong>Tratamento de excecoes (123-127)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 123 | Entrada segura de notas | [Abrir](./123_entrada_segura_notas/) |
+| 124 | Leitor seguro de divisao | [Abrir](./124_leitor_seguro_divisao/) |
+| 125 | Leitura de arquivos protegida | [Abrir](./125_leitura_arquivos_protegida/) |
+| 126 | Validador de idade para cadastro | [Abrir](./126_validador_idade_cadastro/) |
+| 127 | Login seguro com controle de erro | [Abrir](./127_login_seguro_controle_erro/) |
 
 </details>
 
