@@ -34,7 +34,7 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** �
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<img src="https://img.shields.io/badge/128-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="128 exercicios"><br><br>
+<img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"> <img src="https://img.shields.io/badge/128-propostos-3776AB?style=for-the-badge" alt="128 exercicios propostos"><br><br>
 <strong>Progressivos</strong><br>
 <sub>Do basico ao avancado, numerados e documentados</sub>
 </td>
@@ -501,8 +501,8 @@ python main.py
 
 | Onde | Regra |
 |------|-------|
-| **Pastas** | `NN_snake_case` — numero + nome sem espacos e sem acentos |
-| **READMEs** | Titulos sem acentos, para links simples |
+| **Pastas** | `NN_snake_case` — numero + nome sem espacos e sem acentos (sufixo `A`/`B` para exercicios complementares, ex.: `56A`, `56B`) |
+| **READMEs** | Titulos (headings) sem acentos, para ancoras e links simples; textos corridos podem usar acentos normalmente |
 | **Codigo Python** | Mensagens ao usuario podem usar acentos; comentarios seguem PEP 8 |
 | **Secoes** | `Objetivo`, `Enunciado` e `Como executar` em cada exercicio |
 
