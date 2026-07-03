@@ -14,3 +14,13 @@ Crie uma lista com o nome de tres frutas e exiba a lista completa.
 cd "61_criar_lista_basica"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+listas, append, input, loop
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
