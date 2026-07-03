@@ -14,3 +14,11 @@ Exiba cada disciplina de uma lista junto com o seu numero de posicao (iniciando 
 cd "67_percorrer_lista_enumerate"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+enumerate, start, percorrer lista
+
+## Status
+
+Resolvido.
