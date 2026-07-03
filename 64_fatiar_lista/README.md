@@ -14,3 +14,13 @@ Exiba os 4 primeiros e os 3 ultimos elementos de uma lista de numeros.
 cd "64_fatiar_lista"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+fatiamento, slice, indices
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
