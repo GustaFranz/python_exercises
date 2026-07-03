@@ -14,3 +14,13 @@ Verifique se uma fruta digitada pelo usuario esta ou nao na lista de frutas disp
 cd "66_verificar_item_lista"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+operador in, append, loop com break
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
