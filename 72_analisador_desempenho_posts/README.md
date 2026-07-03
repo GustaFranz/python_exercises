@@ -14,3 +14,13 @@ Classifica posts em baixo, medio e alto desempenho e conta quantos existem em ca
 cd "72_analisador_desempenho_posts"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+classificacao por faixas, if/elif/else, contagem com len
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
