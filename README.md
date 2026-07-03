@@ -25,6 +25,8 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** �
 
 **Em uma frase:** alguem que ja ensina, aprende com metodo e compartilha o caminho para ajudar outros.
 
+> Este repositório faz parte do meu processo de aprendizado em Python. Uso ferramentas de IA como apoio para revisão, edição de layouts dos materiais e tirar dúvidas, mas todos os códigos são estudados e escritos por mim.
+
 ---
 
 ## Destaques
