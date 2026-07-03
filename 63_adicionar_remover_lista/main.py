@@ -16,13 +16,24 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
 
+compras = ["arroz", "feijao", "leite"]
+compras.append("cafe")
+compras.remove("leite")
+print(f'//green/Lista final de compras:/green //yellow/{compras}/yellow')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Metodo append para adicionar item no fim da lista
+# Metodo remove para retirar item pelo valor
+# Exibicao da lista final apos as alteracoes
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

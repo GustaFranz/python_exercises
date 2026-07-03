@@ -14,3 +14,13 @@ Adicione um novo item no fim da lista de compras e remova um item existente. Exi
 cd "63_adicionar_remover_lista"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+append, remove, mutabilidade de listas
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
