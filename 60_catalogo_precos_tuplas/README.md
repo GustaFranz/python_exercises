@@ -14,3 +14,13 @@ Cada produto e uma tupla (produto, preco). Exiba o total dos precos e o produto 
 cd "60_catalogo_precos_tuplas"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+tuplas, acumulador, maximo, enumerate
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
