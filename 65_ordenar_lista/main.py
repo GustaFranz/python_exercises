@@ -14,13 +14,23 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
 
+numeros = [5, 2, 9, 1, 7, 3]
+print(f' Lista //yellow/numeros/yellow em ordem crescente: //green/{sorted(numeros)}/green')
+print(f' Lista //yellow/numeros/yellow em ordem decrescente: //green/{sorted(numeros, reverse=True)}/green')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Funcao sorted para ordenar sem alterar a lista original
+# Parametro reverse=True para ordem decrescente
+# Exibicao comparativa entre crescente e decrescente
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

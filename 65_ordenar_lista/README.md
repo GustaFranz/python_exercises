@@ -14,3 +14,13 @@ Ordene uma lista de numeros em ordem crescente e depois em ordem decrescente.
 cd "65_ordenar_lista"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+sorted, reverse, ordenacao sem alterar original
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
