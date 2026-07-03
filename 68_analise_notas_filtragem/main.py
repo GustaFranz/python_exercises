@@ -21,6 +21,7 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+
 import easyansi
 easyansi.activate()
 
@@ -55,16 +56,14 @@ print(f"\nA média da turma é {media}")
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
-# Aplicação de classificação de dados em listas com base em condições (if/elif/else)
-# Uso de listas como estrutura de armazenamento dinâmico (append)
-# Reforço no uso de laço for para percorrer coleções
-# Aplicação de funções built-in (sum() e len()) para cálculo de média
-# Organização de dados em categorias lógicas (aprovados, recuperação, reprovados)
-# Melhoria na formatação de saída com f-strings e alinhamento de texto
-# Aplicação prática da biblioteca easyansi para estilização visual no terminal
-
-# Link do repositório da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
+#
+# Classificacao de notas em listas com if/elif/else
+# Uso de append para separar aprovados, recuperacao e reprovados
+# Calculo de media com sum() e len()
+# Formatacao visual com f-strings e alinhamento de texto
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
