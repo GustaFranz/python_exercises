@@ -1,8 +1,8 @@
 # Guias Python — estruturas de dados e strings
 
-Materiais didaticos em PDF: exemplos, tabelas de comandos, exercicios praticos e boas praticas.
+Materiais didáticos em PDF: exemplos, tabelas de comandos, exercícios práticos e boas práticas.
 
-Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado para estudo autonomo, revisao rapida e apoio aos [exercicios do repositorio](../README.md).
+Cada PDF foi produzido com **texto vetorial** (nítido em qualquer zoom), pensado para estudo autônomo, revisão rápida e apoio aos [exercícios do repositório](../README.md).
 
 ---
 
@@ -16,7 +16,7 @@ Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado
 </a>
 <br><br>
 <strong>Dicionarios em Python</strong><br>
-<sub>Criacao, .get(), metodos, aninhamento, iteracao</sub><br><br>
+<sub>Criação, .get(), métodos, aninhamento, iteração</sub><br><br>
 <a href="./Dicionarios_em_Python.pdf">Baixar PDF</a>
 </td>
 <td width="50%" valign="top" align="center">
@@ -25,7 +25,7 @@ Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado
 </a>
 <br><br>
 <strong>Listas em Python</strong><br>
-<sub>Indices, fatiamento, metodos, exercicio de carrinho</sub><br><br>
+<sub>Índices, fatiamento, métodos, exercício de carrinho</sub><br><br>
 <a href="./Listas_em_Python.pdf">Baixar PDF</a>
 </td>
 </tr>
@@ -36,7 +36,7 @@ Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado
 </a>
 <br><br>
 <strong>Tuplas em Python</strong><br>
-<sub>Imutabilidade, operacoes, fatiamento, medias escolares</sub><br><br>
+<sub>Imutabilidade, operações, fatiamento, médias escolares</sub><br><br>
 <a href="./Tuplas_em_Python.pdf">Baixar PDF</a>
 </td>
 <td width="50%" valign="top" align="center">
@@ -45,7 +45,7 @@ Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado
 </a>
 <br><br>
 <strong>Tratamento de Strings</strong><br>
-<sub>Metodos de manipulacao, verificacoes, analisador de frases</sub><br><br>
+<sub>Métodos de manipulação, verificações, analisador de frases</sub><br><br>
 <a href="./Tratamento_de_Strings_em_Python.pdf">Baixar PDF</a>
 </td>
 </tr>
@@ -55,21 +55,21 @@ Cada PDF foi produzido com **texto vetorial** (nitido em qualquer zoom), pensado
 
 ## O que cada guia cobre
 
-| Guia | Conteudo principal |
+| Guia | Conteúdo principal |
 |------|-------------------|
-| **Dicionarios** | Criacao, `.get()`, metodos, aninhamento, iteracao, exercicio de biblioteca |
-| **Listas** | Indices, fatiamento, metodos, slice visual, exercicio de carrinho de compras |
-| **Tuplas** | Imutabilidade, operacoes, fatiamento, exercicio de medias escolares |
-| **Strings** | Metodos de manipulacao, verificacoes, exercicio analisador de frases |
+| **Dicionarios** | Criação, `.get()`, métodos, aninhamento, iteração, exercício de biblioteca |
+| **Listas** | Índices, fatiamento, métodos, slice visual, exercício de carrinho de compras |
+| **Tuplas** | Imutabilidade, operações, fatiamento, exercício de médias escolares |
+| **Strings** | Métodos de manipulação, verificações, exercício analisador de frases |
 
 ---
 
 ## Sobre o autor
 
-**Prof. Gustavo Franz (Science/Biology)** — professor de Ciencias e Biologia desde 2013, atualmente estudando programacao e construindo solucoes educacionais com Python.
+**Prof. Gustavo Franz (Science/Biology)** — professor de Ciências e Biologia desde 2013, atualmente estudando programação e construindo soluções educacionais com Python.
 
 - GitHub: [github.com/GustaFranz](https://github.com/GustaFranz)
-- Exercicios resolvidos: [exercicios_python](https://github.com/GustaFranz/exercicios_python)
+- Exercícios resolvidos: [exercicios_python](https://github.com/GustaFranz/exercicios_python)
 - Projeto open source: [easyansi](https://github.com/GustaFranz/easyansi)
 
 [Voltar aos materiais](../README.md) · [README principal](../../README.md)

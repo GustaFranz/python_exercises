@@ -2,9 +2,9 @@
 
 **Link publico para compartilhar:** https://github.com/GustaFranz/exercicios_python/tree/main/materiais/git
 
-Material criado durante meus estudos de programacao. Sou professor em transicao para a area de TI e compartilho aqui o que aprendo no caminho — nao como especialista, mas como alguem que ainda lembra das dificuldades iniciais.
+Material criado durante meus estudos de programação. Sou professor em transição para a área de TI e compartilho aqui o que aprendo no caminho — não como especialista, mas como alguém que ainda lembra das dificuldades iniciais.
 
-**Se so lembrar de 3 comandos hoje:** `git status`, `git add .`, `git commit -m "mensagem"`.
+**Se só lembrar de 3 comandos hoje:** `git status`, `git add .`, `git commit -m "mensagem"`.
 
 <p align="center">
   <a href="./Git_para_iniciantes.pdf">
@@ -41,47 +41,47 @@ Material criado durante meus estudos de programacao. Sou professor em transicao 
 
 ## Objetivo
 
-- Servir de referencia rapida para quem esta comecando com Git
-- Complementar o guia visual com texto pesquisavel e comandos copiaveis
-- Documentar erros comuns e um fluxo pratico de trabalho
+- Servir de referência rápida para quem está começando com Git
+- Complementar o guia visual com texto pesquisável e comandos copiáveis
+- Documentar erros comuns e um fluxo prático de trabalho
 
 ---
 
 ## Como usar
 
-1. Baixe o **[PDF do guia](./Git_para_iniciantes.pdf)** para ter a visao geral do fluxo
+1. Baixe o **[PDF do guia](./Git_para_iniciantes.pdf)** para ter a visão geral do fluxo
 2. Use as **tabelas** deste README para copiar comandos no terminal
-3. Em caso de erro, va direto para a secao [Erros comuns](#erros-comuns)
-4. Pratique com o [Exercicio pratico](#exercicio-pratico) usando este repositorio
+3. Em caso de erro, vá direto para a seção [Erros comuns](#erros-comuns)
+4. Pratique com o [Exercicio pratico](#exercicio-pratico) usando este repositório
 
 ---
 
 ## Guia em PDF (recomendado)
 
-Material completo em alta qualidade, com texto selecionavel e layout profissional:
+Material completo em alta qualidade, com texto selecionável e layout profissional:
 
 **[Baixar Git_para_iniciantes.pdf](./Git_para_iniciantes.pdf)**
 
-O PDF inclui: fluxo basico, stage, commits, branches, merge, push/pull, fluxo recomendado, conceitos, boas praticas e comandos de emergencia.
+O PDF inclui: fluxo básico, stage, commits, branches, merge, push/pull, fluxo recomendado, conceitos, boas práticas e comandos de emergência.
 
 ---
 
 ## Guia visual (referencia rapida)
 
-Use o PDF acima como material principal. As secoes abaixo complementam com comandos copiaveis e exercicio pratico.
+Use o PDF acima como material principal. As seções abaixo complementam com comandos copiáveis e exercício prático.
 
 ---
 
 ## Configuracao inicial
 
-Antes do primeiro commit, configure seu nome e e-mail (faca uma vez por maquina):
+Antes do primeiro commit, configure seu nome e e-mail (faça uma vez por máquina):
 
 ```bash
 git config --global user.name "Seu Nome"
 git config --global user.email "seu@email.com"
 ```
 
-Para baixar um repositorio pela primeira vez:
+Para baixar um repositório pela primeira vez:
 
 ```bash
 git clone https://github.com/usuario/repositorio.git
@@ -92,27 +92,27 @@ cd repositorio
 
 ## 1. Stage (area de preparacao)
 
-Area intermediaria onde voce escolhe o que vai entrar no proximo commit.
+Área intermediária onde você escolhe o que vai entrar no próximo commit.
 
-| Comando | Funcao |
+| Comando | Função |
 |---------|--------|
-| `git add arquivo.py` | Adiciona um arquivo especifico ao stage |
+| `git add arquivo.py` | Adiciona um arquivo específico ao stage |
 | `git add .` | Adiciona todos os arquivos modificados ao stage |
-| `git status` | Mostra o que foi modificado e o que esta no stage |
+| `git status` | Mostra o que foi modificado e o que está no stage |
 | `git restore --staged arquivo.py` | Remove um arquivo do stage |
 
 ---
 
 ## 2. Commits (salvando alteracoes)
 
-Cada commit e um "ponto de salvamento" no historico do projeto.
+Cada commit é um "ponto de salvamento" no histórico do projeto.
 
-| Comando | Funcao |
+| Comando | Função |
 |---------|--------|
-| `git commit -m "mensagem"` | Salva as alteracoes do stage com uma mensagem |
-| `git log` | Mostra o historico detalhado de commits |
-| `git log --oneline` | Mostra o historico de forma resumida |
-| `git diff` | Mostra diferencas ainda nao adicionadas ao stage |
+| `git commit -m "mensagem"` | Salva as alterações do stage com uma mensagem |
+| `git log` | Mostra o histórico detalhado de commits |
+| `git log --oneline` | Mostra o histórico de forma resumida |
+| `git diff` | Mostra diferenças ainda não adicionadas ao stage |
 
 ---
 
@@ -120,7 +120,7 @@ Cada commit e um "ponto de salvamento" no historico do projeto.
 
 Branches permitem trabalhar em funcionalidades em paralelo, sem misturar tudo na branch principal.
 
-| Comando | Funcao |
+| Comando | Função |
 |---------|--------|
 | `git branch` | Lista todas as branches |
 | `git branch nome-da-branch` | Cria uma nova branch |
@@ -143,16 +143,16 @@ git merge nome-da-branch
 
 ## 5. Envio e atualizacao (GitHub)
 
-Sincronizar seu repositorio local com o remoto (GitHub).
+Sincronizar seu repositório local com o remoto (GitHub).
 
-| Comando | Funcao |
+| Comando | Função |
 |---------|--------|
 | `git push -u origin nome-da-branch` | Envia a branch para o GitHub (primeira vez) |
 | `git push` | Envia os commits da branch atual para o GitHub |
-| `git pull` | Baixa e aplica alteracoes do GitHub no projeto local |
-| `git fetch` | Baixa alteracoes do remoto sem aplicar (so informacao) |
+| `git pull` | Baixa e aplica alterações do GitHub no projeto local |
+| `git fetch` | Baixa alterações do remoto sem aplicar (só informação) |
 
-**Dica:** sempre rode `git pull` antes de comecar a trabalhar, para evitar conflitos.
+**Dica:** sempre rode `git pull` antes de começar a trabalhar, para evitar conflitos.
 
 ---
 
@@ -160,8 +160,8 @@ Sincronizar seu repositorio local com o remoto (GitHub).
 
 | Comando | Quando usar | O que faz |
 |---------|-------------|-----------|
-| `git clone` | Primeira vez, repo ainda nao existe na maquina | Copia o repositorio inteiro |
-| `git pull` | Repo ja existe; voce quer atualizar e aplicar | Baixa e mescla alteracoes do remoto |
+| `git clone` | Primeira vez, repo ainda não existe na máquina | Copia o repositório inteiro |
+| `git pull` | Repo já existe; você quer atualizar e aplicar | Baixa e mescla alterações do remoto |
 | `git fetch` | Quer ver o que mudou antes de aplicar | Baixa sem mesclar |
 
 ---
@@ -170,25 +170,25 @@ Sincronizar seu repositorio local com o remoto (GitHub).
 
 1. Atualize a branch principal: `git checkout main && git pull`
 2. Crie uma branch para a funcionalidade: `git checkout -b nome-da-funcionalidade`
-3. Faca suas alteracoes nos arquivos
+3. Faça suas alterações nos arquivos
 4. Verifique o status: `git status`
 5. Adicione ao stage: `git add .`
-6. Faca o commit: `git commit -m "mensagem clara"`
+6. Faça o commit: `git commit -m "mensagem clara"`
 7. Envie a branch: `git push -u origin nome-da-funcionalidade`
 8. Abra um Pull Request no GitHub
-9. Apos aprovacao, faca merge na `main`
-10. Apague a branch (local e remota) se nao for mais necessaria
+9. Após aprovação, faça merge na `main`
+10. Apague a branch (local e remota) se não for mais necessária
 
 ---
 
 ## Pull Request
 
-Pull Request (PR) nao e um comando do Git. E um recurso do GitHub.
+Pull Request (PR) não é um comando do Git. É um recurso do GitHub.
 
-1. Voce envia sua branch com `git push`
+1. Você envia sua branch com `git push`
 2. No GitHub, abre um PR pedindo para mesclar sua branch na `main`
-3. Outra pessoa (ou voce mesmo) revisa as alteracoes
-4. Apos aprovacao, o merge e feito pela interface do GitHub
+3. Outra pessoa (ou você mesmo) revisa as alterações
+4. Após aprovação, o merge é feito pela interface do GitHub
 
 ---
 
@@ -196,23 +196,23 @@ Pull Request (PR) nao e um comando do Git. E um recurso do GitHub.
 
 | Conceito | Significado |
 |----------|-------------|
-| **Repositorio** | Pasta do projeto com historico de versoes |
-| **Commit** | Registro de uma alteracao salva |
+| **Repositorio** | Pasta do projeto com histórico de versões |
+| **Commit** | Registro de uma alteração salva |
 | **Branch** | Linha independente de desenvolvimento |
-| **Merge** | Juntar alteracoes de uma branch em outra |
-| **Stage** | Area onde voce prepara o que vai commitar |
+| **Merge** | Juntar alterações de uma branch em outra |
+| **Stage** | Área onde você prepara o que vai commitar |
 | **Push** | Enviar commits locais para o remoto |
 | **Pull** | Baixar e aplicar commits do remoto |
-| **Remoto (remote)** | Versao do projeto hospedada (ex.: GitHub) |
+| **Remoto (remote)** | Versão do projeto hospedada (ex.: GitHub) |
 
 ---
 
 ## Boas praticas
 
-- Faca commits frequentes, com mensagens claras
-- Use uma branch por funcionalidade ou correcao
-- Mantenha a branch `main` estavel
-- Rode `git pull` antes de comecar a trabalhar
+- Faça commits frequentes, com mensagens claras
+- Use uma branch por funcionalidade ou correção
+- Mantenha a branch `main` estável
+- Rode `git pull` antes de começar a trabalhar
 - Revise com `git status` antes de cada commit
 
 ---
@@ -221,11 +221,11 @@ Pull Request (PR) nao e um comando do Git. E um recurso do GitHub.
 
 | Comando | Funcao |
 |---------|--------|
-| `git restore arquivo.py` | Descarta alteracoes nao commitadas no arquivo |
-| `git reset --soft HEAD~1` | Desfaz o ultimo commit, mantendo alteracoes no stage |
-| `git reset --hard HEAD~1` | Desfaz o ultimo commit e apaga alteracoes (**perigoso**) |
+| `git restore arquivo.py` | Descarta alterações não commitadas no arquivo |
+| `git reset --soft HEAD~1` | Desfaz o último commit, mantendo alterações no stage |
+| `git reset --hard HEAD~1` | Desfaz o último commit e apaga alterações (**perigoso**) |
 
-**Atencao:** `git reset --hard` apaga alteracoes de forma permanente. Use apenas se tiver certeza.
+**Atenção:** `git reset --hard` apaga alterações de forma permanente. Use apenas se tiver certeza.
 
 ---
 
@@ -233,9 +233,9 @@ Pull Request (PR) nao e um comando do Git. E um recurso do GitHub.
 
 | Erro | Causa provavel | O que fazer |
 |------|----------------|-------------|
-| `fatal: not a git repository` | Voce nao esta dentro de uma pasta Git | Use `cd` ate a pasta do projeto |
+| `fatal: not a git repository` | Você não está dentro de uma pasta Git | Use `cd` até a pasta do projeto |
 | `Please tell me who you are` | Git sem nome e e-mail configurados | Configure `user.name` e `user.email` |
-| `rejected (fetch first)` | O remoto tem commits que voce ainda nao tem | Rode `git pull` antes do `git push` |
+| `rejected (fetch first)` | O remoto tem commits que você ainda não tem | Rode `git pull` antes do `git push` |
 | `merge conflict` | Mesmo arquivo editado em lugares diferentes | Resolva manualmente, depois `git add` e `git commit` |
 | `error: failed to push some refs` | Branch remota mais atualizada | `git pull --rebase` ou `git pull`, resolva conflitos, tente de novo |
 
@@ -260,9 +260,9 @@ git commit -m "resolve conflito de merge"
 
 ## Exercicio pratico
 
-Pratique o fluxo Git usando este repositorio:
+Pratique o fluxo Git usando este repositório:
 
-1. Clone o repositorio (se ainda nao tiver):
+1. Clone o repositório (se ainda não tiver):
 
 ```bash
 git clone https://github.com/GustaFranz/exercicios_python.git
@@ -275,7 +275,7 @@ cd exercicios_python
 git checkout -b teste-git-seu-nome
 ```
 
-3. Faca uma alteracao pequena (ex.: uma linha em qualquer README).
+3. Faça uma alteração pequena (ex.: uma linha em qualquer README).
 
 4. Verifique, adicione e commite:
 
@@ -291,7 +291,7 @@ git commit -m "teste: praticando fluxo git"
 git push -u origin teste-git-seu-nome
 ```
 
-6. Abra um Pull Request no GitHub. Se for so treino, voce pode fechar depois sem fazer merge.
+6. Abra um Pull Request no GitHub. Se for só treino, você pode fechar depois sem fazer merge.
 
 ---
 
