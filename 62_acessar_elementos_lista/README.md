@@ -14,3 +14,13 @@ Exiba o primeiro e o ultimo elemento de uma lista de animais.
 cd "62_acessar_elementos_lista"
 python main.py
 ```
+
+## Conceitos trabalhados
+
+indices positivos e negativos, acesso por posicao
+
+## Status
+
+Resolvido.
+
+Dependencias: `easyansi`.
