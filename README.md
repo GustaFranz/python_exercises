@@ -67,29 +67,29 @@ Projeto integrando Python, dados geograficos e visualizacao interativa — simul
 <td colspan="3" align="center" valign="top">
 <strong>49 — GeoExplorer Educacional</strong><br>
 <sub>Cadastro de pontos com latitude e longitude, exportacao em JSON e mapa HTML com Folium</sub><br><br>
-<a href="./49_registro_coordenadas_campo/">Abrir exercicio</a> · <a href="./49_registro_coordenadas_campo/mapa_pontos.html">Ver mapa interativo</a>
+<a href="./01_python_fundamentals/49_registro_coordenadas_campo/">Abrir exercicio</a> · <a href="./01_python_fundamentals/49_registro_coordenadas_campo/mapa_pontos.html">Ver mapa interativo</a>
 </td>
 </tr>
 <tr>
 <td width="33%" valign="top" align="center">
-<a href="./49_registro_coordenadas_campo/">
-<img src="./49_registro_coordenadas_campo/imagens/relatorio_terminal.png" alt="Relatorio de pontos geograficos no terminal" width="100%">
+<a href="./01_python_fundamentals/49_registro_coordenadas_campo/">
+<img src="./01_python_fundamentals/49_registro_coordenadas_campo/imagens/relatorio_terminal.png" alt="Relatorio de pontos geograficos no terminal" width="100%">
 </a>
 <br><br>
 <strong>Relatorio</strong><br>
 <sub>Lista formatada no terminal</sub>
 </td>
 <td width="33%" valign="top" align="center">
-<a href="./49_registro_coordenadas_campo/">
-<img src="./49_registro_coordenadas_campo/imagens/mapa_visao_geral.png" alt="Mapa com sete pontos da excursao escolar" width="100%">
+<a href="./01_python_fundamentals/49_registro_coordenadas_campo/">
+<img src="./01_python_fundamentals/49_registro_coordenadas_campo/imagens/mapa_visao_geral.png" alt="Mapa com sete pontos da excursao escolar" width="100%">
 </a>
 <br><br>
 <strong>Mapa geral</strong><br>
 <sub>Sete cidades e pontos no Piaui</sub>
 </td>
 <td width="33%" valign="top" align="center">
-<a href="./49_registro_coordenadas_campo/">
-<img src="./49_registro_coordenadas_campo/imagens/mapa_popup_ponto.png" alt="Popup do Parque Nacional da Serra da Capivara" width="100%">
+<a href="./01_python_fundamentals/49_registro_coordenadas_campo/">
+<img src="./01_python_fundamentals/49_registro_coordenadas_campo/imagens/mapa_popup_ponto.png" alt="Popup do Parque Nacional da Serra da Capivara" width="100%">
 </a>
 <br><br>
 <strong>Detalhe do ponto</strong><br>
@@ -214,7 +214,7 @@ Guias criados durante meus estudos — compartilhados para quem esta comecando. 
 
 ```bash
 git clone https://github.com/GustaFranz/python_exercises.git
-cd python_exercises/04_funcao_format
+cd python_exercises/01_python_fundamentals/04_funcao_format
 python main.py
 ```
 
@@ -226,15 +226,17 @@ python main.py
 
 ## Navegacao dos exercicios
 
+Indice completo tambem em **[01_python_fundamentals](./01_python_fundamentals/)**.
+
 <details open>
 <summary><strong>Fundamentos (01-04)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 01 | Meu primeiro codigo | [Abrir](./01_meu_primeiro_codigo/) |
-| 02 | Soma de dois numeros | [Abrir](./02_soma_de_dois_numeros/) |
-| 03 | Comandos de decisao | [Abrir](./03_comandos_de_decisao/) |
-| 04 | Funcao format | [Abrir](./04_funcao_format/) |
+| 01 | Meu primeiro codigo | [Abrir](./01_python_fundamentals/01_meu_primeiro_codigo/) |
+| 02 | Soma de dois numeros | [Abrir](./01_python_fundamentals/02_soma_de_dois_numeros/) |
+| 03 | Comandos de decisao | [Abrir](./01_python_fundamentals/03_comandos_de_decisao/) |
+| 04 | Funcao format | [Abrir](./01_python_fundamentals/04_funcao_format/) |
 
 </details>
 
@@ -243,9 +245,9 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 05 | Strings maiusculas | [Abrir](./05_strings_maiusculas/) |
-| 06 | Strings minuscula | [Abrir](./06_strings_minuscula/) |
-| 07 | Antecessor e sucessor | [Abrir](./07_antecessor_sucessor/) |
+| 05 | Strings maiusculas | [Abrir](./01_python_fundamentals/05_strings_maiusculas/) |
+| 06 | Strings minuscula | [Abrir](./01_python_fundamentals/06_strings_minuscula/) |
+| 07 | Antecessor e sucessor | [Abrir](./01_python_fundamentals/07_antecessor_sucessor/) |
 
 </details>
 
@@ -254,12 +256,12 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 08 | Conversao do sistema metrico decimal | [Abrir](./08_conversao_sistema_metrico_decimal/) |
-| 09 | Conversao de volume em litros | [Abrir](./09_conversao_unidades_volume_litros/) |
-| 10 | Capacidade em litros | [Abrir](./10_capacidade_em_litros/) |
-| 11 | Converter Celsius para Kelvin | [Abrir](./11_converter_celsius_kelvin/) |
-| 12 | Converter Fahrenheit para Kelvin | [Abrir](./12_converter_fahrenheit_kelvin/) |
-| 13 | Converter Celsius para Fahrenheit | [Abrir](./13_converter_celsius_fahrenheit/) |
+| 08 | Conversao do sistema metrico decimal | [Abrir](./01_python_fundamentals/08_conversao_sistema_metrico_decimal/) |
+| 09 | Conversao de volume em litros | [Abrir](./01_python_fundamentals/09_conversao_unidades_volume_litros/) |
+| 10 | Capacidade em litros | [Abrir](./01_python_fundamentals/10_capacidade_em_litros/) |
+| 11 | Converter Celsius para Kelvin | [Abrir](./01_python_fundamentals/11_converter_celsius_kelvin/) |
+| 12 | Converter Fahrenheit para Kelvin | [Abrir](./01_python_fundamentals/12_converter_fahrenheit_kelvin/) |
+| 13 | Converter Celsius para Fahrenheit | [Abrir](./01_python_fundamentals/13_converter_celsius_fahrenheit/) |
 
 </details>
 
@@ -268,13 +270,13 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 14 | Permissao de passagem de veiculos | [Abrir](./14_permissao_passagem_veiculos/) |
-| 15 | Aluguel de carros | [Abrir](./15_aluguel_carros/) |
-| 16 | Parte inteira de numero real | [Abrir](./16_parte_inteira_num_real/) |
-| 17 | Hipotenusa do triangulo | [Abrir](./17_hipotenusa_triangulo/) |
-| 18 | Seno, cosseno e tangente | [Abrir](./18_sen_cos_tan/) |
-| 19 | Area e perimetro | [Abrir](./19_area_e_perimetro/) |
-| 20 | Calculadora de IMC | [Abrir](./20_calculadora_imc/) |
+| 14 | Permissao de passagem de veiculos | [Abrir](./01_python_fundamentals/14_permissao_passagem_veiculos/) |
+| 15 | Aluguel de carros | [Abrir](./01_python_fundamentals/15_aluguel_carros/) |
+| 16 | Parte inteira de numero real | [Abrir](./01_python_fundamentals/16_parte_inteira_num_real/) |
+| 17 | Hipotenusa do triangulo | [Abrir](./01_python_fundamentals/17_hipotenusa_triangulo/) |
+| 18 | Seno, cosseno e tangente | [Abrir](./01_python_fundamentals/18_sen_cos_tan/) |
+| 19 | Area e perimetro | [Abrir](./01_python_fundamentals/19_area_e_perimetro/) |
+| 20 | Calculadora de IMC | [Abrir](./01_python_fundamentals/20_calculadora_imc/) |
 
 </details>
 
@@ -283,15 +285,15 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 21 | Sorteio de um aluno | [Abrir](./21_sorteio_um_aluno/) |
-| 22 | Sorteio da ordem de apresentacao | [Abrir](./22_sorteio_ordem_apresentacao/) |
-| 23 | Analisador de textos | [Abrir](./23_analisador_textos/) |
-| 24 | Separador de digitos | [Abrir](./24_separador_digitos/) |
-| 25 | Nome da cidade | [Abrir](./25_nome_cidade/) |
-| 26 | Contem Silva | [Abrir](./26_contem_silva/) |
-| 27 | Analisador de frase | [Abrir](./27_analisador_frase/) |
-| 28 | Primeiro e ultimo nome | [Abrir](./28_primeiro_e_ultimo_nome/) |
-| 29 | Advinhe o numero | [Abrir](./29_advinhe_o_numero/) |
+| 21 | Sorteio de um aluno | [Abrir](./01_python_fundamentals/21_sorteio_um_aluno/) |
+| 22 | Sorteio da ordem de apresentacao | [Abrir](./01_python_fundamentals/22_sorteio_ordem_apresentacao/) |
+| 23 | Analisador de textos | [Abrir](./01_python_fundamentals/23_analisador_textos/) |
+| 24 | Separador de digitos | [Abrir](./01_python_fundamentals/24_separador_digitos/) |
+| 25 | Nome da cidade | [Abrir](./01_python_fundamentals/25_nome_cidade/) |
+| 26 | Contem Silva | [Abrir](./01_python_fundamentals/26_contem_silva/) |
+| 27 | Analisador de frase | [Abrir](./01_python_fundamentals/27_analisador_frase/) |
+| 28 | Primeiro e ultimo nome | [Abrir](./01_python_fundamentals/28_primeiro_e_ultimo_nome/) |
+| 29 | Advinhe o numero | [Abrir](./01_python_fundamentals/29_advinhe_o_numero/) |
 
 </details>
 
@@ -300,13 +302,13 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 30 | Controle de velocidade | [Abrir](./30_controle_velocidade/) |
-| 31 | Par ou impar | [Abrir](./31_par_ou_impar/) |
-| 32 | Calculo do preco da passagem | [Abrir](./32_calculo_preco_passagem/) |
-| 33 | Ano bissexto | [Abrir](./33_ano_bissexto/) |
-| 34 | Maior e menor numero | [Abrir](./34_maior_e_menor_num/) |
-| 35 | Aumento salarial | [Abrir](./35_aumento_salarial/) |
-| 36 | Condicao de existencia do triangulo | [Abrir](./36_condicao_existencia_triangulo/) |
+| 30 | Controle de velocidade | [Abrir](./01_python_fundamentals/30_controle_velocidade/) |
+| 31 | Par ou impar | [Abrir](./01_python_fundamentals/31_par_ou_impar/) |
+| 32 | Calculo do preco da passagem | [Abrir](./01_python_fundamentals/32_calculo_preco_passagem/) |
+| 33 | Ano bissexto | [Abrir](./01_python_fundamentals/33_ano_bissexto/) |
+| 34 | Maior e menor numero | [Abrir](./01_python_fundamentals/34_maior_e_menor_num/) |
+| 35 | Aumento salarial | [Abrir](./01_python_fundamentals/35_aumento_salarial/) |
+| 36 | Condicao de existencia do triangulo | [Abrir](./01_python_fundamentals/36_condicao_existencia_triangulo/) |
 
 </details>
 
@@ -315,20 +317,20 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 37 | Sistema de medias da turma | [Abrir](./37_sistema_medias_turma/) |
-| 38 | Analisador de gastos mensais | [Abrir](./38_analisador_gastos_mensais/) |
-| 39 | Tabuada inteligente | [Abrir](./39_tabuada_inteligente/) |
-| 40 | Classificador de palavras | [Abrir](./40_classificador_palavras/) |
-| 41 | Simulador de presenca escolar | [Abrir](./41_simulador_presenca_escolar/) |
-| 42 | Sistema de frequencia com relatorio | [Abrir](./42_sistema_frequencia_com_validacao_e_relatorio/) |
-| 43 | Cadastro de alunos | [Abrir](./43_cadastro_alunos_parada_manual/) |
-| 44 | Simulador de caixa de supermercado | [Abrir](./44_simulador_caixa_supermercado/) |
-| 45 | Monitor de temperatura com alerta | [Abrir](./45_monitor_temperatura_alerta/) |
-| 46 | Controle de acesso com bloqueio | [Abrir](./46_controle_acesso_bloqueio/) |
-| 47 | Sistema de comandos no console | [Abrir](./47_sistema_comandos_console/) |
-| 48 | Registro de disciplinas | [Abrir](./48_registro_disciplinas/) |
-| 49 | Registro de coordenadas de campo | [Abrir](./49_registro_coordenadas_campo/) |
-| 50 | Ranking imutavel de alunos | [Abrir](./50_ranking_imutavel_alunos/) |
+| 37 | Sistema de medias da turma | [Abrir](./01_python_fundamentals/37_sistema_medias_turma/) |
+| 38 | Analisador de gastos mensais | [Abrir](./01_python_fundamentals/38_analisador_gastos_mensais/) |
+| 39 | Tabuada inteligente | [Abrir](./01_python_fundamentals/39_tabuada_inteligente/) |
+| 40 | Classificador de palavras | [Abrir](./01_python_fundamentals/40_classificador_palavras/) |
+| 41 | Simulador de presenca escolar | [Abrir](./01_python_fundamentals/41_simulador_presenca_escolar/) |
+| 42 | Sistema de frequencia com relatorio | [Abrir](./01_python_fundamentals/42_sistema_frequencia_com_validacao_e_relatorio/) |
+| 43 | Cadastro de alunos | [Abrir](./01_python_fundamentals/43_cadastro_alunos_parada_manual/) |
+| 44 | Simulador de caixa de supermercado | [Abrir](./01_python_fundamentals/44_simulador_caixa_supermercado/) |
+| 45 | Monitor de temperatura com alerta | [Abrir](./01_python_fundamentals/45_monitor_temperatura_alerta/) |
+| 46 | Controle de acesso com bloqueio | [Abrir](./01_python_fundamentals/46_controle_acesso_bloqueio/) |
+| 47 | Sistema de comandos no console | [Abrir](./01_python_fundamentals/47_sistema_comandos_console/) |
+| 48 | Registro de disciplinas | [Abrir](./01_python_fundamentals/48_registro_disciplinas/) |
+| 49 | Registro de coordenadas de campo | [Abrir](./01_python_fundamentals/49_registro_coordenadas_campo/) |
+| 50 | Ranking imutavel de alunos | [Abrir](./01_python_fundamentals/50_ranking_imutavel_alunos/) |
 
 </details>
 
@@ -337,17 +339,17 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 51 | Catalogo de produtos fixos | [Abrir](./51_catalogo_produtos_fixos/) |
-| 52 | Registro de sessoes de estudo | [Abrir](./52_registro_sessoes_estudo/) |
-| 53 | Criar tupla basica | [Abrir](./53_criar_tupla_basica/) |
-| 54 | Acessar elementos da tupla | [Abrir](./54_acessar_elementos_tupla/) |
-| 55 | Fatiar tupla | [Abrir](./55_fatiar_tupla/) |
-| 56A | Percorrer tupla | [Abrir](./56A_percorrer_tupla/) |
-| 56B | Materiais escolares em tupla | [Abrir](./56B_materiais_escolares_tupla/) |
-| 57 | Desempacotar tupla | [Abrir](./57_desempacotar_tupla/) |
-| 58 | Boletim de medias com tuplas | [Abrir](./58_boletim_medias_tuplas/) |
-| 59 | Registro de temperaturas com tuplas | [Abrir](./59_registro_temperaturas_tuplas/) |
-| 60 | Catalogo de precos com tuplas | [Abrir](./60_catalogo_precos_tuplas/) |
+| 51 | Catalogo de produtos fixos | [Abrir](./01_python_fundamentals/51_catalogo_produtos_fixos/) |
+| 52 | Registro de sessoes de estudo | [Abrir](./01_python_fundamentals/52_registro_sessoes_estudo/) |
+| 53 | Criar tupla basica | [Abrir](./01_python_fundamentals/53_criar_tupla_basica/) |
+| 54 | Acessar elementos da tupla | [Abrir](./01_python_fundamentals/54_acessar_elementos_tupla/) |
+| 55 | Fatiar tupla | [Abrir](./01_python_fundamentals/55_fatiar_tupla/) |
+| 56A | Percorrer tupla | [Abrir](./01_python_fundamentals/56A_percorrer_tupla/) |
+| 56B | Materiais escolares em tupla | [Abrir](./01_python_fundamentals/56B_materiais_escolares_tupla/) |
+| 57 | Desempacotar tupla | [Abrir](./01_python_fundamentals/57_desempacotar_tupla/) |
+| 58 | Boletim de medias com tuplas | [Abrir](./01_python_fundamentals/58_boletim_medias_tuplas/) |
+| 59 | Registro de temperaturas com tuplas | [Abrir](./01_python_fundamentals/59_registro_temperaturas_tuplas/) |
+| 60 | Catalogo de precos com tuplas | [Abrir](./01_python_fundamentals/60_catalogo_precos_tuplas/) |
 
 </details>
 
@@ -356,19 +358,19 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 61 | Criar lista basica | [Abrir](./61_criar_lista_basica/) |
-| 62 | Acessar elementos da lista | [Abrir](./62_acessar_elementos_lista/) |
-| 63 | Adicionar e remover itens da lista | [Abrir](./63_adicionar_remover_lista/) |
-| 64 | Fatiar lista | [Abrir](./64_fatiar_lista/) |
-| 65 | Ordenar lista | [Abrir](./65_ordenar_lista/) |
-| 66 | Verificar item na lista | [Abrir](./66_verificar_item_lista/) |
-| 67 | Percorrer lista com enumerate | [Abrir](./67_percorrer_lista_enumerate/) |
-| 68 | Analise de notas com filtragem | [Abrir](./68_analise_notas_filtragem/) |
-| 69 | Limpeza de dados de vendas | [Abrir](./69_limpeza_dados_vendas/) |
-| 70 | Classificador de palavras por tamanho | [Abrir](./70_classificador_palavras_tamanho/) |
-| 71 | Controle de presenca com correcao | [Abrir](./71_controle_presenca_correcao/) |
-| 72 | Analisador de desempenho de posts | [Abrir](./72_analisador_desempenho_posts/) |
-| 73 | Otimizacao de lista de tarefas | [Abrir](./73_otimizacao_lista_tarefas/) |
+| 61 | Criar lista basica | [Abrir](./01_python_fundamentals/61_criar_lista_basica/) |
+| 62 | Acessar elementos da lista | [Abrir](./01_python_fundamentals/62_acessar_elementos_lista/) |
+| 63 | Adicionar e remover itens da lista | [Abrir](./01_python_fundamentals/63_adicionar_remover_lista/) |
+| 64 | Fatiar lista | [Abrir](./01_python_fundamentals/64_fatiar_lista/) |
+| 65 | Ordenar lista | [Abrir](./01_python_fundamentals/65_ordenar_lista/) |
+| 66 | Verificar item na lista | [Abrir](./01_python_fundamentals/66_verificar_item_lista/) |
+| 67 | Percorrer lista com enumerate | [Abrir](./01_python_fundamentals/67_percorrer_lista_enumerate/) |
+| 68 | Analise de notas com filtragem | [Abrir](./01_python_fundamentals/68_analise_notas_filtragem/) |
+| 69 | Limpeza de dados de vendas | [Abrir](./01_python_fundamentals/69_limpeza_dados_vendas/) |
+| 70 | Classificador de palavras por tamanho | [Abrir](./01_python_fundamentals/70_classificador_palavras_tamanho/) |
+| 71 | Controle de presenca com correcao | [Abrir](./01_python_fundamentals/71_controle_presenca_correcao/) |
+| 72 | Analisador de desempenho de posts | [Abrir](./01_python_fundamentals/72_analisador_desempenho_posts/) |
+| 73 | Otimizacao de lista de tarefas | [Abrir](./01_python_fundamentals/73_otimizacao_lista_tarefas/) |
 
 </details>
 
@@ -377,19 +379,19 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 74 | Criar dicionario basico | [Abrir](./74_criar_dicionario_basico/) |
-| 75 | Acessar valores do dicionario | [Abrir](./75_acessar_valores_dicionario/) |
-| 76 | Adicionar e atualizar dicionario | [Abrir](./76_adicionar_atualizar_dicionario/) |
-| 77 | Percorrer dicionario | [Abrir](./77_percorrer_dicionario/) |
-| 78 | Verificar chave no dicionario | [Abrir](./78_verificar_chave_dicionario/) |
-| 79 | Remover chave do dicionario | [Abrir](./79_remover_chave_dicionario/) |
-| 80 | Listar chaves e valores do dicionario | [Abrir](./80_chaves_valores_dicionario/) |
-| 81 | Sistema de notas por aluno | [Abrir](./81_sistema_notas_aluno/) |
-| 82 | Controle de estoque de loja | [Abrir](./82_controle_estoque_loja/) |
-| 83 | Analise de engajamento de posts | [Abrir](./83_analise_engajamento_posts/) |
-| 84 | Cadastro de alunos com multiplas infos | [Abrir](./84_cadastro_alunos_multiplas_infos/) |
-| 85 | Avaliacao de produtos | [Abrir](./85_avaliacao_produtos/) |
-| 86 | Controle de frequencia por disciplina | [Abrir](./86_controle_frequencia_disciplina/) |
+| 74 | Criar dicionario basico | [Abrir](./01_python_fundamentals/74_criar_dicionario_basico/) |
+| 75 | Acessar valores do dicionario | [Abrir](./01_python_fundamentals/75_acessar_valores_dicionario/) |
+| 76 | Adicionar e atualizar dicionario | [Abrir](./01_python_fundamentals/76_adicionar_atualizar_dicionario/) |
+| 77 | Percorrer dicionario | [Abrir](./01_python_fundamentals/77_percorrer_dicionario/) |
+| 78 | Verificar chave no dicionario | [Abrir](./01_python_fundamentals/78_verificar_chave_dicionario/) |
+| 79 | Remover chave do dicionario | [Abrir](./01_python_fundamentals/79_remover_chave_dicionario/) |
+| 80 | Listar chaves e valores do dicionario | [Abrir](./01_python_fundamentals/80_chaves_valores_dicionario/) |
+| 81 | Sistema de notas por aluno | [Abrir](./01_python_fundamentals/81_sistema_notas_aluno/) |
+| 82 | Controle de estoque de loja | [Abrir](./01_python_fundamentals/82_controle_estoque_loja/) |
+| 83 | Analise de engajamento de posts | [Abrir](./01_python_fundamentals/83_analise_engajamento_posts/) |
+| 84 | Cadastro de alunos com multiplas infos | [Abrir](./01_python_fundamentals/84_cadastro_alunos_multiplas_infos/) |
+| 85 | Avaliacao de produtos | [Abrir](./01_python_fundamentals/85_avaliacao_produtos/) |
+| 86 | Controle de frequencia por disciplina | [Abrir](./01_python_fundamentals/86_controle_frequencia_disciplina/) |
 
 </details>
 
@@ -398,15 +400,15 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 87 | Criar funcao simples | [Abrir](./87_criar_funcao_simples/) |
-| 88 | Funcao com parametro | [Abrir](./88_funcao_com_parametro/) |
-| 89 | Funcao com retorno | [Abrir](./89_funcao_com_retorno/) |
-| 90 | Funcao com parametro padrao | [Abrir](./90_funcao_parametro_padrao/) |
-| 91 | Calculadora de desempenho escolar | [Abrir](./91_calculadora_desempenho_escolar/) |
-| 92 | Simulador de orcamento mensal | [Abrir](./92_simulador_orcamento_mensal/) |
-| 93 | Validacao de senha | [Abrir](./93_validacao_senha/) |
-| 94 | Analise de texto | [Abrir](./94_analise_texto/) |
-| 95 | Gerador de relatorios de turma | [Abrir](./95_gerador_relatorios_turma/) |
+| 87 | Criar funcao simples | [Abrir](./01_python_fundamentals/87_criar_funcao_simples/) |
+| 88 | Funcao com parametro | [Abrir](./01_python_fundamentals/88_funcao_com_parametro/) |
+| 89 | Funcao com retorno | [Abrir](./01_python_fundamentals/89_funcao_com_retorno/) |
+| 90 | Funcao com parametro padrao | [Abrir](./01_python_fundamentals/90_funcao_parametro_padrao/) |
+| 91 | Calculadora de desempenho escolar | [Abrir](./01_python_fundamentals/91_calculadora_desempenho_escolar/) |
+| 92 | Simulador de orcamento mensal | [Abrir](./01_python_fundamentals/92_simulador_orcamento_mensal/) |
+| 93 | Validacao de senha | [Abrir](./01_python_fundamentals/93_validacao_senha/) |
+| 94 | Analise de texto | [Abrir](./01_python_fundamentals/94_analise_texto/) |
+| 95 | Gerador de relatorios de turma | [Abrir](./01_python_fundamentals/95_gerador_relatorios_turma/) |
 
 </details>
 
@@ -415,12 +417,12 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 96 | Lambda simples | [Abrir](./96_lambda_simples/) |
-| 97 | Lambda com dois parametros | [Abrir](./97_lambda_dois_parametros/) |
-| 98 | Lambda com condicao | [Abrir](./98_lambda_condicao/) |
-| 99 | Ordenar produtos com lambda | [Abrir](./99_ordenar_produtos_lambda/) |
-| 100 | Filtrar aprovados com lambda | [Abrir](./100_filtrar_aprovados_lambda/) |
-| 101 | Reajuste de precos com lambda | [Abrir](./101_reajuste_precos_lambda/) |
+| 96 | Lambda simples | [Abrir](./01_python_fundamentals/96_lambda_simples/) |
+| 97 | Lambda com dois parametros | [Abrir](./01_python_fundamentals/97_lambda_dois_parametros/) |
+| 98 | Lambda com condicao | [Abrir](./01_python_fundamentals/98_lambda_condicao/) |
+| 99 | Ordenar produtos com lambda | [Abrir](./01_python_fundamentals/99_ordenar_produtos_lambda/) |
+| 100 | Filtrar aprovados com lambda | [Abrir](./01_python_fundamentals/100_filtrar_aprovados_lambda/) |
+| 101 | Reajuste de precos com lambda | [Abrir](./01_python_fundamentals/101_reajuste_precos_lambda/) |
 
 </details>
 
@@ -429,12 +431,12 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 102 | Calculadora modular | [Abrir](./102_calculadora_modular/) |
-| 103 | Analise de notas com modulos | [Abrir](./103_analise_notas_modulos/) |
-| 104 | Organizador de arquivos por modulos | [Abrir](./104_organizador_arquivos_modulos/) |
-| 105 | Cadastro de alunos modular | [Abrir](./105_cadastro_alunos_modular/) |
-| 106 | Analise de vendas com modulos | [Abrir](./106_analise_vendas_modulos/) |
-| 107 | Modulos em pacotes | [Abrir](./107_modulos_em_pacotes/) |
+| 102 | Calculadora modular | [Abrir](./01_python_fundamentals/102_calculadora_modular/) |
+| 103 | Analise de notas com modulos | [Abrir](./01_python_fundamentals/103_analise_notas_modulos/) |
+| 104 | Organizador de arquivos por modulos | [Abrir](./01_python_fundamentals/104_organizador_arquivos_modulos/) |
+| 105 | Cadastro de alunos modular | [Abrir](./01_python_fundamentals/105_cadastro_alunos_modular/) |
+| 106 | Analise de vendas com modulos | [Abrir](./01_python_fundamentals/106_analise_vendas_modulos/) |
+| 107 | Modulos em pacotes | [Abrir](./01_python_fundamentals/107_modulos_em_pacotes/) |
 
 </details>
 
@@ -443,12 +445,12 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 108 | Planejamento de estudos com datas | [Abrir](./108_planejamento_estudos_datas/) |
-| 109 | Gerador de numeros para questoes | [Abrir](./109_gerador_numeros_questoes/) |
-| 110 | Simulador de sorteio de alunos | [Abrir](./110_simulador_sorteio_alunos/) |
-| 111 | Analisador de texto com biblioteca padrao | [Abrir](./111_analisador_texto_biblioteca_padrao/) |
-| 112 | Tempo de execucao de tarefas | [Abrir](./112_tempo_execucao_tarefas/) |
-| 113 | Analisador de estatisticas com NumPy | [Abrir](./113_analisador_estatisticas_numpy/) |
+| 108 | Planejamento de estudos com datas | [Abrir](./01_python_fundamentals/108_planejamento_estudos_datas/) |
+| 109 | Gerador de numeros para questoes | [Abrir](./01_python_fundamentals/109_gerador_numeros_questoes/) |
+| 110 | Simulador de sorteio de alunos | [Abrir](./01_python_fundamentals/110_simulador_sorteio_alunos/) |
+| 111 | Analisador de texto com biblioteca padrao | [Abrir](./01_python_fundamentals/111_analisador_texto_biblioteca_padrao/) |
+| 112 | Tempo de execucao de tarefas | [Abrir](./01_python_fundamentals/112_tempo_execucao_tarefas/) |
+| 113 | Analisador de estatisticas com NumPy | [Abrir](./01_python_fundamentals/113_analisador_estatisticas_numpy/) |
 
 </details>
 
@@ -457,11 +459,11 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 114 | Limpeza de base de dados de alunos | [Abrir](./114_limpeza_base_dados_alunos/) |
-| 115 | Analise de vendas com estrutura de dados | [Abrir](./115_analise_vendas_estrutura_dados/) |
-| 116 | Agrupamento de usuarios por idade | [Abrir](./116_agrupamento_usuarios_idade/) |
-| 117 | Transformacao de dados para relatorio | [Abrir](./117_transformacao_dados_relatorio/) |
-| 118 | Consolidacao de registros de sensores | [Abrir](./118_consolidacao_registros_sensores/) |
+| 114 | Limpeza de base de dados de alunos | [Abrir](./01_python_fundamentals/114_limpeza_base_dados_alunos/) |
+| 115 | Analise de vendas com estrutura de dados | [Abrir](./01_python_fundamentals/115_analise_vendas_estrutura_dados/) |
+| 116 | Agrupamento de usuarios por idade | [Abrir](./01_python_fundamentals/116_agrupamento_usuarios_idade/) |
+| 117 | Transformacao de dados para relatorio | [Abrir](./01_python_fundamentals/117_transformacao_dados_relatorio/) |
+| 118 | Consolidacao de registros de sensores | [Abrir](./01_python_fundamentals/118_consolidacao_registros_sensores/) |
 
 </details>
 
@@ -470,10 +472,10 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 119 | Consulta de clima via API | [Abrir](./119_consulta_clima_api/) |
-| 120 | Cotacao de moeda em tempo real | [Abrir](./120_cotacao_moeda_tempo_real/) |
-| 121 | Consulta de livros via API | [Abrir](./121_consulta_livros_api/) |
-| 122 | Gerador de fatos aleatorios | [Abrir](./122_gerador_fatos_aleatorios/) |
+| 119 | Consulta de clima via API | [Abrir](./01_python_fundamentals/119_consulta_clima_api/) |
+| 120 | Cotacao de moeda em tempo real | [Abrir](./01_python_fundamentals/120_cotacao_moeda_tempo_real/) |
+| 121 | Consulta de livros via API | [Abrir](./01_python_fundamentals/121_consulta_livros_api/) |
+| 122 | Gerador de fatos aleatorios | [Abrir](./01_python_fundamentals/122_gerador_fatos_aleatorios/) |
 
 </details>
 
@@ -482,11 +484,11 @@ python main.py
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 123 | Entrada segura de notas | [Abrir](./123_entrada_segura_notas/) |
-| 124 | Leitor seguro de divisao | [Abrir](./124_leitor_seguro_divisao/) |
-| 125 | Leitura de arquivos protegida | [Abrir](./125_leitura_arquivos_protegida/) |
-| 126 | Validador de idade para cadastro | [Abrir](./126_validador_idade_cadastro/) |
-| 127 | Login seguro com controle de erro | [Abrir](./127_login_seguro_controle_erro/) |
+| 123 | Entrada segura de notas | [Abrir](./01_python_fundamentals/123_entrada_segura_notas/) |
+| 124 | Leitor seguro de divisao | [Abrir](./01_python_fundamentals/124_leitor_seguro_divisao/) |
+| 125 | Leitura de arquivos protegida | [Abrir](./01_python_fundamentals/125_leitura_arquivos_protegida/) |
+| 126 | Validador de idade para cadastro | [Abrir](./01_python_fundamentals/126_validador_idade_cadastro/) |
+| 127 | Login seguro com controle de erro | [Abrir](./01_python_fundamentals/127_login_seguro_controle_erro/) |
 
 </details>
 
@@ -534,9 +536,11 @@ python main.py
 python_exercises/
 ├── LICENSE
 ├── README.md
-├── NN_nome_exercicio/
+├── 01_python_fundamentals/
 │   ├── README.md
-│   └── main.py
+│   └── NN_nome_exercicio/
+│       ├── README.md
+│       └── main.py
 └── materiais/
     ├── README.md
     ├── _layout.py       # layout compartilhado dos PDFs
