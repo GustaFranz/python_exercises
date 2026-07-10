@@ -19,6 +19,25 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
+
+presencas = ["P", "F", "P", "X", "F", "P", "Z", "F", "P", "P", "Y", "F"]
+
+presencas_validas = []
+for presenca in presencas:
+    if presenca in ['P', 'F']:
+        presencas_validas.append(presenca)
+
+print(f'//green/Presencas validas: {presencas_validas}/green')
+
+presencas_count = presencas_validas.count('P')
+faltas_count = presencas_validas.count("F")
+porcentagem_frequencia = (presencas_count / len(presencas_validas)) * 100
+
+print(f'//green/Total de presencas:/green //yellow/{presencas_count}/yellow')
+print(f'//green/Total de faltas:/green //yellow/{faltas_count}/yellow')
+print(f'//green/Percentual de frequencia:/green //yellow/{porcentagem_frequencia:.2f}%/yellow')
 
 
 # =============================================================================

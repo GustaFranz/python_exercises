@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./materiais/assets/banner.png" alt="exercicios_python — portfolio de evolucao em Python" width="100%">
+  <img src="./materiais/assets/banner.png" alt="python_exercises — portfolio de evolucao em Python" width="100%">
 </p>
 
 <p align="center">
@@ -34,22 +34,22 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** �
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"> <img src="https://img.shields.io/badge/128-propostos-3776AB?style=for-the-badge" alt="128 exercicios propostos"><br><br>
+<a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/128-propostos-3776AB?style=for-the-badge" alt="128 exercicios propostos"></a><br><br>
 <strong>Progressivos</strong><br>
 <sub>Do basico ao avancado, numerados e documentados</sub>
 </td>
 <td width="25%" align="center" valign="top">
-<img src="https://img.shields.io/badge/5-guias%20PDF-2E7D32?style=for-the-badge" alt="5 guias PDF"><br><br>
+<a href="#materiais-de-apoio-pdf"><img src="https://img.shields.io/badge/7-guias%20PDF-2E7D32?style=for-the-badge" alt="7 guias PDF"></a><br><br>
 <strong>Materiais de apoio</strong><br>
 <sub>Texto nitido, pronto para estudo e impressao</sub>
 </td>
 <td width="25%" align="center" valign="top">
-<img src="https://img.shields.io/badge/padrao-profissional-11283F?style=for-the-badge" alt="Padrao profissional"><br><br>
+<a href="#convencoes"><img src="https://img.shields.io/badge/padrao-profissional-11283F?style=for-the-badge" alt="Padrao profissional"></a><br><br>
 <strong>Organizacao</strong><br>
 <sub>Pastas <code>NN_snake_case</code>, README por exercicio</sub>
 </td>
 <td width="25%" align="center" valign="top">
-<img src="https://img.shields.io/badge/EasyAnsi-open%20source-F05133?style=for-the-badge&logo=github&logoColor=white" alt="EasyAnsi"><br><br>
+<a href="https://github.com/GustaFranz/easyansi"><img src="https://img.shields.io/badge/EasyAnsi-open%20source-F05133?style=for-the-badge&logo=github&logoColor=white" alt="EasyAnsi"></a><br><br>
 <strong>Projeto publicado</strong><br>
 <sub><a href="https://github.com/GustaFranz/easyansi">Biblioteca para cores no terminal</a></sub>
 </td>
@@ -102,58 +102,78 @@ Projeto integrando Python, dados geograficos e visualizacao interativa — simul
 
 ## Materiais de apoio (PDF)
 
-Guias criados durante meus estudos — compartilhados para quem esta comecando. **Clique no card para abrir o PDF.**
+Guias criados durante meus estudos — compartilhados para quem esta comecando. **Clique no card ou em Baixar PDF para fazer o download.**
 
 <table>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="./materiais/git/Git_para_iniciantes.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/git/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf">
 <img src="./materiais/assets/cards/git.png" alt="Git para iniciantes" width="100%">
 </a>
 <br><br>
 <strong>Git para iniciantes</strong><br>
 <sub>Commits, branches, merge e fluxo de trabalho</sub><br><br>
-<a href="./materiais/git/Git_para_iniciantes.pdf">Baixar PDF</a> · <a href="./materiais/git/">Ver pasta</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/git/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf">Baixar PDF</a> · <a href="./materiais/git/">Ver pasta</a>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="./materiais/python/Dicionarios_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Dicionarios_em_Python.pdf" download="Dicionarios_em_Python.pdf">
 <img src="./materiais/assets/cards/dicionarios.png" alt="Dicionarios em Python" width="100%">
 </a>
 <br><br>
 <strong>Dicionarios em Python</strong><br>
 <sub>Operacoes, metodos e exercicio pratico</sub><br><br>
-<a href="./materiais/python/Dicionarios_em_Python.pdf">Baixar PDF</a> · <a href="./materiais/python/">Ver pasta</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Dicionarios_em_Python.pdf" download="Dicionarios_em_Python.pdf">Baixar PDF</a> · <a href="./materiais/python/">Ver pasta</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="./materiais/python/Listas_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Listas_em_Python.pdf" download="Listas_em_Python.pdf">
 <img src="./materiais/assets/cards/listas.png" alt="Listas em Python" width="100%">
 </a>
 <br><br>
 <strong>Listas em Python</strong><br>
-<sub>Indices, slice, metodos e carrinho de compras</sub><br><br>
-<a href="./materiais/python/Listas_em_Python.pdf">Baixar PDF</a>
+<sub>Indices, slice, sort/sorted, set e carrinho de compras</sub><br><br>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Listas_em_Python.pdf" download="Listas_em_Python.pdf">Baixar PDF</a>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="./materiais/python/Tuplas_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tuplas_em_Python.pdf" download="Tuplas_em_Python.pdf">
 <img src="./materiais/assets/cards/tuplas.png" alt="Tuplas em Python" width="100%">
 </a>
 <br><br>
 <strong>Tuplas em Python</strong><br>
 <sub>Imutabilidade, fatiamento e medias escolares</sub><br><br>
-<a href="./materiais/python/Tuplas_em_Python.pdf">Baixar PDF</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tuplas_em_Python.pdf" download="Tuplas_em_Python.pdf">Baixar PDF</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center" colspan="2">
-<a href="./materiais/python/Tratamento_de_Strings_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tratamento_de_Strings_em_Python.pdf" download="Tratamento_de_Strings_em_Python.pdf">
 <img src="./materiais/assets/cards/strings.png" alt="Tratamento de Strings em Python" width="48%">
 </a>
 <br><br>
 <strong>Tratamento de Strings em Python</strong><br>
 <sub>Metodos, validacoes e analisador de frases</sub><br><br>
-<a href="./materiais/python/Tratamento_de_Strings_em_Python.pdf">Baixar PDF</a> · <a href="./materiais/">Indice completo dos materiais</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tratamento_de_Strings_em_Python.pdf" download="Tratamento_de_Strings_em_Python.pdf">Baixar PDF</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/easyansi/EasyAnsi_em_Python.pdf" download="EasyAnsi_em_Python.pdf">
+<img src="./materiais/assets/cards/easyansi.png" alt="EasyAnsi em Python" width="100%">
+</a>
+<br><br>
+<strong>EasyAnsi em Python</strong><br>
+<sub>Sintaxe, atalhos, logging e exercicio pratico</sub><br><br>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/easyansi/EasyAnsi_em_Python.pdf" download="EasyAnsi_em_Python.pdf">Baixar PDF</a> · <a href="./materiais/easyansi/">Ver pasta</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Pathlib_e_Shutil_em_Python.pdf" download="Pathlib_e_Shutil_em_Python.pdf">
+<img src="./materiais/assets/cards/pathlib_shutil.png" alt="Pathlib e Shutil" width="100%">
+</a>
+<br><br>
+<strong>Pathlib e Shutil em Python</strong><br>
+<sub>Caminhos, glob, mkdir, move e integracao com automacao</sub><br><br>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Pathlib_e_Shutil_em_Python.pdf" download="Pathlib_e_Shutil_em_Python.pdf">Baixar PDF</a> · <a href="./materiais/">Indice completo dos materiais</a>
 </td>
 </tr>
 </table>
@@ -193,8 +213,8 @@ Guias criados durante meus estudos — compartilhados para quem esta comecando. 
 ## Como executar
 
 ```bash
-git clone https://github.com/GustaFranz/exercicios_python.git
-cd exercicios_python/04_funcao_format
+git clone https://github.com/GustaFranz/python_exercises.git
+cd python_exercises/04_funcao_format
 python main.py
 ```
 
@@ -485,11 +505,11 @@ python main.py
 <sub>Formatacao colorida no terminal — zero dependencias, docs em 4 idiomas</sub>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/GustaFranz/exercicios_python">
-<img src="https://img.shields.io/badge/exercicios_python-este%20repo-11283F?style=for-the-badge&logo=github&logoColor=white" alt="exercicios_python">
+<a href="https://github.com/GustaFranz/python_exercises">
+<img src="https://img.shields.io/badge/python_exercises-este%20repo-11283F?style=for-the-badge&logo=github&logoColor=white" alt="python_exercises">
 </a>
 <br><br>
-<strong>exercicios_python</strong><br>
+<strong>python_exercises</strong><br>
 <sub>Portfolio de evolucao com exercicios documentados e materiais PDF</sub>
 </td>
 </tr>
@@ -511,7 +531,7 @@ python main.py
 ## Estrutura do repositorio
 
 ```
-exercicios_python/
+python_exercises/
 ├── LICENSE
 ├── README.md
 ├── NN_nome_exercicio/
@@ -519,7 +539,9 @@ exercicios_python/
 │   └── main.py
 └── materiais/
     ├── README.md
+    ├── _layout.py       # layout compartilhado dos PDFs
     ├── assets/          # banner e cards (previews dos PDFs)
+    ├── easyansi/
     ├── git/
     └── python/
 ```
@@ -528,7 +550,7 @@ exercicios_python/
 
 ## Contribuicao
 
-Sugestoes sao bem-vindas! Abra uma [issue](https://github.com/GustaFranz/exercicios_python/issues) ou envie um Pull Request.
+Sugestoes sao bem-vindas! Abra uma [issue](https://github.com/GustaFranz/python_exercises/issues) ou envie um Pull Request.
 
 ---
 

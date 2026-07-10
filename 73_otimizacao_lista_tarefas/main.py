@@ -17,8 +17,17 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
 
+tarefas = ["estudar", "exercicios", "ler", "estudar", "revisar", "ler", "projeto", "exercicios"]
+## remover duplicatas
+list_tarefas_sem_duplicatas = list(set(tarefas))
+## gerar uma nova lista organizada em ordem alfabetica.
+list_tarefas_ordenadas = sorted(list_tarefas_sem_duplicatas)
 
+print(f'//green/Tarefas sem duplicatas:/green //yellow/{list_tarefas_sem_duplicatas}/yellow')
+print(f'//green/Tarefas ordenadas:/green //yellow/{list_tarefas_ordenadas}/yellow')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================

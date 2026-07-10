@@ -17,6 +17,29 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate() 
+
+aprovados = {}
+alunos = {
+    "Ana": {"nota": 7.5, "faltas": 2}, 
+    "Bruno": {"nota": 3.2, "faltas": 5}, 
+    "Carlos": {"nota": 8.0, "faltas": 1}, 
+    "Daniela": {"nota": 5.5, "faltas": 3}
+}
+
+for aluno, dados in alunos.items():
+    if dados["nota"] >= 6 and dados["faltas"] <= 3:
+        aprovados[aluno] = dados
+
+def pegar_faltas(nome):
+    return alunos[nome]["faltas"]
+
+aluno_frequente = min(alunos, key=pegar_faltas)
+
+print(f'//green/O dicionário de alunos aprovados é:/green //yellow/{aprovados}/yellow')
+print(f'//green/O aluno mais frequente (menos faltas) é:/green //yellow/{aluno_frequente}/yellow')
+
 
 
 # =============================================================================

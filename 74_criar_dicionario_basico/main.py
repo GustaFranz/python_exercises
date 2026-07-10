@@ -18,6 +18,9 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+aluno = {"nome": "Pedro", "idade": 20, "cidade": "São Paulo"}
+print(aluno)
+
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

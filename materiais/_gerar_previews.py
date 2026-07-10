@@ -23,6 +23,13 @@ MATERIAIS = (
     ("listas", BASE / "python" / "Listas_em_Python.pdf", "Listas", "#3776AB"),
     ("tuplas", BASE / "python" / "Tuplas_em_Python.pdf", "Tuplas", "#3776AB"),
     ("strings", BASE / "python" / "Tratamento_de_Strings_em_Python.pdf", "Strings", "#3776AB"),
+    ("easyansi", BASE / "easyansi" / "EasyAnsi_em_Python.pdf", "EasyAnsi", "#3776AB"),
+    (
+        "pathlib_shutil",
+        BASE / "python" / "Pathlib_e_Shutil_em_Python.pdf",
+        "Pathlib e Shutil",
+        "#2E7D32",
+    ),
 )
 
 

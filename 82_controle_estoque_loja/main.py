@@ -16,8 +16,19 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
 
+estoque = {"camiseta": 20, "calca": 15, "tenis": 10, "bone": 30, "meia": 50}
+vendas = {"camiseta": 3, "calca": 5, "tenis": 2, "bone": 10, "meia": 20}
 
+for mercadoria, quantidade in vendas.items():
+    if mercadoria in estoque:
+        estoque[mercadoria] -= quantidade
+        if estoque[mercadoria] < 0:
+            estoque[mercadoria] = 0
+
+print(f'//green/estoque atualizado:/green //yellow/{estoque}/yellow')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================

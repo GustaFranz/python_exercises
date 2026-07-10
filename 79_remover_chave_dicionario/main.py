@@ -16,6 +16,16 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+estoque = {"caderno": 50, "caneta": 200, "borracha": 80, "regua": 30}
+
+print("Estoque inicial:")
+print(estoque)
+
+valor_removido = estoque.pop("borracha", None)
+
+print("Estoque após remoção:")
+print(estoque)
+
 
 
 # =============================================================================

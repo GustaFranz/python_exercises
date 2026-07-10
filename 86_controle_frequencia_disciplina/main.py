@@ -18,8 +18,24 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
 
+aprovados = {}
+em_alerta = {}
 
+frequencia = {"matematica": 85, "portugues": 70, "historia": 90, "ciencias": 60, "geografia": 75}
+media_frequencia = sum(frequencia.values())  / len(frequencia)
+    
+for disciplina, frequencia_alunos in frequencia.items():
+    if frequencia_alunos < 75:
+        em_alerta[disciplina] = frequencia_alunos
+    else:
+        aprovados[disciplina] = frequencia_alunos
+
+print(f'//green/Disciplinas em alerta: //yellow/{em_alerta}')
+print(f'//green/Disciplinas aprovadas: //yellow/{aprovados}')
+print(f'//green/A média de frequência é: //yellow/{media_frequencia}')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================

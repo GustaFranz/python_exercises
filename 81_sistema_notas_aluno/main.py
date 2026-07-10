@@ -19,6 +19,29 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+import easyansi
+easyansi.activate()
+
+
+alunos = {"Ana": 7.5, "Bruno": 3.2, "Carlos": 8.0, "Daniela": 5.5, "Eduardo": 9.1, "Fernanda": 4.0}
+
+dicionario_aprovados = {}
+dicionario_reprovados = {}
+
+notas = list(alunos.values())
+
+for nome, nota in alunos.items():
+    if nota >= 6:
+        dicionario_aprovados[nome] = nota      
+        print(f"//green/{nome} está aprovado(a) com nota/green //yellow/{nota}./yellow")
+    else:
+        dicionario_reprovados[nome] = nota
+        print(f"//red/{nome} está reprovado(a) com nota/red //bold-red/{nota}/bold-red.")
+
+print(f'//green/o dicionário de alunos aprovados é:/green //yellow/{dicionario_aprovados}/yellow')
+print(f'//green/o dicionário de alunos reprovados é:/green //yellow/{dicionario_reprovados}/yellow')
+print(f'//green/a média geral da turma é:/green //yellow/{sum(notas) / len(notas):.2f}/yellow')
+print(f'//green/o aluno com maior nota é:/green //yellow/{max(alunos, key=alunos.get)}/yellow')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

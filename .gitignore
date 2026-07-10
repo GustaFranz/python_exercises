@@ -9,7 +9,11 @@ venv/
 .mypy_cache/
 
 # Config local de editor / hooks Git (nao versionar)
+.cursor/
 .idea/
 .vscode/
 .local/
 .githooks/
+
+# Arquivos temporarios do Code Runner (VS Code)
+**/tempCodeRunnerFile.py

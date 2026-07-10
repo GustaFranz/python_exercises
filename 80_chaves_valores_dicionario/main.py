@@ -17,6 +17,15 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+notas = {"Ana": 8.0, "Bruno": 6.5, "Carla": 9.0, "Diego": 7.0}
+
+print("Lista de alunos (chaves):")
+print(list(notas.keys()))    
+
+print("Lista de notas (valores):")
+print(list(notas.values()))
+
+
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

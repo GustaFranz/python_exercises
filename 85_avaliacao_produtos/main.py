@@ -18,6 +18,23 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
+
+bons_produtos = {}
+regulares_produtos = {}
+
+produtos = {"notebook": 4.5, "mouse": 3.8, "teclado": 4.2, "monitor": 4.7, "fone": 3.5}
+
+for produto, avaliacao in produtos.items():
+    if avaliacao >= 4.0:
+        bons_produtos[produto] = avaliacao
+    else:
+        regulares_produtos[produto] = avaliacao
+
+print(f'//green/O dicionário de produtos bons é:/green //yellow/{bons_produtos}/yellow')
+print(f'//green/O dicionário de produtos regulares é:/green //yellow/{regulares_produtos}/yellow')
+print(f'//green/O produto melhor avaliado é:/green //yellow/{max(produtos, key=produtos.get)}/yellow')
 
 
 # =============================================================================
