@@ -226,7 +226,7 @@ python main.py
 
 ## Navegacao dos exercicios
 
-Indice completo em **[01_python_fundamentals](./01_python_fundamentals/)** (fundamentos) e **[02_intermediate_advanced](./02_intermediate_advanced/)** (intermediario — 125 exercicios).
+Indice completo em **[01_python_fundamentals](./01_python_fundamentals/)** (137 exercicios), **[02_intermediate_advanced](./02_intermediate_advanced/)** (125 exercicios) e **[03_python_libraries](./03_python_libraries/)** (28 exercicios com pandas, streamlit e automacao).
 
 <details open>
 <summary><strong>Fundamentos (01-04)</strong></summary>
@@ -533,6 +533,13 @@ Indice completo em **[01_python_fundamentals](./01_python_fundamentals/)** (fund
 
 </details>
 
+### Outras trilhas
+
+| Area | Nivel | Exercicios | Link |
+|------|-------|------------|------|
+| **02 — Intermediate Advanced** | Intermediario | 125 | [Indice completo](./02_intermediate_advanced/) |
+| **03 — Python Libraries** | Bibliotecas e automacao | 28 | [Indice completo](./03_python_libraries/) |
+
 ---
 
 ## Outros projetos
@@ -587,6 +594,14 @@ python_exercises/
 │   └── NN_nome_exercicio/    # 125 exercicios
 │       ├── README.md
 │       └── main.py
+├── 03_python_libraries/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── progresso.md
+│   └── NN_nome_exercicio/    # 28 exercicios
+│       ├── README.md
+│       ├── main.py
+│       └── dados/            # quando aplicavel
 └── materiais/
     ├── README.md
     ├── _layout.py       # layout compartilhado dos PDFs
