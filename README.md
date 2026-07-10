@@ -21,7 +21,7 @@
 
 Sou professor de **Ciencias e Biologia desde 2013**. Hoje estou em transicao para a area de tecnologia, estudando programacao de forma **estruturada, consistente e publica**.
 
-Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** — do primeiro `print` ate projetos com estruturas de dados, validacao, modulos e integracao com APIs. Cada exercicio tem pasta propria, README e codigo executavel.
+Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** — do primeiro `print` ate automacao com pandas, streamlit e bibliotecas reais. Sao **290 exercicios** em 4 trilhas, cada um com pasta propria, README e codigo executavel.
 
 **Em uma frase:** alguem que ja ensina, aprende com metodo e compartilha o caminho para ajudar outros.
 
@@ -34,9 +34,9 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** �
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/137-propostos-3776AB?style=for-the-badge" alt="137 exercicios propostos"></a><br><br>
+<a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/290-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="290 exercicios"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/4-trilhas-11283F?style=for-the-badge" alt="4 trilhas"></a><br><br>
 <strong>Progressivos</strong><br>
-<sub>Do basico ao avancado, numerados e documentados</sub>
+<sub>Fundamentos, intermediario, bibliotecas e materiais PDF</sub>
 </td>
 <td width="25%" align="center" valign="top">
 <a href="#materiais-de-apoio-pdf"><img src="https://img.shields.io/badge/7-guias%20PDF-2E7D32?style=for-the-badge" alt="7 guias PDF"></a><br><br>
@@ -214,19 +214,29 @@ Guias criados durante meus estudos — compartilhados para quem esta comecando. 
 
 ```bash
 git clone https://github.com/GustaFranz/python_exercises.git
-cd python_exercises/01_python_fundamentals/04_funcao_format
+cd python_exercises/01_python_fundamentals   # ou 02_intermediate_advanced / 03_python_libraries
+cd 04_funcao_format                          # troque pela pasta do exercicio
 python main.py
 ```
 
 1. Clone o repositorio
-2. Entre na pasta do exercicio desejado
-3. Execute o script com Python 3
+2. Entre na **trilha** (`01_`, `02_` ou `03_`) e depois na pasta do exercicio
+3. Execute o script com Python 3 (Streamlit: `streamlit run main.py`; avaliacoes em `03_`: veja `perguntas.md`)
 
 ---
 
 ## Navegacao dos exercicios
 
-Indice completo em **[01_python_fundamentals](./01_python_fundamentals/)** (137 exercicios), **[02_intermediate_advanced](./02_intermediate_advanced/)** (125 exercicios), **[03_python_libraries](./03_python_libraries/)** (28 exercicios) e **[04_study_materials](./04_study_materials/)** (guias PDF).
+Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
+
+| Area | Exercicios | Link |
+|------|------------|------|
+| **01 — Fundamentals** | 137 | [Indice](./01_python_fundamentals/) |
+| **02 — Intermediate** | 125 | [Indice](./02_intermediate_advanced/) |
+| **03 — Libraries** | 28 | [Indice](./03_python_libraries/) |
+| **04 — Study Materials** | 7 guias PDF | [Indice](./04_study_materials/) |
+
+**Total:** 290 exercicios + materiais de apoio.
 
 <details open>
 <summary><strong>Fundamentos (01-04)</strong></summary>
@@ -534,6 +544,8 @@ Indice completo em **[01_python_fundamentals](./01_python_fundamentals/)** (137 
 </details>
 
 ### Outras trilhas
+
+Atalhos rapidos (indice completo em cada pasta):
 
 | Area | Nivel | Exercicios | Link |
 |------|-------|------------|------|

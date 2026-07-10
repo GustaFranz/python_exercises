@@ -35,13 +35,15 @@ Antes de comecar esta trilha, vale estar confortavel com:
 ```bash
 git clone https://github.com/GustaFranz/python_exercises.git
 cd python_exercises/02_intermediate_advanced
-cd 01_nome_do_exercicio    # quando os exercicios forem publicados
+cd 01_introducao_list_comprehension   # troque pelo exercicio desejado
 python main.py
 ```
 
 1. Entre na pasta do exercicio
 2. Leia o `README.md` da pasta
 3. Execute `python main.py`
+
+Alguns exercicios usam arquivos extras (`71`–`75`, `115`, `120`, `124`, `125`): veja a secao **Estrutura de arquivos** no README de cada um.
 
 ---
 

@@ -2,7 +2,7 @@
 
 Trilha de exercicios progressivos que cobre os fundamentos de Python: do primeiro `print` ate funcoes, estruturas de dados, modulos, bibliotecas padrao, APIs e tratamento de excecoes.
 
-**Total:** 136 exercicios numerados (`01` a `136`, com `56A` e `56B`).
+**Total:** 137 pastas de exercicios (`01` a `136`, com `56A` e `56B`).
 
 [← Voltar ao README principal](../README.md) · [Intermediario](../02_intermediate_advanced/) · [Bibliotecas](../03_python_libraries/) · [Materiais PDF](../04_study_materials/)
 

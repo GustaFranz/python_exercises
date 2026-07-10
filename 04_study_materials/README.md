@@ -123,4 +123,4 @@ Clique no card ou no link **PDF** para baixar o arquivo.
 </tr>
 </table>
 
-[Voltar ao README principal](../README.md)
+[← Voltar ao README principal](../README.md) · [Fundamentos](../01_python_fundamentals/) · [Intermediario](../02_intermediate_advanced/) · [Bibliotecas](../03_python_libraries/)

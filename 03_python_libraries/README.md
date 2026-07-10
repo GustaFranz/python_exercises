@@ -15,9 +15,9 @@ Laboratorio de mini-projetos para dominar **bibliotecas e automacao** usadas em 
 | **Para quem** | Quem ja domina fundamentos e intermediario, ou esta montando automacao com dados |
 | **Nivel** | Bibliotecas reais — pathlib, pandas, streamlit, RPA |
 | **O que treina** | Caminhos, leitura de dados, consolidacao, dashboard e pipeline integrado |
-| **Cada exercicio** | Pasta `NN_snake_case/` com `README.md`, `main.py` e `dados/` quando necessario |
+| **Cada exercicio** | Pasta `NN_snake_case/` com `README.md`, `main.py` e `dados/` (avaliacoes: `perguntas.md`) |
 
-Cada exercicio simula uma **demanda real** (tom corporativo), explica os **conceitos dos comandos** antes da tarefa e pede implementacao em `main.py` — sem solucao pronta.
+Cada exercicio de codigo simula uma **demanda real** (tom corporativo), explica os **conceitos dos comandos** antes da tarefa e pede implementacao em `main.py` — sem solucao pronta.
 
 > **Regra de ouro:** responda as avaliacoes (13, 20, 27, 28) antes de abrir `gabarito.md`.
 
@@ -53,6 +53,8 @@ Para o exercicio 02 (script em `src/`):
 cd 02_pathlib_raiz_do_projeto
 python src/main.py
 ```
+
+Para exercicios de **avaliacao** (13, 20, 27, 28): abra `perguntas.md` — nao ha `main.py` na raiz.
 
 ---
 
