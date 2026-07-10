@@ -1,17 +1,17 @@
 # Guia Git para iniciantes
 
-**Link publico para compartilhar:** https://github.com/GustaFranz/exercicios_python/tree/main/materiais/git
+**Link publico para compartilhar:** https://github.com/GustaFranz/python_exercises/tree/main/materiais/git
 
 Material criado durante meus estudos de programação. Sou professor em transição para a área de TI e compartilho aqui o que aprendo no caminho — não como especialista, mas como alguém que ainda lembra das dificuldades iniciais.
 
 **Se só lembrar de 3 comandos hoje:** `git status`, `git add .`, `git commit -m "mensagem"`.
 
 <p align="center">
-  <a href="./Git_para_iniciantes.pdf">
+  <a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/git/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf">
     <img src="../assets/cards/git.png" alt="Git para iniciantes — preview do PDF" width="70%">
   </a>
   <br><br>
-  <a href="./Git_para_iniciantes.pdf"><strong>Baixar Git_para_iniciantes.pdf</strong></a>
+  <a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/git/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf"><strong>Baixar Git_para_iniciantes.pdf</strong></a>
 </p>
 
 ---
@@ -49,7 +49,7 @@ Material criado durante meus estudos de programação. Sou professor em transiç
 
 ## Como usar
 
-1. Baixe o **[PDF do guia](./Git_para_iniciantes.pdf)** para ter a visão geral do fluxo
+1. Baixe o **[PDF do guia](https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/git/Git_para_iniciantes.pdf)** para ter a visão geral do fluxo
 2. Use as **tabelas** deste README para copiar comandos no terminal
 3. Em caso de erro, vá direto para a seção [Erros comuns](#erros-comuns)
 4. Pratique com o [Exercicio pratico](#exercicio-pratico) usando este repositório
@@ -60,7 +60,7 @@ Material criado durante meus estudos de programação. Sou professor em transiç
 
 Material completo em alta qualidade, com texto selecionável e layout profissional:
 
-**[Baixar Git_para_iniciantes.pdf](./Git_para_iniciantes.pdf)**
+**[Baixar Git_para_iniciantes.pdf](https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/git/Git_para_iniciantes.pdf)**
 
 O PDF inclui: fluxo básico, stage, commits, branches, merge, push/pull, fluxo recomendado, conceitos, boas práticas e comandos de emergência.
 
@@ -265,8 +265,8 @@ Pratique o fluxo Git usando este repositório:
 1. Clone o repositório (se ainda não tiver):
 
 ```bash
-git clone https://github.com/GustaFranz/exercicios_python.git
-cd exercicios_python
+git clone https://github.com/GustaFranz/python_exercises.git
+cd python_exercises
 ```
 
 2. Crie uma branch de teste:

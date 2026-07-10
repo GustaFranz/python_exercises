@@ -29,7 +29,7 @@ def main() -> None:
     draw.rectangle([0, ALTURA - 8, LARGURA, ALTURA], fill="#FFD43B")
     draw.rectangle([0, 0, 6, ALTURA], fill="#3776AB")
 
-    draw.text((48, 52), "exercicios_python", fill="#FFD43B", font=_fonte(42, True))
+    draw.text((48, 52), "python_exercises", fill="#FFD43B", font=_fonte(42, True))
     draw.text(
         (48, 110),
         "Prof. Gustavo Franz  ·  Science/Biology  ·  Python Developer in Progress",
@@ -38,7 +38,7 @@ def main() -> None:
     )
     draw.text(
         (48, 155),
-        "128 exercicios propostos  ·  71 resolvidos  |  5 guias em PDF  |  codigo aberto",
+        "128 exercicios propostos  ·  71 resolvidos  |  7 guias em PDF  |  codigo aberto",
         fill="#7FA7C2",
         font=_fonte(18),
     )
