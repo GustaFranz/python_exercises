@@ -4,7 +4,7 @@ Trilha de exercicios progressivos que cobre os fundamentos de Python: do primeir
 
 **Total:** 136 exercicios numerados (`01` a `136`, com `56A` e `56B`).
 
-[← Voltar ao README principal](../README.md)
+[← Voltar ao README principal](../README.md) · [Intermediario](../02_intermediate_advanced/) · [Bibliotecas](../03_python_libraries/) · [Materiais PDF](../04_study_materials/)
 
 ---
 
@@ -358,4 +358,4 @@ Detalhes completos: [Convencoes no README principal](../README.md#convencoes).
 
 ## Materiais de apoio
 
-Guias em PDF para temas desta trilha: [materiais de estudo](../materiais/).
+Guias em PDF para temas desta trilha: [materiais de estudo](../04_study_materials/).

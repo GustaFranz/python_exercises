@@ -11,53 +11,53 @@ Cada PDF foi produzido com **texto vetorial** (nítido em qualquer zoom), pensad
 <table>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Dicionarios_em_Python.pdf" download="Dicionarios_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Dicionarios_em_Python.pdf" download="Dicionarios_em_Python.pdf">
 <img src="../assets/cards/dicionarios.png" alt="Dicionarios em Python" width="100%">
 </a>
 <br><br>
 <strong>Dicionarios em Python</strong><br>
 <sub>Criação, .get(), métodos, aninhamento, iteração</sub><br><br>
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Dicionarios_em_Python.pdf" download="Dicionarios_em_Python.pdf">Baixar PDF</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Dicionarios_em_Python.pdf" download="Dicionarios_em_Python.pdf">Baixar PDF</a>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Listas_em_Python.pdf" download="Listas_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Listas_em_Python.pdf" download="Listas_em_Python.pdf">
 <img src="../assets/cards/listas.png" alt="Listas em Python" width="100%">
 </a>
 <br><br>
 <strong>Listas em Python</strong><br>
 <sub>Índices, fatiamento, sort/sorted, set, carrinho</sub><br><br>
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Listas_em_Python.pdf" download="Listas_em_Python.pdf">Baixar PDF</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Listas_em_Python.pdf" download="Listas_em_Python.pdf">Baixar PDF</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tuplas_em_Python.pdf" download="Tuplas_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Tuplas_em_Python.pdf" download="Tuplas_em_Python.pdf">
 <img src="../assets/cards/tuplas.png" alt="Tuplas em Python" width="100%">
 </a>
 <br><br>
 <strong>Tuplas em Python</strong><br>
 <sub>Imutabilidade, operações, fatiamento, médias escolares</sub><br><br>
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tuplas_em_Python.pdf" download="Tuplas_em_Python.pdf">Baixar PDF</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Tuplas_em_Python.pdf" download="Tuplas_em_Python.pdf">Baixar PDF</a>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tratamento_de_Strings_em_Python.pdf" download="Tratamento_de_Strings_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Tratamento_de_Strings_em_Python.pdf" download="Tratamento_de_Strings_em_Python.pdf">
 <img src="../assets/cards/strings.png" alt="Tratamento de Strings" width="100%">
 </a>
 <br><br>
 <strong>Tratamento de Strings</strong><br>
 <sub>Métodos de manipulação, verificações, analisador de frases</sub><br><br>
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Tratamento_de_Strings_em_Python.pdf" download="Tratamento_de_Strings_em_Python.pdf">Baixar PDF</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Tratamento_de_Strings_em_Python.pdf" download="Tratamento_de_Strings_em_Python.pdf">Baixar PDF</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Pathlib_e_Shutil_em_Python.pdf" download="Pathlib_e_Shutil_em_Python.pdf">
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Pathlib_e_Shutil_em_Python.pdf" download="Pathlib_e_Shutil_em_Python.pdf">
 <img src="../assets/cards/pathlib_shutil.png" alt="Pathlib e Shutil" width="100%">
 </a>
 <br><br>
 <strong>Pathlib e Shutil</strong><br>
 <sub>Caminhos, glob, mkdir, read/write, move e integração</sub><br><br>
-<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/materiais/python/Pathlib_e_Shutil_em_Python.pdf" download="Pathlib_e_Shutil_em_Python.pdf">Baixar PDF</a>
+<a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/python/Pathlib_e_Shutil_em_Python.pdf" download="Pathlib_e_Shutil_em_Python.pdf">Baixar PDF</a>
 </td>
 <td width="50%" valign="top" align="center">
 &nbsp;
@@ -80,7 +80,7 @@ Cada PDF foi produzido com **texto vetorial** (nítido em qualquer zoom), pensad
 ### Gerar o PDF Pathlib e Shutil
 
 ```bash
-python materiais/python/_gerar_pathlib_shutil_pdf.py
+python 04_study_materials/python/_gerar_pathlib_shutil_pdf.py
 ```
 
 ---

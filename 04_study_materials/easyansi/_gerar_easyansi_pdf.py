@@ -2,7 +2,7 @@
 """Gera o guia PDF EasyAnsi_em_Python.pdf.
 
 Execute na raiz do repositorio:
-    python materiais/easyansi/_gerar_easyansi_pdf.py
+    python 04_study_materials/easyansi/_gerar_easyansi_pdf.py
 """
 
 from __future__ import annotations

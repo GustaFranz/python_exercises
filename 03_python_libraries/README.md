@@ -4,7 +4,7 @@ Laboratorio de mini-projetos para dominar **bibliotecas e automacao** usadas em 
 
 **Total:** 28 exercicios (`01` a `28`).
 
-[← Voltar ao README principal](../README.md) · [Fundamentos](../01_python_fundamentals/) · [Intermediario](../02_intermediate_advanced/)
+[← Voltar ao README principal](../README.md) · [Fundamentos](../01_python_fundamentals/) · [Intermediario](../02_intermediate_advanced/) · [Materiais PDF](../04_study_materials/)
 
 ---
 
@@ -164,6 +164,12 @@ Detalhes completos: [Convencoes no README principal](../README.md#convencoes).
 2. Complete **01 a 07** antes de avancar no pandas — sao a base de caminhos do boletim.
 3. Ao terminar cada fase, responda a **avaliacao** antes de abrir o gabarito.
 4. Volte ao [boletim escolar](https://github.com/GustaFranz/automacao-dashboard-boletim-escolar) e releia o modulo correspondente.
+
+---
+
+## Materiais de apoio
+
+Guias em PDF relacionados (pathlib, shutil, pandas): [materiais de estudo](../04_study_materials/).
 
 ---
 

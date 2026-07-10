@@ -2,7 +2,7 @@
 """Gera miniaturas PNG dos PDFs para cards no README.
 
 Execute na raiz do repositorio:
-    python materiais/_gerar_previews.py
+    python 04_study_materials/_gerar_previews.py
 """
 
 from __future__ import annotations

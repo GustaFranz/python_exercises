@@ -4,7 +4,7 @@
 >
 > Este material foi produzido **apenas para fins de estudo pessoal**. Ele ainda nao passou
 > por revisao final nem pela organizacao visual dos guias publicados em
-> `materiais/python/`. Posteriormente, o conteudo sera **desmembrado, revisado e publicado**
+> `04_study_materials/python/`. Posteriormente, o conteudo sera **desmembrado, revisado e publicado**
 > de forma mais organizada no repositorio.
 >
 > **Autor:** Prof. Gustavo Franz (Science/Biology) · Python Developer in Progress

@@ -2,7 +2,7 @@
 """Insere a pagina sobre sorted() e set() no guia de listas.
 
 Execute na raiz do repositorio:
-    python materiais/python/_atualizar_listas_pdf.py
+    python 04_study_materials/python/_atualizar_listas_pdf.py
 """
 
 from __future__ import annotations

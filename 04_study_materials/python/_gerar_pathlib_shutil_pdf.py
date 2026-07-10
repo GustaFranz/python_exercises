@@ -2,7 +2,7 @@
 """Gera o guia PDF Pathlib_e_Shutil_em_Python.pdf.
 
 Execute na raiz do repositorio:
-    python materiais/python/_gerar_pathlib_shutil_pdf.py
+    python 04_study_materials/python/_gerar_pathlib_shutil_pdf.py
 
 Conteudo baseado na documentacao oficial Python 3.14.6 (pathlib e shutil).
 """

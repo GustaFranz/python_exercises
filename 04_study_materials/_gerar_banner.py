@@ -2,7 +2,7 @@
 """Gera banner PNG para o README principal.
 
 Execute:
-    python materiais/_gerar_banner.py
+    python 04_study_materials/_gerar_banner.py
 """
 
 from pathlib import Path

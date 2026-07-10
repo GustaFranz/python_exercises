@@ -2,7 +2,7 @@
 """Layout compartilhado para geracao de PDFs educacionais.
 
 Funcoes reutilizaveis de cabecalho, rodape, texto, codigo, tabelas e diagramas.
-Usado pelos scripts em materiais/python/, materiais/easyansi/ e similares.
+Usado pelos scripts em 04_study_materials/python/, 04_study_materials/easyansi/ e similares.
 """
 
 from __future__ import annotations

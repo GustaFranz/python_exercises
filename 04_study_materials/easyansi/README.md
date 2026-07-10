@@ -6,7 +6,7 @@ Material de apoio em PDF sobre a biblioteca EasyAnsi.
 
 ```bash
 cd python_exercises
-python materiais/easyansi/_gerar_easyansi_pdf.py
+python 04_study_materials/easyansi/_gerar_easyansi_pdf.py
 ```
 
 ## Arquivo

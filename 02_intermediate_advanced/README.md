@@ -4,7 +4,7 @@ Trilha de exercicios em nivel **intermediario**: mais desafiadores que os fundam
 
 **Total:** 125 exercicios publicados (`01` a `125`) — trilha completa.
 
-[← Voltar ao README principal](../README.md) · [Fundamentos Python](../01_python_fundamentals/) · [Bibliotecas e automacao](../03_python_libraries/)
+[← Voltar ao README principal](../README.md) · [Fundamentos Python](../01_python_fundamentals/) · [Bibliotecas e automacao](../03_python_libraries/) · [Materiais PDF](../04_study_materials/)
 
 ---
 
@@ -401,4 +401,4 @@ Detalhes completos: [Convencoes no README principal](../README.md#convencoes).
 
 ## Materiais de apoio
 
-Guias em PDF e referencias: [materiais de estudo](../materiais/).
+Guias em PDF e referencias: [materiais de estudo](../04_study_materials/).
