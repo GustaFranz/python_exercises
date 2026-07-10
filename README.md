@@ -34,7 +34,7 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** â
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/128-propostos-3776AB?style=for-the-badge" alt="128 exercicios propostos"></a><br><br>
+<a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/137-propostos-3776AB?style=for-the-badge" alt="137 exercicios propostos"></a><br><br>
 <strong>Progressivos</strong><br>
 <sub>Do basico ao avancado, numerados e documentados</sub>
 </td>
@@ -409,6 +409,47 @@ Indice completo tambem em **[01_python_fundamentals](./01_python_fundamentals/)*
 | 93 | Validacao de senha | [Abrir](./01_python_fundamentals/93_validacao_senha/) |
 | 94 | Analise de texto | [Abrir](./01_python_fundamentals/94_analise_texto/) |
 | 95 | Gerador de relatorios de turma | [Abrir](./01_python_fundamentals/95_gerador_relatorios_turma/) |
+
+</details>
+
+<details>
+<summary><strong>Funcoes com *args (128-130)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 128 | Funcao com *args: soma variavel | [Abrir](./01_python_fundamentals/128_funcao_com_args_soma/) |
+| 129 | Funcao com *args: media de notas | [Abrir](./01_python_fundamentals/129_funcao_com_args_media/) |
+| 130 | Funcao com *args: relatorio do aluno | [Abrir](./01_python_fundamentals/130_funcao_com_args_relatorio/) |
+
+</details>
+
+<details>
+<summary><strong>Funcoes com **kwargs (131-133)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 131 | Funcao com **kwargs: perfil do aluno | [Abrir](./01_python_fundamentals/131_funcao_com_kwargs_perfil/) |
+| 132 | Funcao com **kwargs: mensagem personalizada | [Abrir](./01_python_fundamentals/132_funcao_com_kwargs_mensagem/) |
+| 133 | Funcao com **kwargs: registro de presenca | [Abrir](./01_python_fundamentals/133_funcao_com_kwargs_presenca/) |
+
+</details>
+
+<details>
+<summary><strong>Desafio de funcoes (134)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 134 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./01_python_fundamentals/134_desafio_tres_funcoes_pedido/) |
+
+</details>
+
+<details>
+<summary><strong>Funcao de ordem superior (135-136)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 135 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./01_python_fundamentals/135_funcao_ordem_superior_filtrar/) |
+| 136 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./01_python_fundamentals/136_funcao_ordem_superior_transformar/) |
 
 </details>
 

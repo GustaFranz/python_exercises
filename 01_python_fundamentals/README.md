@@ -2,7 +2,7 @@
 
 Trilha de exercicios progressivos que cobre os fundamentos de Python: do primeiro `print` ate funcoes, estruturas de dados, modulos, bibliotecas padrao, APIs e tratamento de excecoes.
 
-**Total:** 127 exercicios numerados (`01` a `127`, com `56A` e `56B`).
+**Total:** 136 exercicios numerados (`01` a `136`, com `56A` e `56B`).
 
 [← Voltar ao README principal](../README.md)
 
@@ -217,6 +217,47 @@ python main.py
 | 93 | Validacao de senha | [Abrir](./93_validacao_senha/) |
 | 94 | Analise de texto | [Abrir](./94_analise_texto/) |
 | 95 | Gerador de relatorios de turma | [Abrir](./95_gerador_relatorios_turma/) |
+
+</details>
+
+<details>
+<summary><strong>Funcoes com *args (128-130)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 128 | Funcao com *args: soma variavel | [Abrir](./128_funcao_com_args_soma/) |
+| 129 | Funcao com *args: media de notas | [Abrir](./129_funcao_com_args_media/) |
+| 130 | Funcao com *args: relatorio do aluno | [Abrir](./130_funcao_com_args_relatorio/) |
+
+</details>
+
+<details>
+<summary><strong>Funcoes com **kwargs (131-133)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 131 | Funcao com **kwargs: perfil do aluno | [Abrir](./131_funcao_com_kwargs_perfil/) |
+| 132 | Funcao com **kwargs: mensagem personalizada | [Abrir](./132_funcao_com_kwargs_mensagem/) |
+| 133 | Funcao com **kwargs: registro de presenca | [Abrir](./133_funcao_com_kwargs_presenca/) |
+
+</details>
+
+<details>
+<summary><strong>Desafio de funcoes (134)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 134 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./134_desafio_tres_funcoes_pedido/) |
+
+</details>
+
+<details>
+<summary><strong>Funcao de ordem superior (135-136)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 135 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./135_funcao_ordem_superior_filtrar/) |
+| 136 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./136_funcao_ordem_superior_transformar/) |
 
 </details>
 
