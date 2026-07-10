@@ -226,7 +226,7 @@ python main.py
 
 ## Navegacao dos exercicios
 
-Indice completo em **[01_python_fundamentals](./01_python_fundamentals/)** (fundamentos) e **[02_intermediate_advanced](./02_intermediate_advanced/)** (intermediario — em construcao).
+Indice completo em **[01_python_fundamentals](./01_python_fundamentals/)** (fundamentos) e **[02_intermediate_advanced](./02_intermediate_advanced/)** (intermediario — 125 exercicios).
 
 <details open>
 <summary><strong>Fundamentos (01-04)</strong></summary>
@@ -584,7 +584,7 @@ python_exercises/
 │       └── main.py
 ├── 02_intermediate_advanced/
 │   ├── README.md
-│   └── NN_nome_exercicio/    # em construcao
+│   └── NN_nome_exercicio/    # 125 exercicios
 │       ├── README.md
 │       └── main.py
 └── materiais/
