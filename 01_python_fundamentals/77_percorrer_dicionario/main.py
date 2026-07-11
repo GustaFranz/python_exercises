@@ -21,8 +21,10 @@ for aluno, nota in notas.items():
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro loop com .items() no dicionario
+# Nome e nota na mesma iteracao do for
+# Alinhamento de colunas com :<20 na f-string
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

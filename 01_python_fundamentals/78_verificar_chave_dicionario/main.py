@@ -39,8 +39,10 @@ while True:
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Operador in para testar chave no dict
+# while True com break, continue e input do usuario
+# capitalize() para padronizar nome digitado
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

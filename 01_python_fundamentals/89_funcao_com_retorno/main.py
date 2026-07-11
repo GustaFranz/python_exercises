@@ -26,8 +26,10 @@ print(f' {result_1}, {result_2}')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro return guardando resultado em variavel
+# somar() devolve valor para usar fora da funcao
+# Separei calculo (return) de exibicao (print)
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

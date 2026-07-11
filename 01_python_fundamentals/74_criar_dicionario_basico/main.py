@@ -25,8 +25,10 @@ print(aluno)
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro contato com dicionario {chave: valor}
+# Pares nome, idade e cidade no mesmo registro
+# Exibir dict completo com print() direto
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

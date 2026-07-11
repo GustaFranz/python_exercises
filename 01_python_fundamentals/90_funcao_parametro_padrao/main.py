@@ -27,8 +27,10 @@ preco_final(200, 5)  #Quando colocar valor no lugar do valor padrão, substitue
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeira vez com parametro padrao desconto=10
+# Chamada sem segundo argumento usa o padrao
+# Passar 5 sobrescreve o valor default
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

@@ -46,8 +46,13 @@ print(f'//green/o aluno com maior nota é:/green //yellow/{max(alunos, key=aluno
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Dois dicts derivados com if/else por nota
+# max(alunos, key=alunos.get) para maior nota
+# Media da turma com sum() e len() nos values
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

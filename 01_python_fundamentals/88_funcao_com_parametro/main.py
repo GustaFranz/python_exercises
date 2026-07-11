@@ -23,8 +23,10 @@ saudacao("Pedro")
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Parametro nome torna a funcao reutilizavel
+# Mesma saudacao() para Ana e Pedro
+# Primeiro passo: funcao que recebe dado de fora
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

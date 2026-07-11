@@ -39,8 +39,13 @@ print(f'//green/A média de frequência é: //yellow/{media_frequencia}')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Dict de disciplinas classificado por percentual
+# Media geral com sum(values) / len(dict)
+# Alerta automatico para frequencia abaixo de 75%
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

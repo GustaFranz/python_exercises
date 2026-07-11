@@ -32,8 +32,13 @@ print(f'//green/estoque atualizado:/green //yellow/{estoque}/yellow')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Cruzar vendas e estoque pelo mesmo nome de chave
+# Atualizar quantidade e impedir estoque negativo
+# Dict como tabela mutavel de produtos
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

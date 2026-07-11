@@ -31,8 +31,13 @@ print(f'//green/Tarefas ordenadas:/green //yellow/{list_tarefas_ordenadas}/yello
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro contato com set() para remover duplicatas
+# sorted() para ordenar a lista sem duplicar tarefas
+# Animado em ver tarefas unicas e ordenadas com poucas linhas
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

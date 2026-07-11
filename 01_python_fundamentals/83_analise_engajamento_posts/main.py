@@ -54,8 +54,13 @@ print(f'O post com maior engajamento é: {max(posts, key=posts.get)}')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Classificar posts em dicts por faixa de curtidas
+# if/elif encadeado percorrendo .items()
+# max(posts, key=posts.get) para pico de engajamento
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

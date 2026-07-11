@@ -21,8 +21,10 @@ print(f'Nome: {aluno["nome"]} | '
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Acesso a valores por chave com colchetes
+# f-string juntando mais de um campo do dict
+# Reforco: chave errada gera KeyError
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

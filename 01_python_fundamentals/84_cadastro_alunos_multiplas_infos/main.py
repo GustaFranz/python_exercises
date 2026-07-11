@@ -45,8 +45,13 @@ print(f'//green/O aluno mais frequente (menos faltas) é:/green //yellow/{aluno_
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro dict aninhado: aluno -> {nota, faltas}
+# Regra dupla: nota e limite de faltas no if
+# min(alunos, key=funcao) para aluno mais frequente
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

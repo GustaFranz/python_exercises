@@ -43,8 +43,14 @@ print(f'//green/Percentual de frequencia:/green //yellow/{porcentagem_frequencia
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Limpeza de lista: manter so P e F com in e append
+# Metodo count() para total de presencas e faltas
+# Percentual de frequencia com len() no denominador
+# Primeira correcao de dados invalidos em lista de chamada
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

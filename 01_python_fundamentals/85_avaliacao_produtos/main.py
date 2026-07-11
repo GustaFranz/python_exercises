@@ -40,8 +40,13 @@ print(f'//green/O produto melhor avaliado é:/green //yellow/{max(produtos, key=
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Separar produtos em dois dicts por nota minima
+# max(produtos, key=produtos.get) sem loop extra
+# Dict como catalogo com criterio de qualidade
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

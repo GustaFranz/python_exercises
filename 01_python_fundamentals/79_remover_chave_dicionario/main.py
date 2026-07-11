@@ -31,8 +31,10 @@ print(estoque)
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Metodo pop() remove chave e devolve valor
+# Segundo argumento em pop evita erro se chave nao existir
+# Comparar estoque antes e depois da remocao
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

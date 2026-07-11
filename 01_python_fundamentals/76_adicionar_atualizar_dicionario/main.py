@@ -22,8 +22,10 @@ print(produto)
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Incluir nova chave apos criar o dict
+# Atribuicao produto["estoque"] = valor atualiza o registro
+# Dict e mutavel — cresce sem recriar tudo
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

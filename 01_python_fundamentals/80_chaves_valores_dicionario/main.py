@@ -30,8 +30,10 @@ print(list(notas.values()))
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro uso de .keys() e .values()
+# list() transforma visoes do dict em listas
+# Separar nomes e notas sem loop manual
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

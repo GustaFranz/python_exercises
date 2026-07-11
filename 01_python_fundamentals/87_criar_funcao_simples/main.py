@@ -24,8 +24,10 @@ boas_vindas()
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeira funcao com def sem parametros
+# Encapsular print repetido em boas_vindas()
+# Animado em chamar a mesma funcao tres vezes
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
