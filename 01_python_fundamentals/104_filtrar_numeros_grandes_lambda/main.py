@@ -16,13 +16,25 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
 
+numeros = [3, 8, 15, 22, 7, 30, 4, 18]
+numeros_maiores_dez = list(filter(lambda x: x > 10, numeros))
+
+print(f'//green/Números maiores que 10/green //yellow/{numeros_maiores_dez}/yellow')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# filter(lambda x: x > 10, numeros) mantem so os grandes
+# Lambda como criterio booleano no filter
+# list() materializa o resultado filtrado
+# Animado em separar valores sem escrever for
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

@@ -29,8 +29,14 @@ print(f'//green/Os preços com reajuste são/green //yellow/{precos_com_reajuste
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro contato com map() para transformar lista
+# Lambda aplica reajuste de 10% em cada preco
+# list(map(...)) gera nova lista sem alterar original
+# round() dentro da lambda deixa valor legivel
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

@@ -30,8 +30,12 @@ print(f'A quantidade de aprovados é: {quantidade_aprovados}')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro contato com filter() junto de lambda
+# Lambda retorna True quando nota >= 6
+# list() converte o filtro em lista utilizavel
+# len() conta aprovados sem loop manual
+# Animado em filtrar a turma em poucas linhas
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
