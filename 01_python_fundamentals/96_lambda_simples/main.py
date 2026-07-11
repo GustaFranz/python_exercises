@@ -14,13 +14,27 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
 
+dobro = lambda x: x * 2
+
+print(f'//green/ O dobro de 2 é/green //yellow/{dobro(2)}/yellow,\n '
+      f'//green/O dobro de 5 é/green //yellow/{dobro(5)}/yellow,\n '
+      f'//green/O dobro de 10 é/green //yellow/{dobro(10)}/yellow,\n '
+      f'//green/O dobro de 25 é/green //yellow/{dobro(25)}/yellow')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeiro contato com lambda: funcao anonima em uma linha
+# Sintaxe lambda x: x * 2 substitui def para calculo simples
+# Chamar dobro(5) igual a uma funcao normal
+# Animado em ver retorno automatico sem usar return
+# Utilizacao da biblioteca EasyAnsi para melhoria visual do sistema
+#
+# Link do repositorio da biblioteca EasyAnsi: https://github.com/GustaFranz/easyansi
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
