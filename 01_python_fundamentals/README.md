@@ -2,7 +2,7 @@
 
 Trilha de exercicios progressivos que cobre os fundamentos de Python: do primeiro `print` ate funcoes, estruturas de dados, modulos, bibliotecas padrao, APIs e tratamento de excecoes.
 
-**Total:** 137 pastas de exercicios (`01` a `136`, com `56A` e `56B`).
+**Total:** 145 pastas de exercicios (`01` a `144`, com `56A` e `56B`).
 
 [← Voltar ao README principal](../README.md) · [Intermediario](../02_intermediate_advanced/) · [Bibliotecas](../03_python_libraries/) · [Materiais PDF](../04_study_materials/)
 
@@ -221,48 +221,48 @@ python main.py
 </details>
 
 <details>
-<summary><strong>Funcoes com *args (128-130)</strong></summary>
+<summary><strong>Funcoes com *args (136-138)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 128 | Funcao com *args: soma variavel | [Abrir](./128_funcao_com_args_soma/) |
-| 129 | Funcao com *args: media de notas | [Abrir](./129_funcao_com_args_media/) |
-| 130 | Funcao com *args: relatorio do aluno | [Abrir](./130_funcao_com_args_relatorio/) |
+| 136 | Funcao com *args: soma variavel | [Abrir](./136_funcao_com_args_soma/) |
+| 137 | Funcao com *args: media de notas | [Abrir](./137_funcao_com_args_media/) |
+| 138 | Funcao com *args: relatorio do aluno | [Abrir](./138_funcao_com_args_relatorio/) |
 
 </details>
 
 <details>
-<summary><strong>Funcoes com **kwargs (131-133)</strong></summary>
+<summary><strong>Funcoes com **kwargs (139-141)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 131 | Funcao com **kwargs: perfil do aluno | [Abrir](./131_funcao_com_kwargs_perfil/) |
-| 132 | Funcao com **kwargs: mensagem personalizada | [Abrir](./132_funcao_com_kwargs_mensagem/) |
-| 133 | Funcao com **kwargs: registro de presenca | [Abrir](./133_funcao_com_kwargs_presenca/) |
+| 139 | Funcao com **kwargs: perfil do aluno | [Abrir](./139_funcao_com_kwargs_perfil/) |
+| 140 | Funcao com **kwargs: mensagem personalizada | [Abrir](./140_funcao_com_kwargs_mensagem/) |
+| 141 | Funcao com **kwargs: registro de presenca | [Abrir](./141_funcao_com_kwargs_presenca/) |
 
 </details>
 
 <details>
-<summary><strong>Desafio de funcoes (134)</strong></summary>
+<summary><strong>Desafio de funcoes (142)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 134 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./134_desafio_tres_funcoes_pedido/) |
+| 142 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./142_desafio_tres_funcoes_pedido/) |
 
 </details>
 
 <details>
-<summary><strong>Funcao de ordem superior (135-136)</strong></summary>
+<summary><strong>Funcao de ordem superior (143-144)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 135 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./135_funcao_ordem_superior_filtrar/) |
-| 136 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./136_funcao_ordem_superior_transformar/) |
+| 143 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./143_funcao_ordem_superior_filtrar/) |
+| 144 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./144_funcao_ordem_superior_transformar/) |
 
 </details>
 
 <details>
-<summary><strong>Funcoes lambda (96-101)</strong></summary>
+<summary><strong>Funcoes lambda (96-109)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -272,72 +272,80 @@ python main.py
 | 99 | Ordenar produtos com lambda | [Abrir](./99_ordenar_produtos_lambda/) |
 | 100 | Filtrar aprovados com lambda | [Abrir](./100_filtrar_aprovados_lambda/) |
 | 101 | Reajuste de precos com lambda | [Abrir](./101_reajuste_precos_lambda/) |
+| 102 | Ordenar disciplinas com lambda | [Abrir](./102_ordenar_disciplinas_lambda/) |
+| 103 | Ordenar ranking com lambda | [Abrir](./103_ordenar_ranking_lambda/) |
+| 104 | Filtrar numeros grandes com lambda | [Abrir](./104_filtrar_numeros_grandes_lambda/) |
+| 105 | Filtrar palavras longas com lambda | [Abrir](./105_filtrar_palavras_longas_lambda/) |
+| 106 | Dobrar numeros com map e lambda | [Abrir](./106_map_dobrar_numeros_lambda/) |
+| 107 | Capitalizar nomes com map e lambda | [Abrir](./107_map_capitalizar_nomes_lambda/) |
+| 108 | Arredondar medias com lambda | [Abrir](./108_round_medias_lambda/) |
+| 109 | Arredondar precos com lambda | [Abrir](./109_round_precos_lambda/) |
 
 </details>
 
 <details>
-<summary><strong>Modulos e pacotes (102-107)</strong></summary>
+<summary><strong>Modulos e pacotes (110-115)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 102 | Calculadora modular | [Abrir](./102_calculadora_modular/) |
-| 103 | Analise de notas com modulos | [Abrir](./103_analise_notas_modulos/) |
-| 104 | Organizador de arquivos por modulos | [Abrir](./104_organizador_arquivos_modulos/) |
-| 105 | Cadastro de alunos modular | [Abrir](./105_cadastro_alunos_modular/) |
-| 106 | Analise de vendas com modulos | [Abrir](./106_analise_vendas_modulos/) |
-| 107 | Modulos em pacotes | [Abrir](./107_modulos_em_pacotes/) |
+| 110 | Calculadora modular | [Abrir](./110_calculadora_modular/) |
+| 111 | Analise de notas com modulos | [Abrir](./111_analise_notas_modulos/) |
+| 112 | Organizador de arquivos por modulos | [Abrir](./112_organizador_arquivos_modulos/) |
+| 113 | Cadastro de alunos modular | [Abrir](./113_cadastro_alunos_modular/) |
+| 114 | Analise de vendas com modulos | [Abrir](./114_analise_vendas_modulos/) |
+| 115 | Modulos em pacotes | [Abrir](./115_modulos_em_pacotes/) |
 
 </details>
 
 <details>
-<summary><strong>Bibliotecas (108-113)</strong></summary>
+<summary><strong>Bibliotecas (116-121)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 108 | Planejamento de estudos com datas | [Abrir](./108_planejamento_estudos_datas/) |
-| 109 | Gerador de numeros para questoes | [Abrir](./109_gerador_numeros_questoes/) |
-| 110 | Simulador de sorteio de alunos | [Abrir](./110_simulador_sorteio_alunos/) |
-| 111 | Analisador de texto com biblioteca padrao | [Abrir](./111_analisador_texto_biblioteca_padrao/) |
-| 112 | Tempo de execucao de tarefas | [Abrir](./112_tempo_execucao_tarefas/) |
-| 113 | Analisador de estatisticas com NumPy | [Abrir](./113_analisador_estatisticas_numpy/) |
+| 116 | Planejamento de estudos com datas | [Abrir](./116_planejamento_estudos_datas/) |
+| 117 | Gerador de numeros para questoes | [Abrir](./117_gerador_numeros_questoes/) |
+| 118 | Simulador de sorteio de alunos | [Abrir](./118_simulador_sorteio_alunos/) |
+| 119 | Analisador de texto com biblioteca padrao | [Abrir](./119_analisador_texto_biblioteca_padrao/) |
+| 120 | Tempo de execucao de tarefas | [Abrir](./120_tempo_execucao_tarefas/) |
+| 121 | Analisador de estatisticas com NumPy | [Abrir](./121_analisador_estatisticas_numpy/) |
 
 </details>
 
 <details>
-<summary><strong>Manipulacao de dados (114-118)</strong></summary>
+<summary><strong>Manipulacao de dados (122-126)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 114 | Limpeza de base de dados de alunos | [Abrir](./114_limpeza_base_dados_alunos/) |
-| 115 | Analise de vendas com estrutura de dados | [Abrir](./115_analise_vendas_estrutura_dados/) |
-| 116 | Agrupamento de usuarios por idade | [Abrir](./116_agrupamento_usuarios_idade/) |
-| 117 | Transformacao de dados para relatorio | [Abrir](./117_transformacao_dados_relatorio/) |
-| 118 | Consolidacao de registros de sensores | [Abrir](./118_consolidacao_registros_sensores/) |
+| 122 | Limpeza de base de dados de alunos | [Abrir](./122_limpeza_base_dados_alunos/) |
+| 123 | Analise de vendas com estrutura de dados | [Abrir](./123_analise_vendas_estrutura_dados/) |
+| 124 | Agrupamento de usuarios por idade | [Abrir](./124_agrupamento_usuarios_idade/) |
+| 125 | Transformacao de dados para relatorio | [Abrir](./125_transformacao_dados_relatorio/) |
+| 126 | Consolidacao de registros de sensores | [Abrir](./126_consolidacao_registros_sensores/) |
 
 </details>
 
 <details>
-<summary><strong>APIs (119-122)</strong></summary>
+<summary><strong>APIs (127-130)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 119 | Consulta de clima via API | [Abrir](./119_consulta_clima_api/) |
-| 120 | Cotacao de moeda em tempo real | [Abrir](./120_cotacao_moeda_tempo_real/) |
-| 121 | Consulta de livros via API | [Abrir](./121_consulta_livros_api/) |
-| 122 | Gerador de fatos aleatorios | [Abrir](./122_gerador_fatos_aleatorios/) |
+| 127 | Consulta de clima via API | [Abrir](./127_consulta_clima_api/) |
+| 128 | Cotacao de moeda em tempo real | [Abrir](./128_cotacao_moeda_tempo_real/) |
+| 129 | Consulta de livros via API | [Abrir](./129_consulta_livros_api/) |
+| 130 | Gerador de fatos aleatorios | [Abrir](./130_gerador_fatos_aleatorios/) |
 
 </details>
 
 <details>
-<summary><strong>Tratamento de excecoes (123-127)</strong></summary>
+<summary><strong>Tratamento de excecoes (131-135)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 123 | Entrada segura de notas | [Abrir](./123_entrada_segura_notas/) |
-| 124 | Leitor seguro de divisao | [Abrir](./124_leitor_seguro_divisao/) |
-| 125 | Leitura de arquivos protegida | [Abrir](./125_leitura_arquivos_protegida/) |
-| 126 | Validador de idade para cadastro | [Abrir](./126_validador_idade_cadastro/) |
-| 127 | Login seguro com controle de erro | [Abrir](./127_login_seguro_controle_erro/) |
+| 131 | Entrada segura de notas | [Abrir](./131_entrada_segura_notas/) |
+| 132 | Leitor seguro de divisao | [Abrir](./132_leitor_seguro_divisao/) |
+| 133 | Leitura de arquivos protegida | [Abrir](./133_leitura_arquivos_protegida/) |
+| 134 | Validador de idade para cadastro | [Abrir](./134_validador_idade_cadastro/) |
+| 135 | Login seguro com controle de erro | [Abrir](./135_login_seguro_controle_erro/) |
 
 </details>
 

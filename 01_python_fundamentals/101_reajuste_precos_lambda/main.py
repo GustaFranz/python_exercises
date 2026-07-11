@@ -16,6 +16,14 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
+
+precos = [10.0, 25.5, 8.0, 100.0, 4.9]
+precos_com_reajuste = list(map(lambda x: round(x * 1.1, 1), precos))
+
+print(f'//green/Os preços originais são/green //yellow/{precos}/yellow')
+print(f'//green/Os preços com reajuste são/green //yellow/{precos_com_reajuste}/yellow')
 
 
 # =============================================================================

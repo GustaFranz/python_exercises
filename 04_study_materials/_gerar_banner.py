@@ -38,7 +38,7 @@ def main() -> None:
     )
     draw.text(
         (48, 155),
-        "290 exercicios  ·  71 resolvidos  |  7 guias PDF  |  4 trilhas",
+        "298 exercicios  ·  71 resolvidos  |  7 guias PDF  |  4 trilhas",
         fill="#7FA7C2",
         font=_fonte(18),
     )
