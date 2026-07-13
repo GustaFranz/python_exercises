@@ -64,6 +64,15 @@ Material completo em alta qualidade, com texto selecionável e layout profission
 
 O PDF inclui: fluxo básico, stage, commits, branches, merge, push/pull, fluxo recomendado, conceitos, boas práticas e comandos de emergência.
 
+Para regenerar o PDF (layout unificado com os demais guias):
+
+```bash
+python 04_study_materials/gerar_todos.py
+python 04_study_materials/_gerar_previews.py
+```
+
+Conteudo editavel em `04_study_materials/gerador/conteudo/git.py`.
+
 ---
 
 ## Guia visual (referencia rapida)

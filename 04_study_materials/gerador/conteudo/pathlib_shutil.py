@@ -1,0 +1,250 @@
+# -*- coding: utf-8 -*-
+"""Conteudo: Pathlib e Shutil em Python."""
+
+from ..tema import TEMA_PYTHON
+
+SPEC = {
+    "tema": TEMA_PYTHON,
+    "topico": "PATHLIB E SHUTIL",
+    "destaque": "EM PYTHON",
+    "subtitulo": "Caminhos e arquivos no Python — baseado na documentacao oficial 3.14.6",
+    "simbolo": "Path",
+    "nota_rodape": "Baseado na documentacao oficial Python 3.14.6",
+    "blocos": [
+        {"tipo": "secao", "titulo": "Por que Path em vez de string?"},
+        {"tipo": "tabela",
+         "titulo_tabela": "String x Path",
+         "cabecalho": ["Aspecto", "String", "Path"],
+         "larguras": [0.24, 0.38, 0.38],
+         "mono": [0],
+         "linhas": [
+            ["Juntar pastas", "'pasta' + '/' + 'arquivo'", "pasta / 'arquivo'"],
+            ["Portabilidade", "Barras \\ ou / manual", "Ajusta ao sistema"],
+            ["Metodos uteis", "os.path separado", ".exists(), .glob(), etc."],
+            ["Legibilidade", "Caminho longo confuso", "Objeto com propriedades"],
+         ]},
+
+        {"tipo": "secao", "titulo": "Importar Path e operador /"},
+        {"tipo": "paragrafo",
+         "texto": "Path e a classe principal para caminhos concretos. Ela representa um caminho "
+                  "real no disco da plataforma em que o codigo roda."},
+        {"tipo": "codigo", "linhas": [
+            ("from pathlib import Path", None),
+            ("", None),
+            ("pasta = Path('dados')", None),
+            ("arquivo = pasta / 'simulado_7ano.csv'", None),
+            ("print(arquivo)  # dados/simulado_7ano.csv", None),
+        ]},
+
+        {"tipo": "secao", "titulo": "__file__ e .parent"},
+        {"tipo": "paragrafo",
+         "texto": "__file__ guarda o caminho do script em execucao. Com .parent voce sobe um nivel "
+                  "na arvore de pastas — essencial para achar dados/ sem caminho fixo."},
+        {"tipo": "codigo", "linhas": [
+            ("pasta_projeto = Path(__file__).resolve().parent", None),
+            ("pasta_dados = pasta_projeto / 'dados'", None),
+            ("print(pasta_projeto)", None),
+            ("print(pasta_dados.exists())", None),
+        ]},
+        {"tipo": "callout", "titulo": "Regra de ouro",
+         "texto": [
+            "Nunca use C:/Users/... fixo no codigo.",
+            "Use Path(__file__).parent para achar a pasta do exercicio.",
+         ]},
+
+        {"tipo": "secao", "titulo": "Arvore de pastas do projeto boletim"},
+        {"tipo": "paragrafo",
+         "texto": "No projeto automacao-dashboard-boletim-escolar, os modulos ficam em src/ e "
+                  "acessam dados/ e saidas/ na raiz com .parent.parent."},
+        {"tipo": "arvore",
+         "raiz": "automacao-dashboard-boletim-escolar",
+         "itens": [
+            "src/",
+            "  leitor_simulados.py",
+            "  automacao_portal.py",
+            "  consolidacao.py",
+            "dados/",
+            "  simulados/",
+            "  provas/",
+            "saidas/",
+            "  boletins/",
+         ]},
+        {"tipo": "codigo", "linhas": [
+            ("# Script em src/main.py", None),
+            ("raiz = Path(__file__).resolve().parent.parent", None),
+            ("pasta_simulados = raiz / 'dados' / 'simulados'", None),
+            ("pasta_saidas = raiz / 'saidas' / 'boletins'", None),
+        ]},
+        {"tipo": "fluxo", "etapas": ["src/main.py", ".parent", ".parent", "raiz do projeto"]},
+
+        {"tipo": "secao", "titulo": "Propriedades do caminho"},
+        {"tipo": "codigo", "linhas": [
+            ("caminho = Path('dados/simulado_7ano.csv')", None),
+            ("", None),
+            ("caminho.name      # simulado_7ano.csv", None),
+            ("caminho.stem      # simulado_7ano", None),
+            ("caminho.suffix    # .csv", None),
+            ("caminho.parent    # dados", None),
+            ("caminho.parts     # ('dados', 'simulado_7ano.csv')", None),
+        ]},
+        {"tipo": "tabela",
+         "titulo_tabela": "Referencia rapida",
+         "cabecalho": ["Propriedade", "Retorna", "Exemplo"],
+         "larguras": [0.22, 0.34, 0.44],
+         "mono": [0],
+         "linhas": [
+            [".name", "Nome com extensao", "notas.csv"],
+            [".stem", "Nome sem extensao", "notas"],
+            [".suffix", "Extensao", ".csv"],
+            [".parent", "Pasta pai", "dados/"],
+            [".parts", "Tupla de partes", "('/', 'etc', 'hosts')"],
+         ]},
+
+        {"tipo": "secao", "titulo": "exists(), is_file(), is_dir()"},
+        {"tipo": "fluxo", "etapas": ["Caminho", "exists()?", "is_file()?", "Agir com seguranca"]},
+        {"tipo": "codigo", "linhas": [
+            ("arquivo = pasta_dados / 'simulado_7ano.csv'", None),
+            ("", None),
+            ("if arquivo.exists():", None),
+            ("    print('Arquivo encontrado')", None),
+            ("if arquivo.is_file():", None),
+            ("    print('E um arquivo')", None),
+            ("if pasta_dados.is_dir():", None),
+            ("    print('E uma pasta')", None),
+        ]},
+        {"tipo": "callout", "titulo": "Padrao do projeto real",
+         "texto": [
+            "Sempre verificar .exists() antes de ler ou mover.",
+            "Evita FileNotFoundError e mensagens confusas.",
+            "Usado em automacao_portal.py antes do shutil.move.",
+         ]},
+
+        {"tipo": "secao", "titulo": "glob() e rglob() — buscar arquivos"},
+        {"tipo": "paragrafo",
+         "texto": "glob busca na pasta atual; rglob busca recursivamente em subpastas. "
+                  "Retornam um iterador de objetos Path."},
+        {"tipo": "tabela",
+         "titulo_tabela": "Padroes comuns",
+         "cabecalho": ["Padrao", "O que encontra"],
+         "larguras": [0.30, 0.70],
+         "mono": [0],
+         "linhas": [
+            ["'*.csv'", "CSV na pasta atual"],
+            ["'**/*.csv'", "CSV em qualquer subpasta"],
+            ["'simulado_*.csv'", "CSV com prefixo simulado_"],
+            ["'*.xlsx'", "Planilhas Excel"],
+         ]},
+        {"tipo": "codigo", "linhas": [
+            ("pasta = Path('dados')", None),
+            ("for csv in pasta.glob('*.csv'):", None),
+            ("    print(csv)", None),
+            ("", None),
+            ("for csv in pasta.rglob('**/*.csv'):", None),
+            ("    print(csv.resolve())", None),
+        ]},
+
+        {"tipo": "secao", "titulo": "mkdir(), touch(), unlink()"},
+        {"tipo": "codigo", "linhas": [
+            ("pasta_saida = raiz / 'saidas' / 'boletins'", None),
+            ("pasta_saida.mkdir(parents=True, exist_ok=True)", None),
+            ("", None),
+            ("arquivo = pasta_saida / 'aluno_01.html'", None),
+            ("arquivo.touch()       # cria vazio se nao existir", None),
+            ("arquivo.unlink()      # apaga o arquivo", None),
+        ]},
+        {"tipo": "tabela",
+         "cabecalho": ["Metodo", "Funcao", "Parametro importante"],
+         "larguras": [0.20, 0.40, 0.40],
+         "mono": [0],
+         "linhas": [
+            ["mkdir()", "Cria pasta", "parents=True, exist_ok=True"],
+            ["touch()", "Cria arquivo vazio", "—"],
+            ["unlink()", "Remove arquivo", "Verificar exists() antes"],
+            ["rename()", "Renomeia/move", "Destino nao pode existir*"],
+         ]},
+        {"tipo": "paragrafo",
+         "texto": "parents=True cria pastas intermediarias. exist_ok=True evita erro se a pasta ja existir."},
+
+        {"tipo": "secao", "titulo": "read_text() e write_text()"},
+        {"tipo": "paragrafo",
+         "texto": "Metodos convenientes para ler e gravar texto. Sempre use encoding='utf-8' "
+                  "para acentos e caracteres especiais."},
+        {"tipo": "codigo", "linhas": [
+            ("conteudo = arquivo.read_text(encoding='utf-8')", None),
+            ("", None),
+            ("html = '<html><body><h1>Boletim</h1></body></html>'", None),
+            ("destino = pasta_saida / 'boletim_aluno.html'", None),
+            ("destino.write_text(html, encoding='utf-8')", None),
+        ]},
+        {"tipo": "callout", "titulo": "Exemplo do projeto boletim",
+         "texto": [
+            "consolidacao.py grava CSV em saidas/",
+            "boletins.py gera HTML por aluno com write_text.",
+            "Sempre criar pasta de saida com mkdir antes.",
+         ]},
+
+        {"tipo": "secao", "titulo": "resolve(), absolute(), relative_to()"},
+        {"tipo": "codigo", "linhas": [
+            ("p = Path('dados/../dados/simulado.csv')", None),
+            ("p.resolve()      # caminho absoluto, sem ..", None),
+            ("p.absolute()     # absoluto a partir do cwd", None),
+            ("", None),
+            ("base = Path('/projeto')", None),
+            ("arquivo = base / 'dados/notas.csv'", None),
+            ("arquivo.relative_to(base)  # dados/notas.csv", None),
+        ]},
+        {"tipo": "fluxo", "etapas": ["Path(__file__)", ".resolve()", ".parent", ".parent", "raiz"]},
+        {"tipo": "paragrafo",
+         "texto": "resolve() elimina .. e links simbolicos quando possivel. "
+                  "Use para exibir caminhos completos ou comparar localizacoes."},
+
+        {"tipo": "secao", "titulo": "Shutil — operacoes de alto nivel"},
+        {"tipo": "paragrafo",
+         "texto": "O modulo shutil complementa o pathlib: pathlib localiza caminhos; "
+                  "shutil copia, move e remove arquivos e pastas inteiras."},
+        {"tipo": "tabela",
+         "titulo_tabela": "Qual funcao de copia usar?",
+         "cabecalho": ["Funcao", "Copia conteudo", "Copia metadados"],
+         "larguras": [0.24, 0.38, 0.38],
+         "mono": [0],
+         "linhas": [
+            ["copyfile()", "Sim", "Nao"],
+            ["copy()", "Sim", "Permissoes"],
+            ["copy2()", "Sim", "Permissoes + datas"],
+            ["copystat()", "Nao", "So metadados"],
+         ]},
+        {"tipo": "codigo", "linhas": [
+            ("import shutil", None),
+            ("", None),
+            ("shutil.copy('origem.csv', 'destino.csv')", None),
+            ("shutil.copy2('origem.csv', 'backup.csv')", None),
+        ]},
+
+        {"tipo": "secao", "titulo": "move(), copytree(), rmtree()"},
+        {"tipo": "fluxo", "etapas": ["Downloads/", "exists()?", "unlink destino", "shutil.move", "dados/simulados/"]},
+        {"tipo": "codigo", "linhas": [
+            ("def mover_csv_baixado(nome: str) -> None:", None),
+            ("    origem = pasta_downloads / nome", None),
+            ("    destino = pasta_simulados / nome", None),
+            ("    if not origem.exists():", None),
+            ("        print('Origem nao encontrada')", None),
+            ("        return", None),
+            ("    if destino.exists():", None),
+            ("        destino.unlink()", None),
+            ("    shutil.move(origem, destino)", None),
+            ("    print(f'Arquivo movido para: {destino}')", None),
+        ]},
+        {"tipo": "paragrafo", "texto": "Funcoes extras uteis:"},
+        {"tipo": "codigo", "linhas": [
+            ("shutil.copytree('src_pasta', 'dst_pasta')", None),
+            ("shutil.rmtree('pasta_temp')", None),
+            ("shutil.disk_usage('/')  # total, usado, livre", None),
+            ("shutil.which('python')  # caminho do executavel", None),
+        ]},
+
+        {"tipo": "secao", "titulo": "Exercicio integrado"},
+        {"tipo": "paragrafo",
+         "texto": "Combine pathlib + shutil: (1) glob para achar CSV em downloads/, "
+                  "(2) mkdir em dados/simulados/, (3) move com shutil, (4) confirme com exists()."},
+    ],
+}

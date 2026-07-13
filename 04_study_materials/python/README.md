@@ -77,10 +77,11 @@ Cada PDF foi produzido com **texto vetorial** (nítido em qualquer zoom), pensad
 | **Strings** | Métodos de manipulação, verificações, exercício analisador de frases |
 | **Pathlib e Shutil** | Path, operador `/`, glob, mkdir, read/write, shutil.move, integração com automação |
 
-### Gerar o PDF Pathlib e Shutil
+### Regenerar os PDFs desta pasta
 
 ```bash
-python 04_study_materials/python/_gerar_pathlib_shutil_pdf.py
+python 04_study_materials/gerar_todos.py
+python 04_study_materials/_gerar_previews.py
 ```
 
 ---

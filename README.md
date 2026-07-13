@@ -625,12 +625,26 @@ python_exercises/
 │       └── dados/            # quando aplicavel
 └── 04_study_materials/
     ├── README.md
-    ├── _layout.py       # layout compartilhado dos PDFs
-    ├── assets/          # banner e cards (previews dos PDFs)
+    ├── gerar_todos.py       # gera todos os PDFs (ReportLab)
+    ├── requirements.txt     # reportlab, PyMuPDF, Pillow
+    ├── gerador/             # motor + conteudo SPEC
+    ├── _gerar_previews.py   # cards PNG para o README
+    ├── _gerar_banner.py
+    ├── assets/              # banner e cards (previews dos PDFs)
     ├── easyansi/
     ├── git/
     └── python/
 ```
+
+Para regenerar os guias PDF e os cards apos editar conteudo:
+
+```bash
+pip install -r 04_study_materials/requirements.txt
+python 04_study_materials/gerar_todos.py
+python 04_study_materials/_gerar_previews.py
+```
+
+Detalhes em [04_study_materials/README.md](./04_study_materials/README.md).
 
 ---
 

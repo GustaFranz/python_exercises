@@ -106,6 +106,20 @@ Clique no card ou no link **PDF** para baixar o arquivo.
 
 ---
 
+## Regenerar PDFs e cards
+
+Todos os guias usam o mesmo pipeline (ReportLab + conteudo em `SPEC`):
+
+```bash
+pip install -r 04_study_materials/requirements.txt
+python 04_study_materials/gerar_todos.py
+python 04_study_materials/_gerar_previews.py
+```
+
+Conteudo editavel em `04_study_materials/gerador/conteudo/`. Layout compartilhado em `gerador/tema.py` e `gerador/componentes.py`.
+
+---
+
 ## Outros projetos
 
 <table>
