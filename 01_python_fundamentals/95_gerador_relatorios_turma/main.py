@@ -37,7 +37,7 @@ def obter_media(dicionario_alunos):
     return soma_notas / total_alunos
 
 
-def obter_aprovados (dicionario_alunos):
+def obter_aprovados(dicionario_alunos):
     
     lista_aprovados = []
     
@@ -47,7 +47,7 @@ def obter_aprovados (dicionario_alunos):
     return lista_aprovados
 
        
-def obter_alunos_recuperacao (dicionario_alunos):
+def obter_alunos_recuperacao(dicionario_alunos):
     
     lista_alunos_recuperacao = []
 
@@ -57,7 +57,7 @@ def obter_alunos_recuperacao (dicionario_alunos):
     return lista_alunos_recuperacao
 
 
-def obter_reprovados (dicionario_alunos):
+def obter_reprovados(dicionario_alunos):
     
     lista_reprovados = []
     
