@@ -18,7 +18,7 @@
 # =============================================================================
 notas = [7.5, 3.2, 8.0, 6.5, 4.0, 9.1, 2.8, 5.5, 6.0, 10.0]
 
-lista_aprovados = list(filter(lambda nota: nota >=6, notas))
+lista_aprovados = list(filter(lambda nota: nota >= 6, notas))
 quantidade_aprovados = len(lista_aprovados)
 
 print(f'A lista de aprivados é {lista_aprovados}')
