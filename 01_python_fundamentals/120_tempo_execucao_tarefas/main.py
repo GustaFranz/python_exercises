@@ -18,35 +18,39 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import time
+
 import easyansi
+
 easyansi.activate()
+
 
 def medir_tempo_execucao(funcao, *args, **kwargs):
     """Mede o tempo de execucao de uma funcao"""
-    import time
     inicio = time.perf_counter()
     resultado = funcao(*args, **kwargs)
     fim = time.perf_counter()
     tempo_execucao = fim - inicio
     return tempo_execucao, resultado
 
+
 def tarefa_simulada_1():
     """Simula uma tarefa com tempo de execucao de 1 segundo"""
-    import time
     time.sleep(1)
     return "Tarefa 1 concluida"
 
+
 def tarefa_simulada_2():
     """Simula uma tarefa com tempo de execucao de 2 segundos"""
-    import time
     time.sleep(2)
-    return "Tarefa 2 concluida" 
+    return "Tarefa 2 concluida"
+
 
 def tarefa_simulada_3():
     """Simula uma tarefa com tempo de execucao de 0.5 segundos"""
-    import time
     time.sleep(0.5)
     return "Tarefa 3 concluida"
+
 
 def main():
     tarefas = [
@@ -54,7 +58,6 @@ def main():
         ("Tarefa 2", tarefa_simulada_2),
         ("Tarefa 3", tarefa_simulada_3)
     ]
-
 
     resultados = []
     for nome, funcao in tarefas:
@@ -74,8 +77,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

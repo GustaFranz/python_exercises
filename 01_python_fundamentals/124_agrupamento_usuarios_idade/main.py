@@ -19,6 +19,7 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 import easyansi
+
 easyansi.activate()
 
 usuarios = [

@@ -24,6 +24,7 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 import easyansi
+
 easyansi.activate()
 
 dados = [{"nome": "Ana", "nota": 7.5}, {"nome": "Bruno", "nota": -3},

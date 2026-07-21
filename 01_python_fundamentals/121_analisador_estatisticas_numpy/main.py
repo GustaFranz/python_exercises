@@ -19,7 +19,9 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 import numpy as np
+
 import easyansi
+
 easyansi.activate()
 
 dados = [10, 20, 30, 40, 50, 60, 70, 80]
@@ -29,33 +31,34 @@ def calcular_media(dados):
     """Calcula a media dos dados"""
     return float(np.mean(dados))
 
+
 def calcular_desvio(dados):
     """Calcula o desvio simples dos dados"""
     media = calcular_media(dados)
     return [float(abs(x - media)) for x in dados]
+
 
 def identificar_acima_media(dados):
     """Identifica os valores acima da media"""
     media = calcular_media(dados)
     return [float(x) for x in dados if x > media]
 
-print(f"//green/Dados: //magenta/{dados}")
-print(f'//yellow/---------------------------------------------------------------')
-media = calcular_media(dados)
-print(f"//green/Media: //magenta/{media}")
-print(f'//yellow/---------------------------------------------------------------')
-desvio = calcular_desvio(dados)
-print(f"//green/Desvio simples: //magenta/{desvio}")
-print(f'//yellow/---------------------------------------------------------------')
-acima_media = identificar_acima_media(dados)
-print(f"//green/Valores acima da media:, //magenta/{acima_media}\n")
+
+def main():
+    print(f"//green/Dados: //magenta/{dados}")
+    print(f'//yellow/---------------------------------------------------------------')
+    media = calcular_media(dados)
+    print(f"//green/Media: //magenta/{media}")
+    print(f'//yellow/---------------------------------------------------------------')
+    desvio = calcular_desvio(dados)
+    print(f"//green/Desvio simples: //magenta/{desvio}")
+    print(f'//yellow/---------------------------------------------------------------')
+    acima_media = identificar_acima_media(dados)
+    print(f"//green/Valores acima da media:, //magenta/{acima_media}\n")
 
 
-
-
-
-
-
+if __name__ == "__main__":
+    main()
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
