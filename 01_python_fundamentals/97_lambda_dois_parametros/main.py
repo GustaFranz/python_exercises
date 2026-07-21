@@ -19,10 +19,10 @@
 soma = lambda x, y: x + y
 area_retangulo = lambda b, h: b * h
 
-#CALCULAR SOMA 60 + 7 
-print(f'A soma de 60 e 7 é {soma(60,7)}')
+# CALCULAR SOMA 60 + 7
+print(f'A soma de 60 e 7 é {soma(60, 7)}')
 
-#CALCULAR SOMA -12 + 7
+# CALCULAR SOMA -12 + 7
 print(f'A soma de -12 e 7 é {soma(-12, 7)}')
 
 # CALCULAR ÁREA DO RETANCULOS DE BASE = 10  E ALTURA = 6
