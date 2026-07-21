@@ -19,18 +19,23 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 import easyansi
+
 easyansi.activate()
 
 notas = [7.5, 3.2, 8.0, 6.5, 4.0]
 
+
 def obter_media(notas):
     return sum(notas) / len(notas)
+
 
 def obter_maior_nota(notas):
     return max(notas)
 
+
 def obter_menor_nota(notas):
     return min(notas)
+
 
 def verificar_situacao_aluno(notas):
     media_final = obter_media(notas)
@@ -41,13 +46,16 @@ def verificar_situacao_aluno(notas):
     else:
         return "Situação: REPROVADO"
 
-print(f'Média: {obter_media(notas):.2f}')
-print(f'Maior nota: {obter_maior_nota(notas):.2f}')
-print(f'Menor_nota: {obter_menor_nota(notas):.2f}')
-print(f'Situação: {verificar_situacao_aluno(notas)}')
+
+def main():
+    print(f'Média: {obter_media(notas):.2f}')
+    print(f'Maior nota: {obter_maior_nota(notas):.2f}')
+    print(f'Menor_nota: {obter_menor_nota(notas):.2f}')
+    print(f'Situação: {verificar_situacao_aluno(notas)}')
 
 
-
+if __name__ == "__main__":
+    main()
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================

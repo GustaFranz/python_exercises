@@ -18,13 +18,14 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
-def preco_final (preco, desconto = 10):
+def preco_final(preco, desconto=10):
     final = preco - ((desconto / 100) * preco)
     print(f'Com o desconto de {desconto} %, o valor final é {final}')
-    
-preco_final(200) #como ja foi definido desconto padrão de 10%, então não precisa colocar
 
-preco_final(200, 5)  #Quando colocar valor no lugar do valor padrão, substitue
+
+preco_final(200)  # como ja foi definido desconto padrão de 10%, então não precisa colocar
+
+preco_final(200, 5)  # Quando colocar valor no lugar do valor padrão, substitue
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
