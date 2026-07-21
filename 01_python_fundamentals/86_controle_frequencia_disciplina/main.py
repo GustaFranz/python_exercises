@@ -25,7 +25,7 @@ aprovados = {}
 em_alerta = {}
 
 frequencia = {"matematica": 85, "portugues": 70, "historia": 90, "ciencias": 60, "geografia": 75}
-media_frequencia = sum(frequencia.values())  / len(frequencia)
+media_frequencia = sum(frequencia.values()) / len(frequencia)
     
 for disciplina, frequencia_alunos in frequencia.items():
     if frequencia_alunos < 75:
