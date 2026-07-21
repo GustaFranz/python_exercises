@@ -19,6 +19,52 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+import easyansi
+easyansi.activate()
+
+def calcular_media(notas):
+    return sum(notas) / len(notas)
+
+
+alunos = []
+while True:
+    nome = input("Digite o nome do aluno: ")
+    if nome.strip() == "":
+        print("Nome invalido. Por favor, digite um nome valido.")
+        continue
+
+    notas = []
+    for i in range(5):
+        while True:
+            try:
+                nota = float(input(f"Digite a nota {i + 1} do aluno {nome}: "))
+                if nota < 0 or nota > 10:
+                    print(f"//red/Nota invalida. Por favor, digite uma nota entre 0 e 10.")
+                else:
+                    break
+            except ValueError:
+                print(f"//red/Entrada invalida. Por favor, digite um numero valido.")
+        notas.append(nota)
+
+    media = calcular_media(notas)
+    alunos.append({"nome": nome, "media": media})
+    print(f"A media do aluno //green/{nome} é: //green/{media:.2f}")
+
+    while True:
+        continuar = input("Deseja cadastrar outro aluno? [S/N]: ").strip().lower()
+        if continuar in ("s", "n"):
+            break
+        print("Opcao invalida. Digite S para continuar ou N para encerrar.")
+
+    if continuar == "n":
+        break
+
+print("\n//magenta/----------------------------- //yellow/RELATORIO FINAL //magenta/-----------------------------")
+for numero, aluno in enumerate(alunos, start=1):
+    print(f"{numero}. {aluno['nome']}: media {aluno['media']:.2f}")
+print(f'//yellow/---------------------------------------------------------------------------')
+print(f"Total de alunos cadastrados: {len(alunos)}")
+
 
 
 # =============================================================================

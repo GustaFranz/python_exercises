@@ -1,0 +1,2 @@
+py-easyansi==0.5.1
+-r 03_python_libraries/requirements.txt

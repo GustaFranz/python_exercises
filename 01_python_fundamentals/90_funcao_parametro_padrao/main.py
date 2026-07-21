@@ -17,7 +17,8 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
-def preco_final(preco, desconto=10):
+
+def preco_final (preco, desconto=10):
     final = preco - ((desconto/100)*preco)
     print(f'Com o desconto de {desconto}%, o valor final é {final}')
     
