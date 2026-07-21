@@ -23,13 +23,13 @@ easyansi.activate()
 
 notas = [7.5, 3.2, 8.0, 6.5, 4.0]
 
-def obter_media (notas):
+def obter_media(notas):
     return sum(notas) / len(notas)
 
-def obter_maior_nota (notas):
+def obter_maior_nota(notas):
     return max(notas)
 
-def obter_menor_nota (notas):
+def obter_menor_nota(notas):
     return min(notas)
 
 def verificar_situacao_aluno(notas):
