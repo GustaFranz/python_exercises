@@ -20,15 +20,16 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
-import easyansi
-easyansi.activate()
-
-# Importando a biblioteca de expressões regulares (Regex). 
-# Tradução: o 're' vai analisar os padrões no texto pra mim sem eu precisar fazer 10 'ifs'.
 import re
 
-# Minha lista de senhas que o enunciado mandou testar
+import easyansi
+
+easyansi.activate()
+
+# Importando a biblioteca de expressões regulares (Regex).
+# Tradução: o 're' vai analisar os padrões no texto pra mim sem eu precisar fazer 10 'ifs'.
 senhas = ["abc123", "Senha123", "python2024", "SEGURA99", "fraca"]
+
 
 def validar_senha(senha):
     """
@@ -40,23 +41,21 @@ def validar_senha(senha):
     # (?=.*\d)     -> Dá outra espiada e garante: \d de dígito, ou seja, obrigatório ter NÚMERO".
     # .{8,}        -> O ponto é qualquer caractere, e o {8,} diz: "No MÍNIMO 8 de tamanho, menos que isso é inválido".
     padrao = r"^(?=.*[A-Z])(?=.*\d).{8,}$"
-    
+
     # re.match pega a senha e joga contra o padrão pra verificar
     if re.match(padrao, senha):
-        return True   # Passou no teste.
-    return False      # Senha fraca.
+        return True  # Passou no teste.
+    return False  # Senha fraca.
 
 
 def main():
     # Minha função principal pra organizar o relatório e não deixar o código bagunçado.
     print("//magenta/===== VALIDADOR DE SENHAS =====/magenta")
-    
+
     # Loop padrão: vai pegar uma senha por vez dentro da lista (senhas)
     for senha in senhas:
-        
         # Se a função validar_senha disser que é True...
         if validar_senha(senha):
-
             print(f"//green/Senha:/green //yellow/{senha:<12}/yellow -> //bold-green/VALIDA ✓/bold-green")
         else:
             print(f"//green/Senha:/green //yellow/{senha:<12}/yellow -> //bold-red/INVALIDA ✗/bold-red")
