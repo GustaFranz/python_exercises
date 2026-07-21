@@ -19,8 +19,11 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 from random import randint
+
 import easyansi
+
 easyansi.activate()
+
 
 def gerar_pares_aleatorios(qtd_pares, min_valor, max_valor):
     """Gera pares de numeros aleatorios unicos"""
@@ -53,18 +56,18 @@ def main():
     pares_aleatorios = gerar_pares_aleatorios(qtd_pares, min_valor, max_valor)
     resultados = calcular_operacoes(pares_aleatorios)
     print(f"//bold-magenta/============= //bold-blue/GERADOR DE NÚMEROS PARA QUESTÕES //bold-magenta/=============\n")
-          
+
     for resultado in resultados:
         par = resultado['par']
         print(f"//green/Par: //yellow/{par}, "
               f"//green/Soma: //yellow/{resultado['soma']}, "
               f"//green/Subtracao: //yellow/{resultado['subtracao']}, "
               f"//green/Multiplicacao: //yellow/{resultado['multiplicacao']}")
-    print(f"//bold-magenta/==============================================================\n") 
+    print(f"//bold-magenta/==============================================================\n")
+
+
 if __name__ == "__main__":
     main()
-
-
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
