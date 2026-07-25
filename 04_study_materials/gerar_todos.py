@@ -16,13 +16,13 @@ from gerador.conteudo import MATERIAIS
 BASE = Path(__file__).resolve().parent
 
 DESTINOS = {
-    "Dicionarios em Python": BASE / "python" / "Dicionarios_em_Python.pdf",
-    "Listas em Python": BASE / "python" / "Listas_em_Python.pdf",
-    "Tuplas em Python": BASE / "python" / "Tuplas_em_Python.pdf",
-    "Tratamento de Strings em Python": BASE / "python" / "Tratamento_de_Strings_em_Python.pdf",
-    "Git para iniciantes": BASE / "git" / "Git_para_iniciantes.pdf",
-    "Pathlib e Shutil em Python": BASE / "python" / "Pathlib_e_Shutil_em_Python.pdf",
-    "EasyAnsi em Python": BASE / "easyansi" / "EasyAnsi_em_Python.pdf",
+    "Dicionarios em Python": BASE / "guias" / "Dicionarios_em_Python.pdf",
+    "Listas em Python": BASE / "guias" / "Listas_em_Python.pdf",
+    "Tuplas em Python": BASE / "guias" / "Tuplas_em_Python.pdf",
+    "Tratamento de Strings em Python": BASE / "guias" / "Tratamento_de_Strings_em_Python.pdf",
+    "Git para iniciantes": BASE / "guias" / "Git_para_iniciantes.pdf",
+    "Pathlib e Shutil em Python": BASE / "guias" / "Pathlib_e_Shutil_em_Python.pdf",
+    "EasyAnsi em Python": BASE / "guias" / "EasyAnsi_em_Python.pdf",
 }
 
 

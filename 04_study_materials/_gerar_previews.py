@@ -18,15 +18,15 @@ CARD_W, CARD_H = 640, 360
 ZOOM = 2.0
 
 MATERIAIS = (
-    ("git", BASE / "git" / "Git_para_iniciantes.pdf", "Git para iniciantes", "#F05133"),
-    ("dicionarios", BASE / "python" / "Dicionarios_em_Python.pdf", "Dicionarios", "#3776AB"),
-    ("listas", BASE / "python" / "Listas_em_Python.pdf", "Listas", "#3776AB"),
-    ("tuplas", BASE / "python" / "Tuplas_em_Python.pdf", "Tuplas", "#3776AB"),
-    ("strings", BASE / "python" / "Tratamento_de_Strings_em_Python.pdf", "Strings", "#3776AB"),
-    ("easyansi", BASE / "easyansi" / "EasyAnsi_em_Python.pdf", "EasyAnsi", "#3776AB"),
+    ("git", BASE / "guias" / "Git_para_iniciantes.pdf", "Git para iniciantes", "#F05133"),
+    ("dicionarios", BASE / "guias" / "Dicionarios_em_Python.pdf", "Dicionarios", "#3776AB"),
+    ("listas", BASE / "guias" / "Listas_em_Python.pdf", "Listas", "#3776AB"),
+    ("tuplas", BASE / "guias" / "Tuplas_em_Python.pdf", "Tuplas", "#3776AB"),
+    ("strings", BASE / "guias" / "Tratamento_de_Strings_em_Python.pdf", "Strings", "#3776AB"),
+    ("easyansi", BASE / "guias" / "EasyAnsi_em_Python.pdf", "EasyAnsi", "#3776AB"),
     (
         "pathlib_shutil",
-        BASE / "python" / "Pathlib_e_Shutil_em_Python.pdf",
+        BASE / "guias" / "Pathlib_e_Shutil_em_Python.pdf",
         "Pathlib e Shutil",
         "#2E7D32",
     ),

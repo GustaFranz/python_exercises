@@ -1,17 +1,17 @@
 # Guia Git para iniciantes
 
-**Link público para compartilhar:** https://github.com/GustaFranz/python_exercises/tree/main/04_study_materials/git
+**Link público para compartilhar:** https://github.com/GustaFranz/python_exercises/tree/main/04_study_materials/guias
 
 Material criado durante meus estudos de programação. Sou professor em transição para a área de TI e compartilho aqui o que aprendo no caminho — não como especialista, mas como alguém que ainda lembra das dificuldades iniciais.
 
 **Se só lembrar de 3 comandos hoje:** `git status`, `git add .`, `git commit -m "mensagem"`.
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/git/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf">
+  <a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/guias/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf">
     <img src="../assets/cards/git.png" alt="Git para iniciantes — preview do PDF" width="70%">
   </a>
   <br><br>
-  <a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/git/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf"><strong>Baixar Git_para_iniciantes.pdf</strong></a>
+  <a href="https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/guias/Git_para_iniciantes.pdf" download="Git_para_iniciantes.pdf"><strong>Baixar Git_para_iniciantes.pdf</strong></a>
 </p>
 
 ---
@@ -50,7 +50,7 @@ Material criado durante meus estudos de programação. Sou professor em transiç
 
 ## Como usar
 
-1. Baixe o **[PDF do guia](https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/git/Git_para_iniciantes.pdf)** para ter a visão geral do fluxo
+1. Baixe o **[PDF do guia](https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/guias/Git_para_iniciantes.pdf)** para ter a visão geral do fluxo
 2. Use as **tabelas** deste README para copiar comandos no terminal
 3. Em caso de erro, vá direto para a seção [Erros comuns](#erros-comuns)
 4. Pratique com o [Exercício prático](#exercício-prático) usando este repositório
@@ -61,7 +61,7 @@ Material criado durante meus estudos de programação. Sou professor em transiç
 
 Material completo em alta qualidade, com texto selecionável e layout profissional:
 
-**[Baixar Git_para_iniciantes.pdf](https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/git/Git_para_iniciantes.pdf)**
+**[Baixar Git_para_iniciantes.pdf](https://raw.githubusercontent.com/GustaFranz/python_exercises/main/04_study_materials/guias/Git_para_iniciantes.pdf)**
 
 O PDF inclui: fluxo básico, stage, commits, branches, merge, push/pull, fluxo recomendado, conceitos, criação de repositório no GitHub pelo terminal (gh), boas práticas e comandos de emergência.
 

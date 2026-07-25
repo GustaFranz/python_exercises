@@ -18,6 +18,53 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+class SenhaInvalidaError(Exception):
+    """Lançado quando houver entrada inválida para Senha"""
+
+#APESAR DO FATO DE QUE NOS CASOS REAIS AS MENSAGENS DE ERRO NÃO TRAZEREM ESSAS DICAS PARA O CASO DE ALGUÉM QUERER DESCOBRIR, 
+#COLOQUEI ESSAS MENSGAENS PARA TREINAR O TRATAMENTO DE ERROS
+
+senha_real = "1GustAvo2"
+
+def validar_senha(senha_digitada):
+    if senha_digitada.strip() == "":
+        raise SenhaInvalidaError("A senha deve conter pelo menos 1 caractere")
+
+    elif not senha_digitada.isalnum():
+        raise SenhaInvalidaError("A senha só pode conter digitos alfanuméricos")
+
+    elif senha_digitada != senha_real:
+        raise SenhaInvalidaError("As senhas não coincidem")
+
+    return True
+
+maximo_tentativas = 3
+tentativas = 0
+
+while tentativas < maximo_tentativas:
+    senha_input = input("Digite a sua senha: ")
+
+    try:
+        validar_senha(senha_input)
+
+    except SenhaInvalidaError as e:
+        print(f'Erro: {e}')
+        tentativas += 1
+        restantes = maximo_tentativas - tentativas
+
+        if restantes > 0:
+            print(f'Você ainda tem {restantes} tentativas')
+
+    else:
+        print("\nLogin realizado com sucesso!")
+        break
+
+else:
+    print("\nNúmero máximo de tentativas excedido. Acesso bloqueado!")
+
+
+
+
 
 
 # =============================================================================
