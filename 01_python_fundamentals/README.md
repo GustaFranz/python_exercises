@@ -2,7 +2,7 @@
 
 Trilha de exercicios progressivos que cobre os fundamentos de Python: do primeiro `print` ate funcoes, estruturas de dados, modulos, bibliotecas padrao, APIs e tratamento de excecoes.
 
-**Total:** 145 pastas de exercicios (`01` a `144`, com `56A` e `56B`).
+**Total:** 160 pastas de exercicios (`01` a `159`, com `56A` e `56B`).
 
 [← Voltar ao README principal](../README.md) · [Intermediario](../02_intermediate_advanced/) · [Bibliotecas](../03_python_libraries/) · [Materiais PDF](../04_study_materials/)
 
@@ -221,43 +221,43 @@ python main.py
 </details>
 
 <details>
-<summary><strong>Funcoes com *args (136-138)</strong></summary>
+<summary><strong>Funcoes com *args (151-153)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 136 | Funcao com *args: soma variavel | [Abrir](./136_funcao_com_args_soma/) |
-| 137 | Funcao com *args: media de notas | [Abrir](./137_funcao_com_args_media/) |
-| 138 | Funcao com *args: relatorio do aluno | [Abrir](./138_funcao_com_args_relatorio/) |
+| 151 | Funcao com *args: soma variavel | [Abrir](./151_funcao_com_args_soma/) |
+| 152 | Funcao com *args: media de notas | [Abrir](./152_funcao_com_args_media/) |
+| 153 | Funcao com *args: relatorio do aluno | [Abrir](./153_funcao_com_args_relatorio/) |
 
 </details>
 
 <details>
-<summary><strong>Funcoes com **kwargs (139-141)</strong></summary>
+<summary><strong>Funcoes com **kwargs (154-156)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 139 | Funcao com **kwargs: perfil do aluno | [Abrir](./139_funcao_com_kwargs_perfil/) |
-| 140 | Funcao com **kwargs: mensagem personalizada | [Abrir](./140_funcao_com_kwargs_mensagem/) |
-| 141 | Funcao com **kwargs: registro de presenca | [Abrir](./141_funcao_com_kwargs_presenca/) |
+| 154 | Funcao com **kwargs: perfil do aluno | [Abrir](./154_funcao_com_kwargs_perfil/) |
+| 155 | Funcao com **kwargs: mensagem personalizada | [Abrir](./155_funcao_com_kwargs_mensagem/) |
+| 156 | Funcao com **kwargs: registro de presenca | [Abrir](./156_funcao_com_kwargs_presenca/) |
 
 </details>
 
 <details>
-<summary><strong>Desafio de funcoes (142)</strong></summary>
+<summary><strong>Desafio de funcoes (157)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 142 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./142_desafio_tres_funcoes_pedido/) |
+| 157 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./157_desafio_tres_funcoes_pedido/) |
 
 </details>
 
 <details>
-<summary><strong>Funcao de ordem superior (143-144)</strong></summary>
+<summary><strong>Funcao de ordem superior (158-159)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 143 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./143_funcao_ordem_superior_filtrar/) |
-| 144 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./144_funcao_ordem_superior_transformar/) |
+| 158 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./158_funcao_ordem_superior_filtrar/) |
+| 159 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./159_funcao_ordem_superior_transformar/) |
 
 </details>
 
@@ -346,6 +346,29 @@ python main.py
 | 133 | Leitura de arquivos protegida | [Abrir](./133_leitura_arquivos_protegida/) |
 | 134 | Validador de idade para cadastro | [Abrir](./134_validador_idade_cadastro/) |
 | 135 | Login seguro com controle de erro | [Abrir](./135_login_seguro_controle_erro/) |
+
+</details>
+
+<details>
+<summary><strong>Match/case — validacao de dados (136-150)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 136 | Validador de conceito escolar com match/case | [Abrir](./136_match_case_validador_conceito_escolar/) |
+| 137 | Classificador de rendimento do aluno | [Abrir](./137_match_case_classificador_rendimento_aluno/) |
+| 138 | Nivel de desempenho na biblioteca escolar | [Abrir](./138_match_case_nivel_desempenho_biblioteca/) |
+| 139 | Validador de categoria etaria | [Abrir](./139_match_case_validador_categoria_etaria/) |
+| 140 | Categoria de matricula escolar | [Abrir](./140_match_case_categoria_matricula_escolar/) |
+| 141 | Etapa educacional no cadastro de alunos | [Abrir](./141_match_case_etapa_educacional_cadastro/) |
+| 142 | Validador de forma de pagamento | [Abrir](./142_match_case_validador_forma_pagamento/) |
+| 143 | Confirmador de venda na cantina | [Abrir](./143_match_case_confirmador_venda_cantina/) |
+| 144 | Registro de pagamento na loja escolar | [Abrir](./144_match_case_registro_pagamento_loja/) |
+| 145 | Validador de tipo de passagem | [Abrir](./145_match_case_validador_tipo_passagem/) |
+| 146 | Classificador de transporte municipal | [Abrir](./146_match_case_classificador_transporte_municipal/) |
+| 147 | Controle de acesso ao transporte escolar | [Abrir](./147_match_case_controle_acesso_transporte/) |
+| 148 | Validador de tipo de documento | [Abrir](./148_match_case_validador_tipo_documento/) |
+| 149 | Cadastro de identificacao de usuario | [Abrir](./149_match_case_cadastro_identificacao_usuario/) |
+| 150 | Registro de documentos na secretaria | [Abrir](./150_match_case_registro_documentos_secretaria/) |
 
 </details>
 

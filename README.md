@@ -231,12 +231,12 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 
 | Area | Exercicios | Link |
 |------|------------|------|
-| **01 — Fundamentals** | 145 | [Indice](./01_python_fundamentals/) |
+| **01 — Fundamentals** | 160 | [Indice](./01_python_fundamentals/) |
 | **02 — Intermediate** | 125 | [Indice](./02_intermediate_advanced/) |
 | **03 — Libraries** | 28 | [Indice](./03_python_libraries/) |
 | **04 — Study Materials** | 7 guias PDF | [Indice](./04_study_materials/) |
 
-**Total:** 298 exercicios + materiais de apoio.
+**Total:** 313 exercicios + materiais de apoio.
 
 <details open>
 <summary><strong>Fundamentos (01-04)</strong></summary>
@@ -423,43 +423,43 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Funcoes com *args (136-138)</strong></summary>
+<summary><strong>Funcoes com *args (151-153)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 136 | Funcao com *args: soma variavel | [Abrir](./01_python_fundamentals/136_funcao_com_args_soma/) |
-| 137 | Funcao com *args: media de notas | [Abrir](./01_python_fundamentals/137_funcao_com_args_media/) |
-| 138 | Funcao com *args: relatorio do aluno | [Abrir](./01_python_fundamentals/138_funcao_com_args_relatorio/) |
+| 151 | Funcao com *args: soma variavel | [Abrir](./01_python_fundamentals/151_funcao_com_args_soma/) |
+| 152 | Funcao com *args: media de notas | [Abrir](./01_python_fundamentals/152_funcao_com_args_media/) |
+| 153 | Funcao com *args: relatorio do aluno | [Abrir](./01_python_fundamentals/153_funcao_com_args_relatorio/) |
 
 </details>
 
 <details>
-<summary><strong>Funcoes com **kwargs (139-141)</strong></summary>
+<summary><strong>Funcoes com **kwargs (154-156)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 139 | Funcao com **kwargs: perfil do aluno | [Abrir](./01_python_fundamentals/139_funcao_com_kwargs_perfil/) |
-| 140 | Funcao com **kwargs: mensagem personalizada | [Abrir](./01_python_fundamentals/140_funcao_com_kwargs_mensagem/) |
-| 141 | Funcao com **kwargs: registro de presenca | [Abrir](./01_python_fundamentals/141_funcao_com_kwargs_presenca/) |
+| 154 | Funcao com **kwargs: perfil do aluno | [Abrir](./01_python_fundamentals/154_funcao_com_kwargs_perfil/) |
+| 155 | Funcao com **kwargs: mensagem personalizada | [Abrir](./01_python_fundamentals/155_funcao_com_kwargs_mensagem/) |
+| 156 | Funcao com **kwargs: registro de presenca | [Abrir](./01_python_fundamentals/156_funcao_com_kwargs_presenca/) |
 
 </details>
 
 <details>
-<summary><strong>Desafio de funcoes (142)</strong></summary>
+<summary><strong>Desafio de funcoes (157)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 142 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./01_python_fundamentals/142_desafio_tres_funcoes_pedido/) |
+| 157 | Desafio: sistema de pedidos com tres funcoes | [Abrir](./01_python_fundamentals/157_desafio_tres_funcoes_pedido/) |
 
 </details>
 
 <details>
-<summary><strong>Funcao de ordem superior (143-144)</strong></summary>
+<summary><strong>Funcao de ordem superior (158-159)</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
-| 143 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./01_python_fundamentals/143_funcao_ordem_superior_filtrar/) |
-| 144 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./01_python_fundamentals/144_funcao_ordem_superior_transformar/) |
+| 158 | Funcao de ordem superior: filtrar com lambda interna | [Abrir](./01_python_fundamentals/158_funcao_ordem_superior_filtrar/) |
+| 159 | Funcao de ordem superior: transformar com lambda interna | [Abrir](./01_python_fundamentals/159_funcao_ordem_superior_transformar/) |
 
 </details>
 
@@ -548,6 +548,29 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 | 133 | Leitura de arquivos protegida | [Abrir](./01_python_fundamentals/133_leitura_arquivos_protegida/) |
 | 134 | Validador de idade para cadastro | [Abrir](./01_python_fundamentals/134_validador_idade_cadastro/) |
 | 135 | Login seguro com controle de erro | [Abrir](./01_python_fundamentals/135_login_seguro_controle_erro/) |
+
+</details>
+
+<details>
+<summary><strong>Match/case — validacao de dados (136-150)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 136 | Validador de conceito escolar com match/case | [Abrir](./01_python_fundamentals/136_match_case_validador_conceito_escolar/) |
+| 137 | Classificador de rendimento do aluno | [Abrir](./01_python_fundamentals/137_match_case_classificador_rendimento_aluno/) |
+| 138 | Nivel de desempenho na biblioteca escolar | [Abrir](./01_python_fundamentals/138_match_case_nivel_desempenho_biblioteca/) |
+| 139 | Validador de categoria etaria | [Abrir](./01_python_fundamentals/139_match_case_validador_categoria_etaria/) |
+| 140 | Categoria de matricula escolar | [Abrir](./01_python_fundamentals/140_match_case_categoria_matricula_escolar/) |
+| 141 | Etapa educacional no cadastro de alunos | [Abrir](./01_python_fundamentals/141_match_case_etapa_educacional_cadastro/) |
+| 142 | Validador de forma de pagamento | [Abrir](./01_python_fundamentals/142_match_case_validador_forma_pagamento/) |
+| 143 | Confirmador de venda na cantina | [Abrir](./01_python_fundamentals/143_match_case_confirmador_venda_cantina/) |
+| 144 | Registro de pagamento na loja escolar | [Abrir](./01_python_fundamentals/144_match_case_registro_pagamento_loja/) |
+| 145 | Validador de tipo de passagem | [Abrir](./01_python_fundamentals/145_match_case_validador_tipo_passagem/) |
+| 146 | Classificador de transporte municipal | [Abrir](./01_python_fundamentals/146_match_case_classificador_transporte_municipal/) |
+| 147 | Controle de acesso ao transporte escolar | [Abrir](./01_python_fundamentals/147_match_case_controle_acesso_transporte/) |
+| 148 | Validador de tipo de documento | [Abrir](./01_python_fundamentals/148_match_case_validador_tipo_documento/) |
+| 149 | Cadastro de identificacao de usuario | [Abrir](./01_python_fundamentals/149_match_case_cadastro_identificacao_usuario/) |
+| 150 | Registro de documentos na secretaria | [Abrir](./01_python_fundamentals/150_match_case_registro_documentos_secretaria/) |
 
 </details>
 
