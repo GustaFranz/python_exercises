@@ -366,9 +366,9 @@ python main.py
 | 145 | Validador de tipo de passagem | [Abrir](./145_match_case_validador_tipo_passagem/) |
 | 146 | Classificador de transporte municipal | [Abrir](./146_match_case_classificador_transporte_municipal/) |
 | 147 | Controle de acesso ao transporte escolar | [Abrir](./147_match_case_controle_acesso_transporte/) |
-| 148 | Validador de tipo de documento | [Abrir](./148_match_case_validador_tipo_documento/) |
-| 149 | Cadastro de identificacao de usuario | [Abrir](./149_match_case_cadastro_identificacao_usuario/) |
-| 150 | Registro de documentos na secretaria | [Abrir](./150_match_case_registro_documentos_secretaria/) |
+| 148 | Confirmacao de presenca com alternativas (|) | [Abrir](./148_match_case_confirmacao_presenca_alternativa/) |
+| 149 | Classificador de dia da semana com (|) | [Abrir](./149_match_case_classificador_dia_semana/) |
+| 150 | Status de solicitacao escolar com (|) | [Abrir](./150_match_case_status_solicitacao_escolar/) |
 
 </details>
 

@@ -24,13 +24,48 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+# M (matutino), V (vespertino), N (noturno), I (integral).
+
+class MatriculaInvalidaError(Exception):
+    """Lançada quando o codigo de matricula não for M (matutino), V (vespertino), N (noturno) ou I (integral)."""
+
+def validar_turno_matricula(turno_bruto):
+    turno = turno_bruto.strip().upper()
+    match turno:
+        case "M":
+            return "Matutino"
+        case "V":
+            return "Vespertino"
+        case "N":
+            return "Noturno"
+        case "I":
+            return "Integral"
+        case _:
+            raise MatriculaInvalidaError("Digite uma dessas opções: M (Matutino), V (Vespertino), N (Noturno), I (Integral).")
+
+while True:
+    entrada = input("Digite o turno do aluno: ")
+    turno_maiuscula = entrada.upper()
+
+    try:
+        turno = validar_turno_matricula(entrada)
+        print(f"Turno registrado com sucesso. {turno_maiuscula}: {turno}")
+        break
+
+    except MatriculaInvalidaError as e:
+        print(f'Turno inválido: {e}')
+
 
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# strip().upper() garante que m, V e n caiam no mesmo padrao do match
+# cada case retorna o nome completo do turno da matricula
+# MatriculaInvalidaError no case _ impede turnos fora de M, V, N e I
+# while True com break so encerra quando o turno fica valido
+# Animado em reutilizar o padrao match/case + try/except em novo contexto
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

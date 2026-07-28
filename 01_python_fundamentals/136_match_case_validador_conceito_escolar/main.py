@@ -78,12 +78,48 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+class ConceitoInvalidoError(Exception):
+    """Lancada quando o conceito não e A, B, C, D ou E."""
+
+def validar_conceito(conceito):
+    conceito_limpo = conceito.strip().upper()
+    match conceito_limpo:
+        case "A":
+            return "Excelente desempenho"
+        case "B":
+            return "Bom desempenho"
+        case "C":
+            return "Desempenho regular"
+        case "D":
+            return "Desempenho insatisfatorio"
+        case "E":
+            return "Desempenho critico"
+        case _:
+            raise ConceitoInvalidoError("Conceito invalido. Use A, B, C, D ou E.")
+
+
+while True:
+    entrada = input("Digite o conceito do aluno (A a E): ")
+    try:
+        resultado = validar_conceito(entrada)
+        print(resultado)
+        break
+    except ConceitoInvalidoError as e:
+        print(f"Erro: {e}")
+
+
+
+
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# match/case substitui varios if/elif na classificacao de conceitos A a E
+# strip().upper() padroniza a entrada antes da comparacao
+# case _ com raise ConceitoInvalidoError rejeita valores fora do padrao
+# try/except fora da funcao respeita o SRP e permite nova entrada
+# Animado em usar match/case como ferramenta de validacao de dados
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

@@ -26,13 +26,46 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+class ConceitoInvalidoError(Exception):
+    """Lançada quando o conceito de rendimento não for MB, B, R ou I"""
+
+def validar_rendimento(conceito):
+    rendimento = conceito.strip().upper()
+    match rendimento:
+        case "MB":
+            return "muito bom"
+        case "B":
+            return "bom"
+        case "R":
+            return "regular"
+        case "I":
+            return "insuficiente"
+        case _:
+            raise ConceitoInvalidoError("Conceito inválido. Use uma dessas opções: MB (muito bom), B (bom), R (regular), I (insuficiente).")
+
+while True:
+    entrada = input("Digite o rendimento do aluno (MB, B, R ou I): ")
+    entrada_padronizada = entrada.upper()
+
+    try:
+        resultado = validar_rendimento(entrada)
+        print(f'Conceito registrado com sucesso. {entrada_padronizada}: {resultado}')
+        break
+
+    except ConceitoInvalidoError as e:
+        print(f"Erro: {e}")
+    
 
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Reaproveitei a estrutura do exercicio anterior mudando so o contexto
+# match/case classifica MB, B, R e I com mensagens claras
+# Excecao customizada no case _ impede siglas invalidas
+# while True com try/except pede nova entrada ate o rendimento ficar valido
+# Animado em consolidar match/case na validacao de dados escolares
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

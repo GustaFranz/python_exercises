@@ -70,13 +70,43 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+class PassagemInvalidaError(Exception):
+    """Lançada quando o usuario não digita uma das opções válidas: I (integral), E (estudante), G (gratuidade), S (social)."""
 
+def validar_passagem(passagem_bruta):
+    passagem = passagem_bruta.strip().upper()
+    match passagem:
+        case "I":
+            return "Passagem integral — tarifa completa"
+        case "E":
+            return "Passagem estudante — 50% de desconto"
+        case "G":
+            return "Gratuidade — idoso ou deficiente"
+        case "S":
+            return "Social — tarifa reduzida"
+        case _:
+            raise PassagemInvalidaError("Digite I, E, G ou S.")
+
+while True:
+
+    tipo = input("Tipo de passagem (I/E/G/S): ")
+    tipo_maiuscula = tipo.upper()
+    try:
+        info = validar_passagem(tipo)
+        print(info)
+        break
+    except PassagemInvalidaError as e:
+        print(f"Tipo de Passagem inválida: {e}")
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# match/case classifica tipos de passagem I, E, G e S com mensagens claras
+# PassagemInvalidaError no case _ impede tarifas nao previstas
+# strip().upper() padroniza a entrada antes da validacao
+# try/except no fluxo principal pede nova tentativa sem quebrar o programa
+# Animado em aplicar match/case em regras de transporte escolar
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

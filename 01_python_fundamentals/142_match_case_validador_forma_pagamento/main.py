@@ -66,12 +66,50 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+class PagamentoInvalidoError(Exception):
+    """Lançada quando a forma de pagamento não é uma das opções: D (Dinheiro), C (Cartão), P (PIX), V (Vale Escolar)."""
+
+def validar_forma_pagamento(forma_pagamento_bruto):
+    forma_pagamento = forma_pagamento_bruto.strip().upper()
+    match forma_pagamento:
+        case "D":
+            return "Dinheiro"
+        case "C":
+            return "Catrtão"
+        case "P":
+            return "PIX"
+        case "V":
+            return "Vale Escolar"
+        case _:
+            raise PagamentoInvalidoError("Digite uma das opções: D (Dinheiro), C (Cartão), P (PIX), V (Vale Escolar).")
+
+while True:
+    entrada = input("| D (Dinheiro)\n"
+                    "| C (Cartão)\n"
+                    "| P (PIX)\n"
+                    "| V (Vale Escolar)\n"
+                    "| Digite a forma de pagamento: "
+                    )
+    entrada_maiuscula = entrada.upper()
+    try:
+        forma_pagamento = validar_forma_pagamento(entrada)
+        print(f'\nForma de pagamento escolhida: {entrada_maiuscula} - {forma_pagamento}\n')
+        break
+    except PagamentoInvalidoError as e:
+        print(f'\nForma de pagamento inválido. {e}')
+
+
+
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# match/case valida formas de pagamento D, C, P e V na cantina
+# menu no input deixa as opcoes visiveis antes da digitacao
+# PagamentoInvalidoError no case _ rejeita codigos fora da lista
+# try/except fora da funcao evita misturar regra de negocio com interface
+# Animado em levar o padrao de validacao para contexto comercial
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

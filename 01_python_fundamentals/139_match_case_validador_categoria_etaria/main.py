@@ -63,12 +63,40 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+class CategoriaInvalidaError(Exception):
+    """Lançada quando o ousuário digita uma categoria não presente em 1 (Infantil), 2 (Fundamental), 3 (Médio)."""
+
+def validar_categoria(categoria_bruta):
+    categoria = categoria_bruta.strip()
+    match categoria:
+        case "1":
+            return "Infantil"
+        case "2":
+            return "Fundamental"
+        case "3":
+            return "Médio"
+        case _:
+            raise CategoriaInvalidaError("Digite uma dessas opções: 1 (Infantil), 2 (Fundamental), 3 (Médio).")
+
+while True:
+    entrada = input("Digite a categoria do aluno: ")
+    try:
+        categoria = validar_categoria(entrada)
+        print(f'Categoria registrada com sucesso. {entrada}')
+        break
+
+    except CategoriaInvalidaError as e:
+        print(f'Categoria inválida. {e}')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# match/case funciona bem com codigos numericos tratados como texto
+# cases "1", "2" e "3" mapeiam categoria etaria de forma legivel
+# CategoriaInvalidaError no case _ centraliza a rejeicao de entradas invalidas
+# try/except fora da funcao mantem a separacao de responsabilidades
+# Animado em aplicar match/case em cadastros com codigos simples
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

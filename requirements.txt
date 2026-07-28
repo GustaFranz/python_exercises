@@ -1,2 +1,7 @@
-py-easyansi==0.5.1
+# Terminal colors: import easyansi / easyansi.activate()
+# Preferir o .venv do projeto. Se faltar no Python global:
+#   python -m pip install py-easyansi
+# ou, a partir do codigo local:
+#   python -m pip install "C:\GUSTAVO\PROGRAMAÇAO\PROJETOS\basico\easyansi"
+py-easyansi>=0.5.0
 -r 03_python_libraries/requirements.txt

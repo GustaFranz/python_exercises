@@ -70,8 +70,12 @@ else:
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Excecao customizada SenhaInvalidaError deixa as regras de senha mais claras
+# validar_senha() concentra validacao; try/except fica no loop de tentativas
+# Contador com limite de 3 tentativas evita tentativas infinitas de acesso
+# else do while trata sucesso; else do while externo bloqueia apos o limite
+# Animado em juntar tratamento de erros com controle de tentativas no login
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
