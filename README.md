@@ -21,7 +21,7 @@
 
 Sou professor de **Ciencias e Biologia desde 2013**. Hoje estou em transicao para a area de tecnologia, estudando programacao de forma **estruturada, consistente e publica**.
 
-Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** — do primeiro `print` ate automacao com pandas, streamlit e bibliotecas reais. Sao **298 exercicios** em 4 trilhas, cada um com pasta propria, README e codigo executavel.
+Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** — do primeiro `print` ate automacao com pandas, streamlit e bibliotecas reais. Sao **313 exercicios** em 4 trilhas (**150 resolvidos**), cada um com pasta propria, README e codigo executavel.
 
 **Em uma frase:** alguem que ja ensina, aprende com metodo e compartilha o caminho para ajudar outros.
 
@@ -34,7 +34,7 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** �
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/298-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="298 exercicios"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/71-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="71 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/4-trilhas-11283F?style=for-the-badge" alt="4 trilhas"></a><br><br>
+<a href="#progresso-por-temas"><img src="https://img.shields.io/badge/313-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="313 exercicios"></a> <a href="#progresso-por-temas"><img src="https://img.shields.io/badge/150-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="150 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/4-trilhas-11283F?style=for-the-badge" alt="4 trilhas"></a><br><br>
 <strong>Progressivos</strong><br>
 <sub>Fundamentos, intermediario, bibliotecas e materiais PDF</sub>
 </td>
@@ -225,21 +225,106 @@ python main.py
 
 ---
 
+## Progresso por temas
+
+Contagem atualizada com base no codigo preenchido em cada pasta (`main.py` com resolucao).
+
+| Trilha | Resolvidos | Total | Progresso |
+|--------|------------|-------|-----------|
+| **01 — Fundamentals** | 147 | 160 | 92% |
+| **02 — Intermediate** | 0 | 125 | 0% |
+| **03 — Libraries** | 3 | 28 | 11% |
+| **Total** | **150** | **313** | **48%** |
+
+Materiais de apoio: **7 guias PDF** em [04_study_materials](./04_study_materials/).
+
+### 01 — Fundamentals (por tema)
+
+| Tema | Faixa | Resolvidos | Total |
+|------|-------|------------|-------|
+| Fundamentos | 01-04 | 4 | 4 |
+| Strings e numeros basicos | 05-07 | 3 | 3 |
+| Conversoes e unidades | 08-13 | 6 | 6 |
+| Matematica e geometria | 14-20 | 7 | 7 |
+| Random, strings e jogos | 21-29 | 9 | 9 |
+| Condicionais avancadas | 30-36 | 7 | 7 |
+| Estruturas de dados e sistemas | 37-50 | 14 | 14 |
+| Tuplas | 51-60 | 11 | 11 |
+| Listas | 61-73 | 13 | 13 |
+| Dicionarios | 74-86 | 13 | 13 |
+| Funcoes | 87-95 | 9 | 9 |
+| Funcoes lambda | 96-109 | 14 | 14 |
+| Modulos e pacotes | 110-115 | 6 | 6 |
+| Bibliotecas | 116-121 | 6 | 6 |
+| Manipulacao de dados | 122-126 | 5 | 5 |
+| APIs | 127-130 | 0 | 4 |
+| Tratamento de excecoes | 131-135 | 5 | 5 |
+| Match/case — validacao de dados | 136-150 | 15 | 15 |
+| Funcoes com *args | 151-153 | 0 | 3 |
+| Funcoes com **kwargs | 154-156 | 0 | 3 |
+| Desafio de funcoes | 157 | 0 | 1 |
+| Funcao de ordem superior | 158-159 | 0 | 2 |
+| **Subtotal 01** | | **147** | **160** |
+
+### 02 — Intermediate (por tema)
+
+| Tema | Faixa | Resolvidos | Total |
+|------|-------|------------|-------|
+| List comprehension | 01-05 | 0 | 5 |
+| Dict comprehension | 06-10 | 0 | 5 |
+| Conjuntos set | 11-15 | 0 | 5 |
+| Zip e estruturas cruzadas | 16-20 | 0 | 5 |
+| CRUD lista de dicionarios | 21-25 | 0 | 5 |
+| Merge de duas fontes | 26-30 | 0 | 5 |
+| Persistencia JSON | 31-35 | 0 | 5 |
+| CSV leitura e escrita | 36-40 | 0 | 5 |
+| Context manager with open | 41-45 | 0 | 5 |
+| Excecao customizada e raise | 46-50 | 0 | 5 |
+| Try except else finally | 51-55 | 0 | 5 |
+| Regex com re | 56-60 | 0 | 5 |
+| Recursao | 61-65 | 0 | 5 |
+| Closure | 66-70 | 0 | 5 |
+| Mini-projeto multi-modulo | 71-75 | 0 | 5 |
+| Argparse CLI | 76-80 | 0 | 5 |
+| Logging | 81-85 | 0 | 5 |
+| API com tratamento HTTP | 86-90 | 0 | 5 |
+| Counter e defaultdict | 91-95 | 0 | 5 |
+| Classe simples | 96-100 | 0 | 5 |
+| Heranca simples | 101-105 | 0 | 5 |
+| Dataclass | 106-110 | 0 | 5 |
+| Refatoracao | 111-115 | 0 | 5 |
+| Testes com assert | 116-120 | 0 | 5 |
+| Type hints basicos | 121-125 | 0 | 5 |
+| **Subtotal 02** | | **0** | **125** |
+
+### 03 — Libraries (por tema)
+
+| Tema | Faixa | Resolvidos | Total |
+|------|-------|------------|-------|
+| Pathlib, Shutil e leitura | 01-13 | 3 | 13 |
+| Consolidacao e indicadores | 14-20 | 0 | 7 |
+| Saida, interface e automacao | 21-28 | 0 | 8 |
+| **Subtotal 03** | | **3** | **28** |
+
+Pendencias principais em **01**: APIs (127-130) e blocos de `*args` / `**kwargs` / ordem superior (151-159). Em **03**: pathlib 01-03 ja resolvidos; restante em aberto.
+
+---
+
 ## Navegacao dos exercicios
 
 Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 
-| Area | Exercicios | Link |
-|------|------------|------|
-| **01 — Fundamentals** | 160 | [Indice](./01_python_fundamentals/) |
-| **02 — Intermediate** | 125 | [Indice](./02_intermediate_advanced/) |
-| **03 — Libraries** | 28 | [Indice](./03_python_libraries/) |
-| **04 — Study Materials** | 7 guias PDF | [Indice](./04_study_materials/) |
+| Area | Resolvidos | Total | Link |
+|------|------------|-------|------|
+| **01 — Fundamentals** | 147 | 160 | [Indice](./01_python_fundamentals/) |
+| **02 — Intermediate** | 0 | 125 | [Indice](./02_intermediate_advanced/) |
+| **03 — Libraries** | 3 | 28 | [Indice](./03_python_libraries/) |
+| **04 — Study Materials** | — | 7 guias PDF | [Indice](./04_study_materials/) |
 
-**Total:** 313 exercicios + materiais de apoio.
+**Total:** 150 resolvidos de 313 exercicios + materiais de apoio.
 
 <details open>
-<summary><strong>Fundamentos (01-04)</strong></summary>
+<summary><strong>Fundamentos (01-04) — 4/4</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -251,7 +336,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Strings e numeros basicos (05-07)</strong></summary>
+<summary><strong>Strings e numeros basicos (05-07) — 3/3</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -262,7 +347,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Conversoes e unidades (08-13)</strong></summary>
+<summary><strong>Conversoes e unidades (08-13) — 6/6</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -276,7 +361,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Matematica e geometria (14-20)</strong></summary>
+<summary><strong>Matematica e geometria (14-20) — 7/7</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -291,7 +376,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Random, strings e jogos (21-29)</strong></summary>
+<summary><strong>Random, strings e jogos (21-29) — 9/9</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -308,7 +393,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Condicionais avancadas (30-36)</strong></summary>
+<summary><strong>Condicionais avancadas (30-36) — 7/7</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -323,7 +408,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Estruturas de dados e sistemas (37-50)</strong></summary>
+<summary><strong>Estruturas de dados e sistemas (37-50) — 14/14</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -345,7 +430,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Tuplas (51-60)</strong></summary>
+<summary><strong>Tuplas (51-60) — 11/11</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -364,7 +449,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Listas (61-73)</strong></summary>
+<summary><strong>Listas (61-73) — 13/13</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -385,7 +470,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Dicionarios (74-86)</strong></summary>
+<summary><strong>Dicionarios (74-86) — 13/13</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -406,7 +491,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Funcoes (87-95)</strong></summary>
+<summary><strong>Funcoes (87-95) — 9/9</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -423,7 +508,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Funcoes com *args (151-153)</strong></summary>
+<summary><strong>Funcoes com *args (151-153) — 0/3</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -434,7 +519,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Funcoes com **kwargs (154-156)</strong></summary>
+<summary><strong>Funcoes com **kwargs (154-156) — 0/3</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -445,7 +530,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Desafio de funcoes (157)</strong></summary>
+<summary><strong>Desafio de funcoes (157) — 0/1</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -454,7 +539,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Funcao de ordem superior (158-159)</strong></summary>
+<summary><strong>Funcao de ordem superior (158-159) — 0/2</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -464,7 +549,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Funcoes lambda (96-109)</strong></summary>
+<summary><strong>Funcoes lambda (96-109) — 14/14</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -486,7 +571,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Modulos e pacotes (110-115)</strong></summary>
+<summary><strong>Modulos e pacotes (110-115) — 6/6</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -500,7 +585,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Bibliotecas (116-121)</strong></summary>
+<summary><strong>Bibliotecas (116-121) — 6/6</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -514,7 +599,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Manipulacao de dados (122-126)</strong></summary>
+<summary><strong>Manipulacao de dados (122-126) — 5/5</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -527,7 +612,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>APIs (127-130)</strong></summary>
+<summary><strong>APIs (127-130) — 0/4</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -539,7 +624,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Tratamento de excecoes (131-135)</strong></summary>
+<summary><strong>Tratamento de excecoes (131-135) — 5/5</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -552,7 +637,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 </details>
 
 <details>
-<summary><strong>Match/case — validacao de dados (136-150)</strong></summary>
+<summary><strong>Match/case — validacao de dados (136-150) — 15/15</strong></summary>
 
 | # | Exercicio | Link |
 |---|-----------|------|
@@ -578,11 +663,11 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 
 Atalhos rapidos (indice completo em cada pasta):
 
-| Area | Nivel | Exercicios | Link |
-|------|-------|------------|------|
-| **02 — Intermediate Advanced** | Intermediario | 125 | [Indice completo](./02_intermediate_advanced/) |
-| **03 — Python Libraries** | Bibliotecas e automacao | 28 | [Indice completo](./03_python_libraries/) |
-| **04 — Study Materials** | Guias PDF de apoio | 7 guias | [Indice completo](./04_study_materials/) |
+| Area | Nivel | Resolvidos | Total | Link |
+|------|-------|------------|-------|------|
+| **02 — Intermediate Advanced** | Intermediario | 0 | 125 | [Indice completo](./02_intermediate_advanced/) |
+| **03 — Python Libraries** | Bibliotecas e automacao | 3 | 28 | [Indice completo](./03_python_libraries/) |
+| **04 — Study Materials** | Guias PDF de apoio | — | 7 guias | [Indice completo](./04_study_materials/) |
 
 ---
 
@@ -632,17 +717,17 @@ python_exercises/
 │   ├── README.md
 │   └── NN_nome_exercicio/
 │       ├── README.md
-│       └── main.py
+│       └── main.py               # 160 exercicios (147 resolvidos)
 ├── 02_intermediate_advanced/
 │   ├── README.md
-│   └── NN_nome_exercicio/    # 125 exercicios
+│   └── NN_nome_exercicio/    # 125 exercicios (0 resolvidos)
 │       ├── README.md
 │       └── main.py
 ├── 03_python_libraries/
 │   ├── README.md
 │   ├── requirements.txt
 │   ├── progresso.md
-│   └── NN_nome_exercicio/    # 28 exercicios
+│   └── NN_nome_exercicio/    # 28 exercicios (3 resolvidos)
 │       ├── README.md
 │       ├── main.py
 │       └── dados/            # quando aplicavel
