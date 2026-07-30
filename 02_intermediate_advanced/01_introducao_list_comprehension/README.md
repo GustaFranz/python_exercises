@@ -16,13 +16,13 @@ Conhecer list comprehension e o mapa dos 5 exercicios do topico.
 
 Este topico treina **list comprehension**: sintaxe compacta para criar listas a partir de iteraveis, com ou sem filtro condicional.
 
-| # | Foco |
-|---|------|
-| 01 | Introducao + presenca formatada |
-| 02 | Transformar valores (dobrar precos) |
-| 03 | Filtrar e extrair nomes aprovados |
-| 04 | Relatorio de engajamento |
-| 05 | Limpeza de notas + estatisticas |
+| # | Nivel | Foco |
+|---|-------|------|
+| 01 | Leve | Introducao + presenca formatada (passo a passo) |
+| 02 | Leve | Transformar valores (dobrar precos) |
+| 03 | Ponte | Filtrar e extrair nomes aprovados |
+| 04 | Entrevista | Ranking de engajamento + taxa + top N |
+| 05 | Entrevista | Pipeline de limpeza de notas + auditoria |
 
 ## Enunciado
 

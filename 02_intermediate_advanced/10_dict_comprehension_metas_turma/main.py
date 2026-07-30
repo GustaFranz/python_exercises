@@ -1,20 +1,27 @@
 # DEMANDA
 # Empresa: Consultoria MetaEdu
 # Setor: Consultoria educacional
-# Solicitacao: Definir meta de aprovacao personalizada por desempenho atual da turma.
+# Solicitacao: Classificar turmas do portfolio e montar backlog de intervencao.
 
-# EXERCICIO 10 - Dict comprehension: metas por turma (contexto corporativo)
+# EXERCICIO 10 - Dict comprehension: plano de acao por turma
 #
-# turmas = {"9A": 72, "9B": 58, "9C": 81, "9D": 45}  # % aprovacao atual
-# Regra de meta:
-## Se aprovacao >= 70: meta = "manter"
-## Se 50 <= aprovacao < 70: meta = "reforcar"
-## Se aprovacao < 50: meta = "intervencao"
-# Gere metas com dict comprehension e exiba relatorio por turma.
+# turmas = {
+#     "9A": {"aprovacao": 72, "media": 7.1, "evasao": 3},
+#     "9B": {"aprovacao": 58, "media": 5.8, "evasao": 8},
+#     "9C": {"aprovacao": 81, "media": 8.0, "evasao": 2},
+#     "9D": {"aprovacao": 45, "media": 4.9, "evasao": 12},
+# }
+# critica: aprovacao < 50 ou evasao >= 10
+# atencao: 50 <= aprovacao < 70
+# estavel: demais
+# 1) prioridades via dict comprehension
+# 2) backlog = so critica e atencao
+# 3) Relatorio: qtd por prioridade + backlog (critica primeiro)
 #
 # ORIENTACOES
-## Use expressao condicional encadeada (if/elif via ternario aninhado) na comprehension.
-## Exiba: turma | aprovacao atual | meta definida.
+## Use if/elif em funcao auxiliar ou expressao ternaria aninhada
+## backlog = {t: p for t, p in prioridades.items() if p != "estavel"}
+## sorted(backlog.items(), key=lambda x: 0 if x[1] == "critica" else 1)
 
 # --- Implemente sua solucao abaixo ---
 #

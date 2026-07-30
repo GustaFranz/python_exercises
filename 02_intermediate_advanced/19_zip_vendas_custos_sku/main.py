@@ -1,20 +1,22 @@
 # DEMANDA
 # Empresa: Mercado Bom Preco
-# Setor: Varejo
-# Solicitacao: Relatorio de margem por produto para reuniao comercial.
+# Setor: Varejo / comercial
+# Solicitacao: Relatorio de margem por SKU com alerta de produtos abaixo da meta.
 
-# EXERCICIO 19 - Zip: vendas e custos por SKU (contexto corporativo)
+# EXERCICIO 19 - Zip: margem e alerta comercial por SKU
 #
-# skus = ["SKU01", "SKU02", "SKU03"]
-# vendas = [1200.0, 800.0, 450.0]
-# custos = [700.0, 500.0, 300.0]
-# Para cada SKU calcule margem = venda - custo e margem_percentual.
-# Exiba relatorio e destaque SKU com maior margem percentual.
+# skus = ["SKU01", "SKU02", "SKU03", "SKU04"]
+# vendas = [1200.0, 800.0, 450.0, 1500.0]
+# custos = [700.0, 500.0, 300.0, 1200.0]
+# meta_margem_pct = [35.0, 40.0, 30.0, 25.0]
+# Para cada SKU via zip: margem, margem_pct, status ok/abaixo_da_meta
+# Relatorio: tabela, maior margem_pct, backlog abaixo da meta, media do portfolio
 #
 # ORIENTACOES
-## Use zip para iterar os tres em paralelo (ou pares venda/custo com sku).
-## margem_percentual = (margem / custo) * 100 se custo > 0.
-## Use max() com key ou loop para destaque.
+## for sku, venda, custo, meta in zip(...):
+## margem_pct = (margem / venda) * 100
+## status = "ok" if margem_pct >= meta else "abaixo_da_meta"
+## max(linhas, key=lambda x: x["margem_pct"])
 
 # --- Implemente sua solucao abaixo ---
 #

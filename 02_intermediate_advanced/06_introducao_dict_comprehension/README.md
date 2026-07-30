@@ -16,13 +16,13 @@ Conhecer dict comprehension e o mapa dos exercicios 06 a 10.
 
 Topico **dict comprehension**: criar dicionarios a partir de iteraveis de forma compacta.
 
-| # | Foco |
-|---|------|
-| 06 | Introducao + carga horaria |
-| 07 | Desconto em precos |
-| 08 | Contagem de status |
-| 09 | Indice de medias por aluno |
-| 10 | Metas condicionais por turma |
+| # | Nivel | Foco |
+|---|-------|------|
+| 06 | Leve | Introducao + carga horaria (passo a passo) |
+| 07 | Leve | Desconto em precos |
+| 08 | Ponte | Contagem de status |
+| 09 | Entrevista | Indice de medias + elegibilidade a bonus |
+| 10 | Entrevista | Plano de acao / backlog por turma |
 
 ## Enunciado
 

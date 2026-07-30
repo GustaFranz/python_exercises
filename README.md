@@ -21,7 +21,7 @@
 
 Sou professor de **Ciencias e Biologia desde 2013**. Hoje estou em transicao para a area de tecnologia, estudando programacao de forma **estruturada, consistente e publica**.
 
-Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** — do primeiro `print` ate automacao com pandas, streamlit e bibliotecas reais. Sao **313 exercicios** em 4 trilhas (**150 resolvidos**), cada um com pasta propria, README e codigo executavel.
+Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** — do primeiro `print` ate automacao com pandas, streamlit e bibliotecas reais. Sao **320 exercicios** em 4 trilhas (**150 resolvidos**), cada um com pasta propria, README e codigo executavel.
 
 **Em uma frase:** alguem que ja ensina, aprende com metodo e compartilha o caminho para ajudar outros.
 
@@ -34,7 +34,7 @@ Este repositorio nao e so uma lista de scripts: e um **portfolio de evolucao** �
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<a href="#progresso-por-temas"><img src="https://img.shields.io/badge/313-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="313 exercicios"></a> <a href="#progresso-por-temas"><img src="https://img.shields.io/badge/150-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="150 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/4-trilhas-11283F?style=for-the-badge" alt="4 trilhas"></a><br><br>
+<a href="#progresso-por-temas"><img src="https://img.shields.io/badge/320-exercicios-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="320 exercicios"></a> <a href="#progresso-por-temas"><img src="https://img.shields.io/badge/150-resolvidos-2E7D32?style=for-the-badge&logo=python&logoColor=white" alt="150 exercicios resolvidos"></a> <a href="#navegacao-dos-exercicios"><img src="https://img.shields.io/badge/4-trilhas-11283F?style=for-the-badge" alt="4 trilhas"></a><br><br>
 <strong>Progressivos</strong><br>
 <sub>Fundamentos, intermediario, bibliotecas e materiais PDF</sub>
 </td>
@@ -232,9 +232,9 @@ Contagem atualizada com base no codigo preenchido em cada pasta (`main.py` com r
 | Trilha | Resolvidos | Total | Progresso |
 |--------|------------|-------|-----------|
 | **01 — Fundamentals** | 147 | 160 | 92% |
-| **02 — Intermediate** | 0 | 125 | 0% |
+| **02 — Intermediate** | 0 | 132 | 0% |
 | **03 — Libraries** | 3 | 28 | 11% |
-| **Total** | **150** | **313** | **48%** |
+| **Total** | **150** | **320** | **47%** |
 
 Materiais de apoio: **7 guias PDF** em [04_study_materials](./04_study_materials/).
 
@@ -275,27 +275,34 @@ Materiais de apoio: **7 guias PDF** em [04_study_materials](./04_study_materials
 | Conjuntos set | 11-15 | 0 | 5 |
 | Zip e estruturas cruzadas | 16-20 | 0 | 5 |
 | CRUD lista de dicionarios | 21-25 | 0 | 5 |
-| Merge de duas fontes | 26-30 | 0 | 5 |
-| Persistencia JSON | 31-35 | 0 | 5 |
-| CSV leitura e escrita | 36-40 | 0 | 5 |
-| Context manager with open | 41-45 | 0 | 5 |
-| Excecao customizada e raise | 46-50 | 0 | 5 |
-| Try except else finally | 51-55 | 0 | 5 |
-| Regex com re | 56-60 | 0 | 5 |
-| Recursao | 61-65 | 0 | 5 |
-| Closure | 66-70 | 0 | 5 |
-| Mini-projeto multi-modulo | 71-75 | 0 | 5 |
-| Argparse CLI | 76-80 | 0 | 5 |
-| Logging | 81-85 | 0 | 5 |
-| API com tratamento HTTP | 86-90 | 0 | 5 |
-| Counter e defaultdict | 91-95 | 0 | 5 |
-| Classe simples | 96-100 | 0 | 5 |
-| Heranca simples | 101-105 | 0 | 5 |
-| Dataclass | 106-110 | 0 | 5 |
-| Refatoracao | 111-115 | 0 | 5 |
-| Testes com assert | 116-120 | 0 | 5 |
-| Type hints basicos | 121-125 | 0 | 5 |
-| **Subtotal 02** | | **0** | **125** |
+| Desafio integrador | 26 | 0 | 1 |
+| Merge de duas fontes | 27-31 | 0 | 5 |
+| Persistencia JSON | 32-36 | 0 | 5 |
+| CSV leitura e escrita | 37-41 | 0 | 5 |
+| Desafio integrador | 42 | 0 | 1 |
+| Context manager with open | 43-47 | 0 | 5 |
+| Excecao customizada e raise | 48-52 | 0 | 5 |
+| Try except else finally | 53-57 | 0 | 5 |
+| Desafio integrador | 58 | 0 | 1 |
+| Regex com re | 59-63 | 0 | 5 |
+| Recursao | 64-68 | 0 | 5 |
+| Closure | 69-73 | 0 | 5 |
+| Desafio integrador | 74 | 0 | 1 |
+| Mini-projeto multi-modulo | 75-79 | 0 | 5 |
+| Argparse CLI | 80-84 | 0 | 5 |
+| Logging | 85-89 | 0 | 5 |
+| Desafio integrador | 90 | 0 | 1 |
+| API com tratamento HTTP | 91-95 | 0 | 5 |
+| Counter e defaultdict | 96-100 | 0 | 5 |
+| Classe simples | 101-105 | 0 | 5 |
+| Desafio elaborado | 106 | 0 | 1 |
+| Heranca simples | 107-111 | 0 | 5 |
+| Dataclass | 112-116 | 0 | 5 |
+| Refatoracao | 117-121 | 0 | 5 |
+| Testes com assert | 122-126 | 0 | 5 |
+| Type hints basicos | 127-131 | 0 | 5 |
+| Desafio elaborado | 132 | 0 | 1 |
+| **Subtotal 02** | | **0** | **132** |
 
 ### 03 — Libraries (por tema)
 
@@ -317,11 +324,11 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 | Area | Resolvidos | Total | Link |
 |------|------------|-------|------|
 | **01 — Fundamentals** | 147 | 160 | [Indice](./01_python_fundamentals/) |
-| **02 — Intermediate** | 0 | 125 | [Indice](./02_intermediate_advanced/) |
+| **02 — Intermediate** | 0 | 132 | [Indice](./02_intermediate_advanced/) |
 | **03 — Libraries** | 3 | 28 | [Indice](./03_python_libraries/) |
 | **04 — Study Materials** | — | 7 guias PDF | [Indice](./04_study_materials/) |
 
-**Total:** 150 resolvidos de 313 exercicios + materiais de apoio.
+**Total:** 150 resolvidos de 320 exercicios + materiais de apoio.
 
 <details open>
 <summary><strong>Fundamentos (01-04) — 4/4</strong></summary>
@@ -665,7 +672,7 @@ Atalhos rapidos (indice completo em cada pasta):
 
 | Area | Nivel | Resolvidos | Total | Link |
 |------|-------|------------|-------|------|
-| **02 — Intermediate Advanced** | Intermediario | 0 | 125 | [Indice completo](./02_intermediate_advanced/) |
+| **02 — Intermediate Advanced** | Intermediario | 0 | 132 | [Indice completo](./02_intermediate_advanced/) |
 | **03 — Python Libraries** | Bibliotecas e automacao | 3 | 28 | [Indice completo](./03_python_libraries/) |
 | **04 — Study Materials** | Guias PDF de apoio | — | 7 guias | [Indice completo](./04_study_materials/) |
 
@@ -720,7 +727,7 @@ python_exercises/
 │       └── main.py               # 160 exercicios (147 resolvidos)
 ├── 02_intermediate_advanced/
 │   ├── README.md
-│   └── NN_nome_exercicio/    # 125 exercicios (0 resolvidos)
+│   └── NN_nome_exercicio/    # 132 exercicios (0 resolvidos)
 │       ├── README.md
 │       └── main.py
 ├── 03_python_libraries/
