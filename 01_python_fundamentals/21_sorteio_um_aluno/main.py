@@ -1,26 +1,32 @@
-# Sorteio de um Aluno para Apagar o Quadro
-# Este programa auxilia professores no sorteio aleatório de um aluno para apagar o quadro. 
-# Ele garante imparcialidade e pode ser aplicado em diversas situações de sorteio no dia a dia.
-
-
-
-# Exercício: Um professor quer sortear um dos seus quatro alunos para apagar o quadro.
-# Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo na tela o nome do escolhido.
+# Retorno em 30/07 — comparar com a versao do inicio dos estudos.
 
 import random
-# s = students
-s1 = ('Mark')
-s2 = ('Danny')
-s3 = ('John')
-s4 = ('Alanis')
-s5 = ('Angelina')
-
-lista = [s1, s2, s3, s4, s5]
-escolhido = random.choice(lista)
-# essa função choice seleciona aleatoriamente um dos itens da lista
-print ('O aluno escolhido foi', escolhido)
 
 
+def ler_alunos(quantidade: int = 4) -> list[str]:
+    """Le nomes dos alunos e ignora entradas vazias."""
+    alunos: list[str] = []
+    for i in range(1, quantidade + 1):
+        nome = input(f"Nome do aluno {i}: ").strip()
+        if nome:
+            alunos.append(nome)
+    if not alunos:
+        raise ValueError("Nenhum aluno cadastrado para o sorteio.")
+    return alunos
 
-# Obrigado por dar uma olhada nos meus exercícios.
-# Se tiver algo a contribuir com minha jornada de aprendizado fique a vontade!
+
+def sortear_aluno(alunos: list[str]) -> str:
+    """Retorna um aluno escolhido aleatoriamente."""
+    return random.choice(alunos)
+
+
+# =============================================================================
+# RESOLUCAO
+# =============================================================================
+
+try:
+    turma = ler_alunos()
+    escolhido = sortear_aluno(turma)
+    print(f"O aluno escolhido foi {escolhido}")
+except ValueError as erro:
+    print(f"Erro: {erro}")
