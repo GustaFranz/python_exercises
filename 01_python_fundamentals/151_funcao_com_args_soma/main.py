@@ -38,8 +38,11 @@ print(f'Soma 1 = {soma1},\n'
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Primeira vez com *args: a funcao aceita quantos numeros eu quiser
+# *args chega como tupla; sum(args) soma tudo sem loop manual
+# A mesma somar_todos() funciona com 2, 3 ou 5 argumentos
+# return devolve o total; o print fica fora da funcao
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
