@@ -24,6 +24,42 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+def relatorio_alunos(aluno: str, *args: float):
+    notas = args
+    nome_aluno = aluno.title()
+    if not notas:
+        return nome_aluno, 0.0, 0.0
+    quant_notas = len(notas)
+    soma_notas = sum(notas)
+    media_notas = soma_notas / quant_notas
+    maior_nota = max(notas)
+    relatorio = nome_aluno, media_notas, maior_nota
+    return relatorio
+
+
+
+while True:
+    print("\n============================== CADASTRO DE NOTAS ==============================\n")
+    entrada_aluno = input("Nome do aluno: ")
+    nome_aluno = entrada_aluno.strip().title()
+
+    contador_notas = 0
+    entrada_limite = int(input("Quantas notas você quer cadastrar? "))
+    if entrada_limite <= 0:
+        print("Digite um limite maior que zero")
+
+    notas_aluno = []
+    for i in range(1, entrada_limite + 1):
+        entrada_nota = float(input(f"Digite a {contador_notas} nota: "))
+        notas_aluno.append(entrada_nota)
+
+
+    relatorio = relatorio_alunos(nome_aluno, *notas_aluno)
+    print(f'\n=================================== RELATÓRIO ALUNO ===================================\n')
+    print(f'Nome do aluno: {relatorio[0]}\n'
+          f'Média: {relatorio[1]:.1f}\n'
+          f'Maior nota: {relatorio[2]}\n')
+    break
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

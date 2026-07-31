@@ -21,6 +21,23 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+def analyze_grades(*args: float):
+    notes = (args)
+    number_grades = len(notes)
+    sum_grades = sum(notes)
+    average_grades = sum_grades / number_grades
+    situation = "Recuperação"
+    data = average_grades, situation
+    if average_grades >=6:
+        situation = "Aprovado"
+    return data
+
+analyze = analyze_grades(7.0, 8.5, 6.0)
+print(f'\n========================= ANALYSE GRADES =========================\n')
+print(f'Average: {analyze[0]:.1f}\n'
+      f'Situation: {analyze[1]}')
+print("\n")
+
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

@@ -19,6 +19,21 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+def somar_todos(*args):
+    soma = sum(args)
+    return soma
+
+soma1 = somar_todos(4, 6)
+soma2 = somar_todos(10, 20, 30)
+soma3 = somar_todos(1, 2, 3, 4, 5)
+soma = soma1, soma2, soma3
+soma_total = sum(soma)
+
+print(f'Soma 1 = {soma1},\n'
+      f'Soma 2 = {soma2},\n'
+      f'soma 3 = {soma3},\n'
+      f'As tupla das somas é {soma},\n'
+      f'A soma total é {soma_total}.')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
