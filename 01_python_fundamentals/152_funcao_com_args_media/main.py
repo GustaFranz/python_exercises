@@ -42,8 +42,11 @@ print("\n")
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# *args vira tupla de notas; len e sum bastam para a media
+# A mesma funcao aceita 3 ou 4 notas sem mudar a assinatura
+# Media reutilizada para decidir Aprovado (>= 6) ou Recuperacao
+# Vale proteger divisao por zero se args vier vazio
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

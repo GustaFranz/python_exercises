@@ -64,8 +64,11 @@ while True:
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Parametro fixo (nome) vem antes de *args (notas)
+# len, sum e max em *args montam quantidade, media e maior nota
+# Ao chamar, *lista_notas desempacota a lista para *args
+# Protegi o caso sem notas para nao dividir por zero
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
