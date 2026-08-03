@@ -25,6 +25,33 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+alunos = [
+    {"nome": "Ana", "nota": 7.5},
+    {"nome": "Bruno", "nota": 4.0},
+    {"nome": "Carla", "nota": 8.0},
+    {"nome": "Daniel", "nota": 5.5},
+]
+
+NOTA_CORTE = 6.0
+
+aprovados = [aluno for aluno in alunos if aluno["nota"] >= NOTA_CORTE]
+nao_aprovados = [aluno for aluno in alunos if aluno["nota"] < NOTA_CORTE]
+
+print("\n========================================================================================")
+print("=========================== SITUAÇÃO DOS ALUNOS -- RELATÓRIO ===========================")
+print("========================================================================================\n")
+
+print('................................... ALUNOS APROVADOS ...................................\n')
+
+for aluno in aprovados:
+    print(f"{aluno["nome"]:<30}  | Nota: {aluno["nota"]} ")
+
+print('\n................................... ALUNOS REPROVADOS ...................................\n')
+for aluno in nao_aprovados:
+    print(f"{aluno["nome"]:<30}  | Nota: {aluno["nota"]} ")
+print()
+
+
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

@@ -38,6 +38,11 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+status_brutos = ["P", "F", "P", "P", "F", "P"]
+
+status_alunos = ["Presença" if status == "P" else "Falta" for status in status_brutos]
+print("\nstatus brutos: ", status_brutos, "\n")
+print("status alunos:", status_alunos, "\n")
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS

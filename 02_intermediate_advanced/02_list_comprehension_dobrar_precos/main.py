@@ -19,7 +19,13 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+precos = [4.50, 6.00, 3.50, 8.00, 2.00]
 
+precos_dobrados = [preco * 2 for preco in precos]
+
+print("\n================= SIMULAÇÃO DE PREÇOS DOBRADOS =================\n")
+print(f'Preços originais: {precos}')
+print(f'Preços dobrados: {precos_dobrados}')
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
