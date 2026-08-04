@@ -47,8 +47,12 @@ print("status alunos:", status_alunos, "\n")
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# List comprehension monta uma lista nova em uma linha: [expressao for item in lista]
+# if/else fica na expressao (antes do for) quando quero transformar cada item
+# Aqui "P" vira "Presenca" e qualquer outro valor vira "Falta"
+# Substitui o padrao for + append sem perder a leitura do que a lista representa
+# A lista original (status_brutos) permanece intacta; a comprehension gera outra
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

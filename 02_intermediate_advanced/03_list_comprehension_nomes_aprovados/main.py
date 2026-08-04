@@ -56,8 +56,12 @@ print()
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# if depois do for filtra: so entram itens que passam na condicao
+# [aluno for aluno in alunos if aluno["nota"] >= NOTA_CORTE] mantem o dicionario inteiro
+# Se eu quisesse so os nomes: [aluno["nome"] for aluno in alunos if aluno["nota"] >= 6]
+# Constante NOTA_CORTE evita numero magico e deixa a regra de aprovacao explicita
+# Duas comprehensions (aprovados / nao_aprovados) separam os grupos sem loops longos
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO

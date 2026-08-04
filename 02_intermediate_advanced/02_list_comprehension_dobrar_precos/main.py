@@ -30,8 +30,12 @@ print(f'Preços dobrados: {precos_dobrados}')
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Forma basica: [preco * 2 for preco in precos] aplica a mesma conta em cada item
+# Ideal para transformar valores sem filtro — so mapeamento um a um
+# precos_dobrados e uma lista nova; a lista original continua disponivel para comparar
+# Em simulacoes de negocio, manter os dois lados (antes/depois) facilita a analise
+# Comprehension fica mais limpa que um for com append quando a regra e simples
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
