@@ -1,19 +1,49 @@
-# Cálculo de Seno, Cosseno e Tangente de um Ângulo
-# O programa recebe um ângulo em graus e exibe seus valores de seno, cosseno e tangente. 
-# Isso é essencial para cálculos trigonométricos aplicados na navegação, construção e análise de ondas.
-
-
-# Faça um programa que leia um angulo qualquer e mostre na tela o valor do seno,
-# cosseno a tangente dessa ângulo.
+# Retorno em 05/08 — comparar com a versao do inicio dos estudos.
 
 from math import sin, cos, tan, radians
-angle = float(input ('What is the value of the angle? ' ))
-angle_radians = radians(angle)
-print ('the sine of you angle is {:.2f}'.format(sin(angle_radians)))
-print('the cosine of your angle is {:.2f}'.format (cos (angle_radians)))
-print('the tangente of your angle is {:.2f}'.format (tan(angle_radians)))
 
 
+def ler_angulo() -> float:
+    """Le o angulo em graus informado pelo usuario."""
+    return float(input("Digite o angulo em graus: "))
 
-# Obrigado por dar uma olhada nos meus exercícios.
-# Se tiver algo a contribuir com minha jornada de aprendizado fique a vontade!
+
+def calcular_trigonometria(angulo_graus: float) -> dict[str, float]:
+    """Converte graus em radianos e calcula seno, cosseno e tangente."""
+    angulo_radianos = radians(angulo_graus)
+    return {
+        "seno": sin(angulo_radianos),
+        "cosseno": cos(angulo_radianos),
+        "tangente": tan(angulo_radianos),
+    }
+
+
+def exibir_resultados(resultados: dict[str, float]) -> None:
+    """Imprime seno, cosseno e tangente com 2 casas decimais."""
+    for nome, valor in resultados.items():
+        print(f"O {nome} do angulo e {valor:.2f}")
+
+
+# =============================================================================
+# RESOLUCAO
+# =============================================================================
+
+try:
+    angulo = ler_angulo()
+    resultados = calcular_trigonometria(angulo)
+    exibir_resultados(resultados)
+except ValueError:
+    print("Erro: digite um numero valido para o angulo.")
+
+# =============================================================================
+# APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
+# =============================================================================
+#
+# math.sin/cos/tan trabalham em radianos — radians() faz a conversao
+# Separar leitura, calculo e exibicao deixa cada funcao com uma responsabilidade
+# dict[str, float] guarda os tres resultados sem repetir print tres vezes
+# f-string com :.2f formata casas decimais de forma mais limpa que .format()
+# try/except ValueError cobre entrada que nao e numero (ex.: letras)
+#
+# OBRIGADO!
+# FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
