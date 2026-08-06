@@ -1,23 +1,53 @@
-# Cálculo de Área e Perímetro de um Retângulo. 
-# Este programa permite calcular a área e o perímetro de um retângulo a partir de sua largura e comprimento. 
-# É útil em projetos de engenharia, arquitetura e planejamento de espaços.
+# Retorno em 05/08 — comparar com a versao do inicio dos estudos.
 
 
-# Enunciado: Crie um programa que leia a largura e o comprimento de um retângulo e calcule:
-# A área do retângulo.
-# O perímetro do retângulo.
-# Mostre o resultado na tela, juntamente com uma mensagem indicando as informações calculadas.
-# Também mostre a soma da área e do perímetro do retângulo.
+def ler_dimensoes() -> tuple[float, float]:
+    """Le comprimento e largura do retangulo e valida valores positivos."""
+    comprimento = float(input("Digite o comprimento do retangulo (m): "))
+    largura = float(input("Digite a largura do retangulo (m): "))
+    if comprimento <= 0 or largura <= 0:
+        raise ValueError("Comprimento e largura devem ser maiores que zero.")
+    return comprimento, largura
 
 
-heigth = float(input('What is the height of your rectangle? '))
-width = float(input('What is the width of your rectangle? '))
-perimeter = 2*(heigth) + 2*(width)
-area = heigth*width
-print('the perimeter of your rectangle is ', perimeter, 'm')
-print('The area of your rectangle is ', area, 'm²')
+def calcular_retangulo(comprimento: float, largura: float) -> dict[str, float]:
+    """Calcula area, perimetro e a soma dos dois."""
+    area = comprimento * largura
+    perimetro = 2 * (comprimento + largura)
+    return {
+        "area": area,
+        "perimetro": perimetro,
+        "soma": area + perimetro,
+    }
 
 
-# Obrigado por dar uma olhada nos meus exercícios.
-# Se tiver algo a contribuir com minha jornada de aprendizado fique a vontade!
+def exibir_resultados(resultados: dict[str, float]) -> None:
+    """Imprime area, perimetro e a soma formatados."""
+    print(f"A area do retangulo e {resultados['area']} m²")
+    print(f"O perimetro do retangulo e {resultados['perimetro']} m")
+    print(f"A soma da area e do perimetro e {resultados['soma']}")
 
+
+# =============================================================================
+# RESOLUCAO
+# =============================================================================
+
+try:
+    comprimento, largura = ler_dimensoes()
+    resultados = calcular_retangulo(comprimento, largura)
+    exibir_resultados(resultados)
+except ValueError as erro:
+    print(f"Erro: {erro}")
+
+# =============================================================================
+# APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
+# =============================================================================
+#
+# Area = comprimento * largura; perimetro = 2 * (comprimento + largura)
+# tuple[float, float] devolve as duas dimensoes juntas na leitura
+# Validar <= 0 evita retangulo com lado impossivel
+# O enunciado pedia a soma area + perimetro — a versao antiga nao fazia isso
+# Separar leitura, calculo e exibicao facilita testar cada parte depois
+#
+# OBRIGADO!
+# FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
