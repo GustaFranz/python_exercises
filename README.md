@@ -232,9 +232,9 @@ Contagem atualizada com base no codigo preenchido em cada pasta (`main.py` com r
 | Trilha | Resolvidos | Total | Progresso |
 |--------|------------|-------|-----------|
 | **01 — Fundamentals** | 147 | 160 | 92% |
-| **02 — Intermediate** | 0 | 132 | 0% |
+| **02 — Intermediate** | 0 | 143 | 0% |
 | **03 — Libraries** | 3 | 28 | 11% |
-| **Total** | **150** | **320** | **47%** |
+| **Total** | **150** | **331** | **45%** |
 
 Materiais de apoio: **7 guias PDF** em [04_study_materials](./04_study_materials/).
 
@@ -302,7 +302,10 @@ Materiais de apoio: **7 guias PDF** em [04_study_materials](./04_study_materials
 | Testes com assert | 122-126 | 0 | 5 |
 | Type hints basicos | 127-131 | 0 | 5 |
 | Desafio elaborado | 132 | 0 | 1 |
-| **Subtotal 02** | | **0** | **132** |
+| map() e comprehensions | 133-136 | 0 | 4 |
+| List e dict comprehension juntas | 137-139 | 0 | 3 |
+| Funcoes geradoras | 140-143 | 0 | 4 |
+| **Subtotal 02** | | **0** | **143** |
 
 ### 03 — Libraries (por tema)
 
@@ -324,7 +327,7 @@ Indice detalhado dos **fundamentos** abaixo. Demais trilhas:
 | Area | Resolvidos | Total | Link |
 |------|------------|-------|------|
 | **01 — Fundamentals** | 147 | 160 | [Indice](./01_python_fundamentals/) |
-| **02 — Intermediate** | 0 | 132 | [Indice](./02_intermediate_advanced/) |
+| **02 — Intermediate** | 0 | 143 | [Indice](./02_intermediate_advanced/) |
 | **03 — Libraries** | 3 | 28 | [Indice](./03_python_libraries/) |
 | **04 — Study Materials** | — | 7 guias PDF | [Indice](./04_study_materials/) |
 
@@ -672,7 +675,7 @@ Atalhos rapidos (indice completo em cada pasta):
 
 | Area | Nivel | Resolvidos | Total | Link |
 |------|-------|------------|-------|------|
-| **02 — Intermediate Advanced** | Intermediario | 0 | 132 | [Indice completo](./02_intermediate_advanced/) |
+| **02 — Intermediate Advanced** | Intermediario | 0 | 143 | [Indice completo](./02_intermediate_advanced/) |
 | **03 — Python Libraries** | Bibliotecas e automacao | 3 | 28 | [Indice completo](./03_python_libraries/) |
 | **04 — Study Materials** | Guias PDF de apoio | — | 7 guias | [Indice completo](./04_study_materials/) |
 
@@ -727,7 +730,7 @@ python_exercises/
 │       └── main.py               # 160 exercicios (147 resolvidos)
 ├── 02_intermediate_advanced/
 │   ├── README.md
-│   └── NN_nome_exercicio/    # 132 exercicios (0 resolvidos)
+│   └── NN_nome_exercicio/    # 143 exercicios (0 resolvidos)
 │       ├── README.md
 │       └── main.py
 ├── 03_python_libraries/

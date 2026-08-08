@@ -2,7 +2,7 @@
 
 Trilha de exercicios em nivel **intermediario**: mais desafiadores que os fundamentos, mas sem complexidade excessiva. Consolida logica, organizacao de codigo e problemas proximos de situacoes reais e entrevistas junior.
 
-**Total:** 132 exercicios publicados (`01` a `132`) — 25 blocos tematicos (5 cada) + 7 desafios integradores.
+**Total:** 143 exercicios publicados (`01` a `143`) — 28 blocos tematicos + 7 desafios integradores.
 
 **Progressao por bloco:** 1a/2a leves (passo a passo) · 3a ponte · 4a/5a nivel entrevista junior.
 
@@ -440,13 +440,48 @@ Alguns exercicios usam arquivos extras (multi-modulo, testes, desafios 90/106/13
 
 </details>
 
+<details open>
+<summary><strong>map() e comprehensions (133-136)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 133 | Introducao a map com list comprehension | [Abrir](./133_introducao_map_list_comprehension/) |
+| 134 | map com lambda e list comprehension | [Abrir](./134_map_lambda_list_comprehension/) |
+| 135 | map e dict comprehension | [Abrir](./135_map_dict_comprehension/) |
+| 136 | map e comprehensions: relatorio de vendas | [Abrir](./136_map_comprehensions_relatorio_vendas/) |
+
+</details>
+
+<details open>
+<summary><strong>List e dict comprehension juntas (137-139)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 137 | List e dict comprehension: boletim da turma | [Abrir](./137_list_dict_comprehension_boletim/) |
+| 138 | List e dict comprehension: estoque critico | [Abrir](./138_list_dict_comprehension_estoque/) |
+| 139 | List e dict comprehension: painel de desempenho | [Abrir](./139_list_dict_comprehension_painel/) |
+
+</details>
+
+<details open>
+<summary><strong>Funcoes geradoras (140-143)</strong></summary>
+
+| # | Exercicio | Link |
+|---|-----------|------|
+| 140 | Introducao a funcao geradora | [Abrir](./140_introducao_funcao_geradora/) |
+| 141 | Funcao geradora: lotes de registros | [Abrir](./141_funcao_geradora_lotes/) |
+| 142 | Funcao geradora: filtrar registros validos | [Abrir](./142_funcao_geradora_filtrar/) |
+| 143 | Funcao geradora: pipeline de relatorio | [Abrir](./143_funcao_geradora_pipeline/) |
+
+</details>
+
 ---
 
 ## Temas cobertos
 
 | Bloco | Foco |
 |-------|------|
-| Estruturas Python | Comprehensions, set, zip, CRUD em memoria |
+| Estruturas Python | Comprehensions, map, set, zip, geradores, CRUD em memoria |
 | Arquivos e dados | Merge, JSON, CSV, with open, excecoes |
 | Texto e logica avancada | Regex, recursao, closure, multi-modulo |
 | Ferramentas | argparse, logging, HTTP simulado, Counter |
