@@ -32,13 +32,22 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+disciplinas = ["Python", "Logica", "Banco de Dados", "Git"]
+cargas = [4, 3, 4, 2]
 
-
+disciplina_carga = {disciplina: carga for disciplina, carga in zip(disciplinas, cargas)}
+print()
+print(disciplina_carga)
+print()
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Dict comprehension monta um dicionario em uma linha: {chave: valor for ...}
+# zip(disciplinas, cargas) pareia cada disciplina com sua carga horaria
+# Resultado: mapa disciplina -> horas semanais, pronto para consulta
+# Alternativa: dict(zip(...)) — mesma ideia, sem a sintaxe de comprehension
+# Util para transformar listas paralelas em indice chave-valor rapidamente
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
