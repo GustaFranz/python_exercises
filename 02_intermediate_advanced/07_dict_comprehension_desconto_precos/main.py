@@ -21,6 +21,20 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+precos = {"caderno": 12.0, "caneta": 3.5, "borracha": 2.0, "estojo": 25.0}
+
+DESCONTO = 10
+precos_promocao = {chave: valor - (valor * DESCONTO/100) for chave, valor in precos.items()}
+print("\n======================================================")
+print("------------ TABELA COMPARATIVA DE PREÇOS ------------")
+print("======================================================")
+print()
+print(f'{"PRODUTO":<10} | {"PREÇO ORIGINAL":>14} | {"PREÇO COM DESCONTO":>18} {"|":>5}')
+print("-" * 54)
+for produto, preco_original in precos.items():
+    preco_desconto = precos_promocao[produto]
+    print(f'{produto:<10} | {preco_original:>14} | {preco_desconto:>18} {"|":>5}')
+print()
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
