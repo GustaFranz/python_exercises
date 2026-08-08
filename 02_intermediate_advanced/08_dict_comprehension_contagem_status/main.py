@@ -21,13 +21,29 @@
 # =============================================================================
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
+'''Lembrar que .count() funciona, mas e O(n^2); aceitavel aqui para aprendizado de dect comprehensions. '''
+
+pedidos = ["entregue", "pendente", "entregue", "cancelado", "pendente", "entregue", "pendente"]
+
+status_pedidos = {status: pedidos.count(status) for status in set(pedidos)}
+print()
+print(f'Pendente: {status_pedidos["pendente"]}, Cancelados: {status_pedidos["cancelado"]}, Entregues: {status_pedidos["entregue"]}')
+print()
+
+
+
 
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Dict comprehension monta status -> quantidade em uma linha
+# set(pedidos) devolve so os status unicos (sem repetir chave)
+# pedidos.count(status) conta quantas vezes aquele status aparece na lista
+# .count() dentro da comprehension e O(n^2): cada status varre a lista de novo
+# Em listas grandes, prefira um for unico ou Counter (uma passagem = O(n))
+# Aqui o foco e praticar dict comprehension; o custo extra e aceitavel
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
