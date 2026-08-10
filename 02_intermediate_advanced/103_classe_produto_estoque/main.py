@@ -22,6 +22,40 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+class Produto:
+
+    def __init__(self, nome: str, preco: float, estoque: int):
+        self.nome = nome
+        self.preco = preco
+        self.estoque = estoque
+
+    def vender(self, quantidade):
+        if quantidade > self.estoque:
+            return False
+        else:
+            self.estoque -= quantidade
+            return True
+
+    def repor(self, quantidade):
+        self.estoque += quantidade
+        return True
+
+    def __str__(self):
+        return f'Produto: {self.nome} | Preço: {self.preco}  | Estoque atual: {self.estoque}'
+
+caderno = Produto("Caderno", 10.0, 5)
+print()
+print(caderno)
+caderno.vender(3)
+print('Vender 3')
+caderno.vender(5)
+print('Vender 5')
+caderno.repor(10)
+print('Repor 10')
+print()
+print(caderno)
+print()
+
 
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
