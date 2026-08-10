@@ -34,7 +34,7 @@ class ValorVazioError(Exception):
     """Lançada quando um campo obrigatório do perfil fica em branco."""
 
 
-def formatar_perfil_aluno(**dados_aluno: str) -> str:
+def formatar_perfil_aluno(*dados_aluno: str) -> str:
     ordem_padronizada = ["nome", "idade", "cidade"]
     linhas_formatadas = []
 
@@ -43,26 +43,18 @@ def formatar_perfil_aluno(**dados_aluno: str) -> str:
         valor_texto = str(valor).strip() if valor is not None else ""
 
         if not valor_texto:
-            raise ValorVazioError(
-                f"O campo '{chave.title()}' não pode ficar em branco!"
-            )
+            raise ValorVazioError(f"O campo '{chave.title()}' não pode ficar em branco!")
 
         match chave:
             case "nome":
                 if valor_texto.isdigit():
-                    raise NomeInvalidoError(
-                        "O nome do aluno não pode conter apenas números!"
-                    )
+                    raise NomeInvalidoError("O nome do aluno não pode conter apenas números!")
             case "idade":
                 if not valor_texto.isdigit() or int(valor_texto) <= 0:
-                    raise IdadeInvalidaError(
-                        "A idade deve ser um número inteiro positivo maior que zero!"
-                    )
+                    raise IdadeInvalidaError("A idade deve ser um número inteiro positivo maior que zero!")
             case "cidade":
                 if valor_texto.isdigit():
-                    raise CidadeInvalidaError(
-                        "A cidade não pode conter apenas números!"
-                    )
+                    raise CidadeInvalidaError("A cidade não pode conter apenas números!")
 
         linhas_formatadas.append(f"{chave.title()}: {valor_texto.title()}")
 
@@ -88,27 +80,18 @@ campos_obrigatorios = ["nome", "idade", "cidade"]
 
 for indice in range(1, quantidade_perfis + 1):
     while True:
-        print(
-            f"\n---------------- CADASTRO DO ALUNO {indice} DE {quantidade_perfis} ----------------"
-        )
+        print(f"\n---------------- CADASTRO DO ALUNO {indice} DE {quantidade_perfis} ----------------")
         perfil_temporario = {}
 
         for campo in campos_obrigatorios:
-            perfil_temporario[campo] = input(
-                f"Informe {campo.title()}: "
-            ).strip()
+            perfil_temporario[campo] = input(f"Informe {campo.title()}: ").strip()
 
         try:
             relatorio_formatado = formatar_perfil_aluno(**perfil_temporario)
             lista_perfis_cadastrados.append(relatorio_formatado)
             print("Perfil validado e cadastrado com sucesso!")
             break
-        except (
-            NomeInvalidoError,
-            IdadeInvalidaError,
-            CidadeInvalidaError,
-            ValorVazioError,
-        ) as erro:
+        except (NomeInvalidoError, IdadeInvalidaError, CidadeInvalidaError, ValorVazioError) as erro:
             print(f"\nERRO NO CADASTRO: {erro}")
             print("Por favor, preencha as informações deste aluno novamente.")
 
@@ -116,11 +99,10 @@ print("\n===============================================================")
 print("                    RELATÓRIO FINAL DE PERFIS                  ")
 print("===============================================================")
 
-for indice, perfil_formatado in enumerate(
-    lista_perfis_cadastrados, start=1
-):
+for indice, perfil_formatado in enumerate(lista_perfis_cadastrados, start=1):
     print(f"\n--- ALUNO {indice} ---")
     print(perfil_formatado)
+print()
 
 
 
