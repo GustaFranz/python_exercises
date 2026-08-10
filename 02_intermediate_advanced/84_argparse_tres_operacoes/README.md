@@ -14,9 +14,30 @@ Integrar argparse com tres subcomandos em ferramenta unica.
 
 ## Enunciado
 
-- Crie subcomandos contar, filtrar e exportar.
-- Implemente cada operacao em funcao separada.
-- Teste com arquivo dados.txt de exemplo.
+Crie `dados.txt` com 5 linhas de exemplo no inicio do script.
+
+Configure 3 subcomandos:
+
+**`contar --arquivo`**
+- Exibe total de linhas do arquivo
+
+**`filtrar --arquivo --texto`**
+- Exibe linhas que contem o texto informado
+
+**`exportar --arquivo --saida`**
+- Copia arquivo para destino com `with open`
+
+Implemente cada operacao em funcao separada: `contar_linhas`, `filtrar_linhas`, `exportar_arquivo`.
+
+No `main`, roteie com `if args.comando == "contar": ...`
+
+Exemplo de execucao:
+
+```bash
+python main.py contar --arquivo dados.txt
+python main.py filtrar --arquivo dados.txt --texto erro
+python main.py exportar --arquivo dados.txt --saida copia.txt
+```
 
 ## Como executar
 

@@ -14,8 +14,30 @@ Imprimir contagem regressiva de N ate 0 com recursao.
 
 ## Enunciado
 
-- Implemente contagem(n) recursiva imprimindo de N ate 0.
-- Ao final exiba "Fim da contagem".
+Implemente recursivamente:
+
+```python
+def contagem(n: int) -> None:
+    # se n < 0: return (caso base, sem print)
+    # senao: imprime n e chama contagem(n - 1)
+```
+
+No `main`:
+
+1) Chame `contagem(5)`.
+2) Apos a chamada, imprima `"Fim da contagem"`.
+
+Exemplo de saida:
+
+```
+5
+4
+3
+2
+1
+0
+Fim da contagem
+```
 
 ## Como executar
 

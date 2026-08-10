@@ -14,8 +14,25 @@ Montar suite de asserts para CRUD simples em lista de dicts.
 
 ## Enunciado
 
-- Implemente criar, buscar_por_id e remover em lista de dicts.
-- Escreva suite de asserts cobrindo fluxo CRUD completo.
+Cada item e um dict com campo `"id"`. Implemente em memoria:
+
+```python
+def criar(lista: list, item: dict) -> None:
+    # append na lista
+
+def buscar_por_id(lista: list, id: int) -> dict | None:
+    # retorna dict ou None
+
+def remover(lista: list, id: int) -> bool:
+    # retorna True se removeu, False se nao encontrou
+```
+
+Escreva suite de asserts em sequencia:
+
+1) Crie 2 itens (ex.: `{"id": 1, "nome": "Ana"}` e `{"id": 2, "nome": "Bruno"}`).
+2) Busque id existente — assert retorno correto.
+3) Busque id inexistente — assert `None`.
+4) Remova id existente — assert `True` e `len(lista)` correto em cada etapa.
 
 ## Como executar
 

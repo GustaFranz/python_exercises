@@ -26,9 +26,33 @@ Topico **Context manager `with open`**: abrir, ler, escrever e copiar arquivos c
 
 ## Enunciado
 
-- Crie servidor.log com 4 linhas de log de exemplo.
-- Leia o arquivo inteiro com `with open`.
-- Exiba o conteudo e o total de linhas.
+1) Crie `servidor.log` no inicio do script com 4 linhas:
+```
+[INFO] Servidor iniciado
+[INFO] Conexao aceita
+[WARN] Memoria em 80%
+[INFO] Backup concluido
+```
+
+2) Leia todo o conteudo com:
+```python
+with open("servidor.log", "r", encoding="utf-8") as f:
+    ...
+```
+
+3) Exiba o conteudo na tela e a quantidade de linhas lidas.
+
+Nao chame `.close()` manualmente — o `with` fecha automaticamente.
+
+Exemplo de saida:
+
+```
+[INFO] Servidor iniciado
+[INFO] Conexao aceita
+[WARN] Memoria em 80%
+[INFO] Backup concluido
+Total de linhas: 4
+```
 
 ## Como executar
 

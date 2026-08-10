@@ -14,12 +14,29 @@ Montar um mini pipeline ETL com logging em cada etapa e niveis corretos para fal
 
 ## Enunciado
 
-- Configure logging com nivel INFO no console.
-- Implemente pipeline com pelo menos 3 etapas: **carregar**, **limpar** e **agregar**.
-- Cada etapa deve registrar inicio com `logging.info`.
-- Registros vazios ou invalidos removidos na limpeza devem gerar `logging.warning`.
-- Se a quantidade final agregada for zero, registre `logging.error`.
-- Processe a lista de vendas fornecida no `main.py` e exiba resumo final (total de registros validos e valor agregado).
+Dados brutos (simulando CSV importado):
+
+```python
+vendas_brutas = [
+    {"produto": "Caderno", "valor": 12.50},
+    {"produto": "", "valor": 0},
+    {"produto": "Caneta", "valor": 3.00},
+    {"produto": "   ", "valor": 5.00},
+    {"produto": "Lapis", "valor": -1},
+    {"produto": "Borracha", "valor": 2.00},
+]
+```
+
+Regra de invalidacao: produto vazio/whitespace **ou** valor <= 0.
+
+Implemente pipeline ETL com logging (`logging.basicConfig`, nivel INFO):
+
+1) `carregar_vendas(fonte)` — log `"Etapa 1: carregar"`, retorna lista bruta
+2) `limpar_vendas(vendas)` — log `"Etapa 2: limpar"`, remove invalidos; cada descarte gera `logging.warning` com motivo
+3) `agregar_vendas(vendas)` — log `"Etapa 3: agregar"`, retorna `{"qtd": int, "total": float}`; se qtd == 0, `logging.error`
+4) `executar_pipeline(fonte)` — orquestra as 3 etapas
+
+Exiba resumo final: quantidade valida e valor total agregado.
 
 ## Como executar
 

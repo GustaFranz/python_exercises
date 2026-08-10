@@ -26,8 +26,38 @@ Topico **`try/except/else/finally`**: tratar erros sem perder rastreabilidade.
 
 ## Enunciado
 
-- Implemente operacao_segura(a, b) com try/except/else/finally.
-- Teste divisao valida e divisao por zero.
+Implemente `operacao_segura(a, b)` com estrutura obrigatoria:
+
+```python
+def operacao_segura(a, b):
+    try:
+        resultado = a / b
+    except ZeroDivisionError:
+        print("Erro: divisao por zero")
+    else:
+        print(f"Resultado: {resultado}")
+    finally:
+        print("Operacao finalizada.")
+```
+
+No `main`, teste:
+
+1) `(10, 2)` — divisao valida.
+2) `(10, 0)` — divisao por zero.
+
+Exemplo de saida (caso valido):
+
+```
+Resultado: 5.0
+Operacao finalizada.
+```
+
+Exemplo de saida (caso erro):
+
+```
+Erro: divisao por zero
+Operacao finalizada.
+```
 
 ## Como executar
 

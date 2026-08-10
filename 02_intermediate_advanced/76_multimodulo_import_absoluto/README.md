@@ -23,9 +23,30 @@ Usar imports absolutos entre modulos no mesmo projeto.
 
 ## Enunciado
 
-- Implemente horas_trabalhadas em relogio.py.
-- Implemente gerar_resumo em relatorio.py.
-- Em main.py use imports absolutos e exiba resumo de Ana Silva.
+**`relogio.py`**
+```python
+def horas_trabalhadas(entrada: str, saida: str) -> float:
+    # entrada e saida no formato "HH:MM"
+    # retorna horas como float (ex.: 9h30 -> 9.5)
+```
+
+**`relatorio.py`**
+```python
+def gerar_resumo(nome: str, horas: float) -> str:
+    return f"{nome}: {horas:.1f}h"
+```
+
+No `main.py`:
+
+1) Use imports absolutos: `from relogio import horas_trabalhadas` e `from relatorio import gerar_resumo`.
+2) Calcule horas de `"Ana Silva"` com entrada `"08:00"` e saida `"17:00"` (resultado esperado: `9.0`).
+3) Exiba o resumo retornado por `gerar_resumo`.
+
+Exemplo de saida:
+
+```
+Ana Silva: 9.0h
+```
 
 ## Como executar
 

@@ -14,8 +14,29 @@ Usar store_true para flags opcionais na CLI.
 
 ## Enunciado
 
-- Adicione flags --verbose e --dry-run com action=store_true.
-- Exiba mensagem conforme combinacao de flags.
+Configure argparse com flags booleanas:
+
+- `--verbose` (`action="store_true"`)
+- `--dry-run` (`action="store_true"`)
+
+No `main`, exiba mensagens conforme flags:
+
+- Se `--verbose`: `"Modo detalhado ativo"`
+- Se `--dry-run`: `"Simulacao — nenhuma alteracao aplicada"`
+- Se nenhuma flag: `"Execucao padrao"`
+
+Exemplo de execucao:
+
+```bash
+python main.py --verbose --dry-run
+```
+
+Exemplo de saida:
+
+```
+Modo detalhado ativo
+Simulacao — nenhuma alteracao aplicada
+```
 
 ## Como executar
 

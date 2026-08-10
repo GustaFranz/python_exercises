@@ -14,7 +14,19 @@ Extraia todos os numeros de um texto de rastreio com re.findall.
 
 ## Enunciado
 
-- Extraia todos os numeros de um texto de rastreio com re.findall.
+Texto de rastreio:
+```python
+texto = "Pedido 4521 enviado em 10/07 com NF 99887"
+```
+
+1) Extraia todos os grupos de digitos com `re.findall(r"\d+", texto)`.
+2) Exiba a lista de numeros encontrados.
+
+Exemplo de saida:
+
+```
+Numeros: ['4521', '10', '07', '99887']
+```
 
 ## Como executar
 

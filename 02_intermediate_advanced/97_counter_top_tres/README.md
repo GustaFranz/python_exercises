@@ -14,8 +14,22 @@ Encontrar os 3 produtos mais vendidos com Counter.most_common.
 
 ## Enunciado
 
-- Calcule top 3 produtos com Counter.most_common(3).
-- Exiba ranking formatado.
+Lista de vendas do bazar:
+
+```python
+vendas = ["caderno", "caneta", "caderno", "borracha", "caneta", "caderno", "caneta"]
+```
+
+1) Use `Counter(vendas).most_common(3)` para obter os 3 produtos mais vendidos.
+2) Exiba ranking formatado com posicao, produto e quantidade.
+
+Exemplo de saida esperada:
+
+```
+1) caderno (3)
+2) caneta (3)
+3) borracha (1)
+```
 
 ## Como executar
 

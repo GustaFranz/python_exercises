@@ -14,8 +14,22 @@ Testar bordas como valor minimo, maximo e lista unitaria.
 
 ## Enunciado
 
-- Implemente nota_maxima(notas) com tratamento de lista vazia.
-- Teste com assert: varios itens, um item e lista vazia.
+Implemente:
+
+```python
+def nota_maxima(notas: list) -> int | None:
+    # retorna max(notas) ou None se lista vazia
+```
+
+Escreva asserts de teste:
+
+```python
+assert nota_maxima([6, 9, 7]) == 9
+assert nota_maxima([5]) == 5
+assert nota_maxima([]) is None
+```
+
+Trate lista vazia explicitamente no codigo (caso de borda).
 
 ## Como executar
 

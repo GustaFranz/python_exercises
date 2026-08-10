@@ -25,9 +25,43 @@ Criar pacote Python com __init__.py e imports limpos.
 
 ## Enunciado
 
-- Implemente total_vendas e gerar_resumo nos modulos do pacote.
-- Configure __init__.py para exportar as funcoes.
-- Em main.py importe do pacote e exiba resumo.
+Dados de teste:
+```python
+vendas = [
+    {"produto": "caderno", "valor": 12},
+    {"produto": "caneta", "valor": 3},
+]
+```
+
+**`analise_vendas/vendas.py`**
+```python
+def total_vendas(vendas: list[dict]) -> float:
+    # soma o campo "valor" de cada dict
+```
+
+**`analise_vendas/relatorio.py`**
+```python
+def gerar_resumo(total: float, qtd: int) -> str:
+    # retorna resumo textual da analise
+```
+
+**`analise_vendas/__init__.py`**
+```python
+from .vendas import total_vendas
+from .relatorio import gerar_resumo
+```
+
+No `main.py`:
+
+1) Importe do pacote: `from analise_vendas import total_vendas, gerar_resumo`.
+2) Calcule total e quantidade de vendas.
+3) Exiba o resumo.
+
+Exemplo de saida:
+
+```
+Total: R$ 15.00 | Vendas: 2
+```
 
 ## Como executar
 

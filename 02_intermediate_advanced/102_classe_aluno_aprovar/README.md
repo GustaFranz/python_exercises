@@ -14,8 +14,16 @@ Adicionar metodo aprovar() que altera status do aluno.
 
 ## Enunciado
 
-- Adicione metodo aprovar() com corte 7.0.
-- Teste aluno aprovado e reprovado.
+Estenda a classe `Aluno` com:
+
+- `__init__(self, nome, nota)` — define `self.aprovado = False`
+- `aprovar(self)` — se `nota >= 7.0`, define `self.aprovado = True`
+- `__str__(self)` — inclui status `"Aprovado"` ou `"Reprovado"`
+
+Teste no `main`:
+
+1) Aluno com nota **8.0** — chame `aprovar()` e exiba (deve ficar Aprovado).
+2) Aluno com nota **5.5** — chame `aprovar()` e exiba (deve ficar Reprovado).
 
 ## Como executar
 

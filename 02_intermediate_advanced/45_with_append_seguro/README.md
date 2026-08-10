@@ -14,9 +14,28 @@ Arquivo rotas_dia.txt com 2 rotas iniciais.
 
 ## Enunciado
 
-- Arquivo rotas_dia.txt com 2 rotas iniciais.
-- Adicione 2 rotas com append (modo "a").
-- Exiba o conteudo final completo.
+1) Crie `rotas_dia.txt` com 2 linhas iniciais:
+```
+Rota 01 — Centro
+Rota 02 — Zona Norte
+```
+
+2) Adicione 2 novas linhas com modo `"a"` (append):
+```
+Rota 03 — Zona Sul
+Rota 04 — Aeroporto
+```
+
+3) Leia e exiba o arquivo completo apos o append com um segundo `with open` em modo `"r"`.
+
+Exemplo de saida:
+
+```
+Rota 01 — Centro
+Rota 02 — Zona Norte
+Rota 03 — Zona Sul
+Rota 04 — Aeroporto
+```
 
 ## Como executar
 

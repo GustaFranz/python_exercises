@@ -37,9 +37,33 @@ Topico **Mini-projeto multi-modulo**: dividir responsabilidades em arquivos Pyth
 
 ## Enunciado
 
-- Implemente media(lista) em src/calculos.py.
-- Implemente formatar_linha(texto) em src/formatacao.py.
-- Em main.py importe e teste as duas funcoes.
+Implemente nos modulos e importe em `main.py`:
+
+**`src/calculos.py`**
+```python
+def media(lista: list) -> float:
+    return sum(lista) / len(lista)
+```
+
+**`src/formatacao.py`**
+```python
+def formatar_linha(texto: str) -> str:
+    return f"[OK] {texto.upper()}"
+```
+
+No `main.py`:
+
+1) Importe com caminho absoluto: `from src.calculos import media` e `from src.formatacao import formatar_linha`.
+2) Exiba `media([7, 8, 9])` e `formatar_linha("turma 7b")`.
+
+Exemplo de saida:
+
+```
+Media: 8.0
+[OK] TURMA 7B
+```
+
+Rode sempre da pasta do exercicio: `python main.py`.
 
 ## Como executar
 

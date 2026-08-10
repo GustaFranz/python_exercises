@@ -14,8 +14,23 @@ Criar subcomandos listar e exportar na mesma CLI.
 
 ## Enunciado
 
-- Crie subcomandos listar e exportar com argparse.
-- Cada subcomando recebe --turma; exportar tambem recebe --arquivo.
+Configure subcomandos com `subparsers = parser.add_subparsers(dest="comando")`:
+
+**Subcomando `listar`**
+- `--turma` (str, obrigatorio)
+- Exibe: `"Listando alunos da turma {turma}"`
+
+**Subcomando `exportar`**
+- `--turma` (str, obrigatorio)
+- `--arquivo` (str, obrigatorio)
+- Exibe: `"Exportando turma {turma} para {arquivo}"`
+
+Exemplos de execucao:
+
+```bash
+python main.py listar --turma 7B
+python main.py exportar --turma 8A --arquivo saida.csv
+```
 
 ## Como executar
 

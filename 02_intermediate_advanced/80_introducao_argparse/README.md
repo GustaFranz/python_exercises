@@ -26,8 +26,28 @@ Topico **argparse**: interfaces de linha de comando profissionais.
 
 ## Enunciado
 
-- Configure argparse com --arquivo (obrigatorio) e --limite (padrao 10).
-- Exiba os valores recebidos ao executar o script.
+Configure argparse com:
+
+- `--arquivo` (str, obrigatorio): caminho do arquivo de entrada
+- `--limite` (int, padrao `10`): maximo de linhas a processar
+
+No `main`:
+
+1) Parse os argumentos.
+2) Exiba os valores recebidos.
+
+Exemplo de execucao:
+
+```bash
+python main.py --arquivo notas.csv --limite 5
+```
+
+Exemplo de saida:
+
+```
+Arquivo: notas.csv
+Limite: 5
+```
 
 ## Como executar
 

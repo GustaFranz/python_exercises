@@ -26,8 +26,28 @@ Topico **Regex com modulo `re`**: validar, extrair e formatar texto.
 
 ## Enunciado
 
-- Valide e-mails com regex (padrao simples com @ e dominio).
-- Teste 3 exemplos: valido e 2 invalidos.
+1) Implemente:
+```python
+def validar_email(email: str) -> bool:
+    # use re.fullmatch com padrao simples
+```
+
+Padrao sugerido: `r"^[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}$"`
+
+2) Teste os 3 e-mails:
+   - `"ana@escola.com"` — valido
+   - `"ana.escola.com"` — invalido
+   - `"bruno@mail"` — invalido
+
+3) Exiba resultado de cada teste: `"Valido"` ou `"Invalido"`.
+
+Exemplo de saida:
+
+```
+ana@escola.com: Valido
+ana.escola.com: Invalido
+bruno@mail: Invalido
+```
 
 ## Como executar
 

@@ -14,8 +14,25 @@ Agrupar vendas por vendedor com defaultdict.
 
 ## Enunciado
 
-- Agrupe vendas por vendedor com defaultdict(float).
-- Exiba total de cada vendedor.
+Vendas do periodo:
+
+```python
+vendas = [
+    {"vendedor": "Ana", "valor": 50},
+    {"vendedor": "Bruno", "valor": 30},
+    {"vendedor": "Ana", "valor": 20},
+]
+```
+
+1) Use `defaultdict(float)` para somar o `valor` de cada vendedor.
+2) Exiba o total arrecadado por vendedor.
+
+Exemplo de saida esperada:
+
+```
+Ana: R$ 70.00
+Bruno: R$ 30.00
+```
 
 ## Como executar
 

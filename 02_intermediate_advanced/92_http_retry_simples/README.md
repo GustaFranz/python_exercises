@@ -14,8 +14,31 @@ Tentar novamente consulta HTTP simulada apos falha temporaria.
 
 ## Enunciado
 
-- Implemente consultar_com_retry com ate 3 tentativas.
-- Simule falha na 1a tentativa e sucesso na 2a.
+Implemente simulacao e retry:
+
+```python
+def simular_servico(tentativa: int) -> dict:
+    # tentativa 1 -> {"status": 0, "erro": "Timeout"}
+    # tentativa >= 2 -> {"status": 200, "dados": "Servidor OK"}
+
+def consultar_com_retry(max_tentativas: int = 3):
+    # tenta de 1 ate max_tentativas
+    # retorna dados quando status 200
+    # se esgotar tentativas: retorna None e mensagem de falha
+```
+
+No `main`:
+
+1) Chame `consultar_com_retry(3)`.
+2) Exiba resultado — falha na 1a tentativa, sucesso na 2a.
+
+Exemplo de saida:
+
+```
+Tentativa 1: falhou (Timeout)
+Tentativa 2: sucesso
+Dados: Servidor OK
+```
 
 ## Como executar
 

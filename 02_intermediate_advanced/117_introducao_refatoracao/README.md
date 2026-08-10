@@ -26,9 +26,31 @@ Topico **Refatoracao**: melhorar estrutura sem mudar comportamento.
 
 ## Enunciado
 
-- Analise o codigo monolitico fornecido em comentarios no main.py.
-- Implemente calcular_media, turma_aprovada e listar_recuperacao.
-- Monte main() limpo com mesmo comportamento do original.
+Estude o codigo monolitico abaixo (nao execute — refatore):
+
+```python
+notas = [7, 8, 5, 9, 6]
+s = 0
+for n in notas:
+    s = s + n
+m = s / len(notas)
+if m >= 7:
+    print("Turma aprovada com media", m)
+else:
+    print("Turma reprovada com media", m)
+for n in notas:
+    if n < 7:
+        print("Recuperacao:", n)
+```
+
+Tarefas:
+
+1) Em comentarios, liste **3 problemas** desse codigo (ex.: nomes confusos, tudo no fluxo principal).
+2) Implemente as funcoes:
+   - `calcular_media(notas) -> float`
+   - `turma_aprovada(media, corte=7) -> bool`
+   - `listar_recuperacao(notas, corte=7)` — imprime notas abaixo do corte
+3) Monte `main()` limpo que reproduz **exatamente** o mesmo resultado do script original.
 
 ## Como executar
 

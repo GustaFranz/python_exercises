@@ -14,9 +14,41 @@ Crie EstoqueInsuficienteError e PedidoVazioError.
 
 ## Enunciado
 
-- Crie EstoqueInsuficienteError e PedidoVazioError.
-- Implemente processar_pedido(itens) com estoque fixo.
-- Teste pedido vazio, sem estoque e pedido valido.
+Estoque fixo:
+```python
+estoque = {"caderno": 5, "caneta": 0}
+```
+
+1) Crie as excecoes:
+```python
+class EstoqueInsuficienteError(Exception):
+    pass
+
+class PedidoVazioError(Exception):
+    pass
+```
+
+2) Implemente:
+```python
+def processar_pedido(itens: list[dict]) -> str:
+    # itens: lista de {"produto": str, "qtd": int}
+    # PedidoVazioError se lista vazia
+    # EstoqueInsuficienteError se qtd > estoque ou estoque zero
+    # retorna "Pedido aceito" se ok
+```
+
+3) Teste 3 cenarios (cada um com `try/except`, sem derrubar o programa):
+   - Pedido vazio: `[]`
+   - Sem estoque: `[{"produto": "caneta", "qtd": 1}]`
+   - Pedido valido: `[{"produto": "caderno", "qtd": 2}]`
+
+Exemplo de saida:
+
+```
+Erro: Pedido vazio
+Erro: Estoque insuficiente para caneta
+Pedido aceito
+```
 
 ## Como executar
 

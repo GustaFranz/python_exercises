@@ -14,8 +14,39 @@ CLI aplicada para gerar relatorio a partir de arquivo e media minima.
 
 ## Enunciado
 
-- Configure --entrada e --corte (padrao 7.0).
-- Leia CSV, filtre aprovados e exiba quantidade e nomes.
+Configure argparse:
+
+- `--entrada` (str): arquivo CSV com colunas `nome,nota`
+- `--corte` (float, padrao `7.0`): nota minima para aprovacao
+
+CSV de exemplo (crie `notas.csv` no inicio do script se nao existir):
+
+```csv
+nome,nota
+Ana,8.5
+Bruno,6.0
+Carla,9.0
+```
+
+No `main`:
+
+1) Leia o CSV com modulo `csv`.
+2) Filtre alunos com nota >= corte.
+3) Exiba quantidade e nomes dos aprovados.
+
+Exemplo de execucao:
+
+```bash
+python main.py --entrada notas.csv --corte 7.0
+```
+
+Exemplo de saida:
+
+```
+Aprovados (corte 7.0): 2
+- Ana
+- Carla
+```
 
 ## Como executar
 

@@ -14,8 +14,19 @@ Simular caixa escolar com duas classes cooperando.
 
 ## Enunciado
 
-- Crie ItemVenda e Caixa com metodos subtotal e total_dia.
-- Simule 3 vendas e exiba resumo do caixa.
+Crie duas classes:
+
+**`ItemVenda`**
+- Atributos: `nome`, `preco`, `quantidade`
+- Metodo `subtotal()` — retorna `preco * quantidade`
+
+**`Caixa`**
+- `__init__(self, operador)` — inicializa `self.vendas = []`
+- `registrar_venda(self, item: ItemVenda)` — adiciona item a `self.vendas`
+- `total_dia(self)` — soma os subtotais de todas as vendas
+- `__str__(self)` — exibe operador, quantidade de vendas e total do dia
+
+No `main`, simule o caixa da operadora **"Maria"** com **3 itens** vendidos (ex.: caderno, caneta, borracha) e exiba o resumo final.
 
 ## Como executar
 

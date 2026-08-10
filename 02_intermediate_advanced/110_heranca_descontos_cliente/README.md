@@ -14,11 +14,46 @@ Aplicar descontos diferentes por tipo de cliente usando heranca e polimorfismo (
 
 ## Enunciado
 
-- Crie hierarquia: `Cliente` (base), `ClienteEscola`, `ClienteParceiro`.
-- Cada subclasse sobrescreve `desconto()` com percentual distinto (0%, 10%, 15%).
-- Implemente `calcular_preco_final(cliente, valor)` usando polimorfismo (`cliente.desconto()`).
-- Processe lista heterogenea de clientes e exiba nome, percentual e preco final para valor base (ex.: R$ 100,00).
-- Bonus de entrevista: mesma funcao funciona para qualquer instancia da hierarquia.
+Crie a hierarquia:
+
+**`Cliente`**
+- `__init__(self, nome)`
+- `desconto(self) -> float` — retorna `0.0`
+
+**`ClienteEscola(Cliente)`**
+- `desconto(self) -> float` — retorna `0.10`
+
+**`ClienteParceiro(Cliente)`**
+- `desconto(self) -> float` — retorna `0.15`
+
+Implemente:
+
+```python
+def calcular_preco_final(cliente: Cliente, valor: float) -> float:
+    return valor * (1 - cliente.desconto())
+```
+
+No `main`:
+
+1) Monte a lista polimorfica de teste:
+   ```python
+   clientes = [
+       Cliente("Maria"),
+       ClienteEscola("Escola 12"),
+       ClienteParceiro("Papelaria Centro"),
+   ]
+   ```
+2) Use `valor_base = 100.0` e percorra a lista com um unico loop (sem `if/elif` por tipo).
+3) Exiba tabela com colunas: `Nome | Tipo | Desconto | Preco final`.
+
+Exemplo de saida:
+
+```
+Nome              | Tipo     | Desconto | Preco final
+Maria             | Cliente  | 0%       | 100.00
+Escola 12         | Escola   | 10%      | 90.00
+Papelaria Centro  | Parceiro | 15%      | 85.00
+```
 
 ## Como executar
 

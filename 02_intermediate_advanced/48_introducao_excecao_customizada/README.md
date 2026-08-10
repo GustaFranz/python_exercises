@@ -26,9 +26,29 @@ Topico **`raise` + excecao customizada**: validar regras de negocio com erros cl
 
 ## Enunciado
 
-- Crie SaldoInsuficienteError e funcao sacar(saldo, valor).
-- Teste saque valido e invalido.
-- Trate o erro com try/except e mensagem amigavel.
+1) Crie a excecao:
+```python
+class SaldoInsuficienteError(Exception):
+    pass
+```
+
+2) Implemente:
+```python
+def sacar(saldo: float, valor: float) -> float:
+    # retorna saldo - valor se valor <= saldo
+    # levanta SaldoInsuficienteError se valor > saldo
+```
+
+3) Teste com `saldo = 100`:
+   - Saque `30` — sucesso; exiba novo saldo.
+   - Saque `80` — capture com `try/except` e exiba mensagem amigavel ao usuario.
+
+Exemplo de saida:
+
+```
+Saque OK. Saldo restante: 70.0
+Erro: Saldo 70 insuficiente para sacar 80
+```
 
 ## Como executar
 

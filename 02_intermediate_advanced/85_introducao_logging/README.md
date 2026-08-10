@@ -26,9 +26,28 @@ Topico **logging**: registrar eventos com niveis e destinos configuraveis.
 
 ## Enunciado
 
-- Configure logging.basicConfig com nivel INFO.
-- Implemente verificar_servidor usando logging.info e logging.error.
-- Teste servidor online e offline.
+1) Configure logging no inicio:
+```python
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+```
+
+2) Implemente:
+```python
+def verificar_servidor(nome: str, online: bool) -> None:
+    # online True  -> logging.info(f"Servidor {nome}: OK")
+    # online False -> logging.error(f"Servidor {nome}: OFFLINE")
+```
+
+3) Teste com `("web-01", True)` e `("db-01", False)`.
+
+Nao use `print` — apenas `logging`.
+
+Exemplo de saida:
+
+```
+INFO: Servidor web-01: OK
+ERROR: Servidor db-01: OFFLINE
+```
 
 ## Como executar
 

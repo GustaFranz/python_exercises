@@ -14,11 +14,31 @@ Gerar backup com timestamp antes de atualizar cadastro JSON.
 
 ## Enunciado
 
-clientes.json com lista de clientes (id, nome, plano).
-Ao atualizar cliente (por id), antes salve copia em backup_YYYYMMDD_HHMMSS.json.
-Use datetime.now().strftime("%Y%m%d_%H%M%S") no nome.
-Implemente: fazer_backup(origem), atualizar_cliente(caminho, id, campo, valor).
-Simule uma atualizacao e confirme que backup foi criado.
+Arquivo `clientes.json` com lista de clientes (`id`, `nome`, `plano`).
+
+Implemente:
+
+```python
+def fazer_backup(origem: str) -> str:
+    # copia origem para backup_YYYYMMDD_HHMMSS.json
+    # use datetime.now().strftime("%Y%m%d_%H%M%S") no nome
+
+def atualizar_cliente(caminho: str, id: int, campo: str, valor) -> None:
+    # ordem: backup -> carregar -> atualizar -> salvar
+```
+
+No `main`:
+
+1) Crie `clientes.json` com 2 clientes de exemplo.
+2) Simule atualizacao de um cliente (ex.: alterar `plano` do id `1`).
+3) Confirme que arquivo de backup foi criado.
+
+Exemplo de saida:
+
+```
+Backup criado: backup_20260809_190000.json
+Cliente 1 atualizado: plano = Premium
+```
 
 ## Como executar
 

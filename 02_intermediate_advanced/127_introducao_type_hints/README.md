@@ -26,8 +26,26 @@ Topico **Type hints basicos**: anotar parametros e retornos para clareza.
 
 ## Enunciado
 
-- Implemente criar_aluno e exibir_aluno com type hints.
-- Teste criando e exibindo um aluno.
+Implemente com type hints completos:
+
+```python
+def criar_aluno(nome: str, matricula: int, turma: str) -> dict[str, str | int]:
+    ...
+
+def exibir_aluno(aluno: dict[str, str | int]) -> str:
+    ...
+```
+
+No `main`:
+
+1) Crie um aluno (ex.: `"Ana Silva"`, matricula `101`, turma `"7A"`).
+2) Exiba a string formatada retornada por `exibir_aluno`.
+
+Exemplo de saida:
+
+```
+Aluno: Ana Silva | Matricula: 101 | Turma: 7A
+```
 
 ## Como executar
 

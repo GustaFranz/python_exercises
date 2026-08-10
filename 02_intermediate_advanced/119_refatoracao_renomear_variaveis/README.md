@@ -14,8 +14,28 @@ Substituir nomes confusos por nomes descritivos.
 
 ## Enunciado
 
-- Renomeie x, l e i para nomes descritivos.
-- Mantenha a mesma logica de alerta para uso > 80%.
+Refatore o script abaixo renomeando variaveis confusas (mantenha a mesma logica):
+
+```python
+x = 85
+l = ["disco1", "disco2"]
+i = 0
+while i < len(l):
+    print(l[i], "uso:", x, "%")
+    if x > 80:
+        print("ALERTA:", l[i])
+    i += 1
+```
+
+Mapeamento sugerido:
+
+- `x` → `uso_percentual`
+- `l` → `discos`
+- `i` → `indice`
+
+Regra de negocio: exibir alerta se `uso_percentual > 80`.
+
+Exiba o status de cada disco com os novos nomes.
 
 ## Como executar
 

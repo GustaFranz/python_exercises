@@ -31,7 +31,7 @@ linhas = [
 ]
 ```
 
-Arvore de pastas de configuracao (percorra recursivamente as chaves folha):
+Arvore de configuracao:
 ```python
 config = {
     "regras": {
@@ -41,15 +41,28 @@ config = {
 }
 ```
 
-Checklist:
+Padrao regex: `r"cliente=(.*?);telefone=(.*?);score=(\d+)"`
 
 1) Com regex, extraia `cliente`, `telefone`, `score` de cada linha.
-2) Crie fabrica `criar_validador_digitos(minimo)` (closure) para telefone.
-3) Crie fabrica `criar_validador_faixa(minimo, maximo)` para score.
-4) Percorra `config` (recursivo ou aninhado) para ler os limites e montar os validadores.
-5) Classifique cada registro: `ok` ou `rejeitado` + motivos.
-6) Use closure `criar_relatorio(cliente_nome)` OU gere um unico relatorio consolidado
-   com totais ok/rejeitado e lista de aprovados (score >= 50 e telefone valido).
+2) Crie fabrica `criar_validador_digitos(minimo)` (closure) para validar telefone.
+3) Crie fabrica `criar_validador_faixa(minimo, maximo)` para validar score.
+4) Percorra `config` recursivamente para ler limites e montar os validadores.
+5) Classifique cada registro: `ok` ou `rejeitado` + motivos (cliente vazio, telefone invalido, score fora da faixa).
+6) Gere um relatorio consolidado com:
+   - total `ok` e total `rejeitado`
+   - lista de aprovados (score >= 50 e telefone valido)
+
+Exemplo de saida:
+
+```
+=== Relatorio consolidado ===
+Total ok: 2
+Total rejeitado: 2
+Aprovados: Ana (score 80), Carla (score 95)
+Rejeitados:
+- Bruno: telefone invalido (3 digitos)
+- (vazio): cliente vazio
+```
 
 ## Como executar
 

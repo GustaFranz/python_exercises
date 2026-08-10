@@ -23,9 +23,34 @@ Separar modelos de dados e funcoes utilitarias.
 
 ## Enunciado
 
-- Implemente criar_aluno em models.py.
-- Implemente validar_nome em utils.py.
-- Em main.py valide e cadastre aluno valido.
+**`models.py`**
+```python
+def criar_aluno(nome: str, turma: str) -> dict:
+    return {"nome": nome, "turma": turma}
+```
+
+**`utils.py`**
+```python
+def validar_nome(nome: str) -> bool:
+    return len(nome.strip()) >= 3
+```
+
+No `main.py`:
+
+1) Teste `"Ana"` — nome invalido; exiba mensagem de erro.
+2) Teste `"Bruno Costa"` — nome valido; crie o aluno com `criar_aluno` e exiba o dict.
+
+Regras:
+- `models.py` nao valida.
+- `utils.py` valida.
+- `main.py` orquestra.
+
+Exemplo de saida:
+
+```
+Nome invalido: Ana
+Aluno cadastrado: {'nome': 'Bruno Costa', 'turma': '7A'}
+```
 
 ## Como executar
 

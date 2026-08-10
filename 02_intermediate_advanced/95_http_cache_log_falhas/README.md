@@ -14,9 +14,36 @@ Cachear respostas HTTP simuladas e registrar falhas em log.
 
 ## Enunciado
 
-- Implemente buscar_indicador com cache em dict.
-- Registre falhas com logging.error.
-- Teste cache hit e falha de API.
+Cache global:
+```python
+cache_api = {}
+```
+
+Implemente:
+
+```python
+def simular_indicador(id: int, falhar: bool = False) -> dict:
+    # falhar True  -> {"status": 500, "erro": "Erro interno"}
+    # falhar False -> {"status": 200, "dados": {"id": id, "valor": id * 10}}
+
+def buscar_indicador(id: int, falhar: bool = False):
+    # se id no cache: retorna cache[id] com mensagem "Cache hit"
+    # senao consulta API; se 200 grava cache e retorna
+    # se falha: logging.error e retorna None
+```
+
+No `main`:
+
+1) Chame `buscar_indicador(1)` duas vezes — 2a deve usar cache.
+2) Chame `buscar_indicador(2, falhar=True)` — registre falha com `logging.error`.
+
+Exemplo de saida:
+
+```
+Consultando API id=1...
+Cache hit id=1
+Erro ao buscar id=2
+```
 
 ## Como executar
 

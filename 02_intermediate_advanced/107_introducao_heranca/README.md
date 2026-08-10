@@ -26,8 +26,27 @@ Topico **Heranca simples**: reutilizar atributos e metodos da classe pai.
 
 ## Enunciado
 
-- Crie Pessoa, Aluno(Pessoa) e Professor(Pessoa).
-- Instancie um aluno e um professor e exiba com print.
+Crie a hierarquia:
+
+**`Pessoa`**
+- `__init__(self, nome, cpf)`
+- `__str__(self)` — exibe nome e cpf
+
+**`Aluno(Pessoa)`**
+- Adiciona atributo `turma`
+- `__init__` chama `super().__init__(nome, cpf)`
+- `__str__` inclui turma
+
+**`Professor(Pessoa)`**
+- Adiciona atributo `disciplina`
+- `__init__` chama `super().__init__(nome, cpf)`
+- `__str__` inclui disciplina
+
+No `main`:
+
+1) Instancie 1 aluno (ex.: Ana, cpf `"111"`, turma `"7A"`).
+2) Instancie 1 professor (ex.: Carlos, cpf `"222"`, disciplina `"Matematica"`).
+3) Exiba ambos com `print()`.
 
 ## Como executar
 

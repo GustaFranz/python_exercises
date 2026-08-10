@@ -14,9 +14,31 @@ Crie EmailInvalidoError e CargoInvalidoError.
 
 ## Enunciado
 
-- Crie EmailInvalidoError e CargoInvalidoError.
-- Implemente cadastrar_funcionario com 3 regras.
-- Teste caso valido, email invalido e cargo invalido.
+1) Crie as excecoes:
+```python
+class EmailInvalidoError(Exception):
+    pass
+
+class CargoInvalidoError(Exception):
+    pass
+```
+
+2) Implemente:
+```python
+def cadastrar_funcionario(nome: str, email: str, cargo: str) -> dict:
+    # nome nao vazio
+    # email deve conter "@"
+    # cargo deve estar em ("Analista", "Suporte", "Coordenador")
+    # levanta excecao especifica em cada falha
+    # retorna dict do funcionario se tudo ok
+```
+
+3) Teste 3 casos:
+   - Valido: `"Ana Silva"`, `"ana@empresa.com"`, `"Analista"`.
+   - Email invalido: `"Bruno"`, `"bruno-email"`, `"Suporte"`.
+   - Cargo invalido: `"Carla"`, `"carla@empresa.com"`, `"Diretor"`.
+
+Use `except EmailInvalidoError` e `except CargoInvalidoError` separados.
 
 ## Como executar
 

@@ -26,8 +26,22 @@ Topico **Counter e defaultdict**: agregar e agrupar dados com collections.
 
 ## Enunciado
 
-- Conte frequencia de palavras com Counter.
-- Exiba contagem completa e palavra mais frequente.
+Texto de depoimentos:
+
+```python
+texto = "python e bom e python e facil e python"
+```
+
+1) Normalize o texto: `lower()` e `split()` por espaco.
+2) Use `Counter` para contar a frequencia de cada palavra.
+3) Exiba o `Counter` completo e a palavra mais frequente (use `most_common(1)`).
+
+Exemplo de saida esperada:
+
+```
+Counter({'python': 3, 'e': 2, 'bom': 1, 'facil': 1})
+Palavra mais frequente: python (3 ocorrencias)
+```
 
 ## Como executar
 

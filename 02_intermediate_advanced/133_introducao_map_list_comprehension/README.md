@@ -25,15 +25,30 @@ Topico **map() + comprehensions**: aplicar funcoes em lote e montar estruturas c
 
 ## Enunciado
 
+Dados de entrada:
 ```python
 notas_texto = ["7.5", "8", "abc", "6.0", "-1", "9.5", "5.5"]
 ```
 
-1) Use `map(float, notas_texto)` dentro de um `try/except` **ou** converta com list comprehension protegida.
-   Neste exercicio, prefira: primeiro `map(float, notas_texto)` e trate erros convertendo item a item
-   em list comprehension (ignore valores invalidos).
-2) Com list comprehension, filtre apenas notas entre `0` e `10` (inclusive).
-3) Exiba: lista original, notas convertidas validas e quantidade aprovada (nota >= 6).
+1) Crie funcao auxiliar:
+```python
+def converter_seguro(valor: str) -> float | None:
+    try:
+        return float(valor)
+    except ValueError:
+        return None
+```
+2) Converta com `map(converter_seguro, notas_texto)` e filtre `None` em list comprehension.
+3) Filtre apenas notas entre `0` e `10` (inclusive) com list comprehension.
+4) Exiba: lista original, notas convertidas validas e quantidade aprovada (nota >= 6).
+
+Exemplo de saida:
+
+```
+Original: ['7.5', '8', 'abc', '6.0', '-1', '9.5', '5.5']
+Validas (0-10): [7.5, 8.0, 6.0, 9.5, 5.5]
+Aprovadas (>= 6): 4
+```
 
 ## Como executar
 

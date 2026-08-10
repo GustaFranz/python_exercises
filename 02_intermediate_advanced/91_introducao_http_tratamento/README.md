@@ -26,9 +26,19 @@ Topico **API com tratamento HTTP**: lidar com sucesso, erro e indisponibilidade.
 
 ## Enunciado
 
-- Crie simular_api(codigo) com status 200, 404 e timeout.
-- Implemente consultar_matricula tratando cada caso.
-- Teste os tres cenarios.
+Implemente `simular_api(codigo) -> dict` com respostas simuladas:
+
+- `200` → `{"status": 200, "dados": {"aluno": "Ana", "turma": "7B"}}`
+- `404` → `{"status": 404, "erro": "Matricula nao encontrada"}`
+- `0` ou `"timeout"` → `{"status": 0, "erro": "Timeout"}`
+
+Implemente `consultar_matricula(codigo)` que chama `simular_api` e trata cada caso:
+
+- **200** — exibe dados do aluno (nome e turma)
+- **404** — exibe erro amigavel
+- **timeout (status 0)** — exibe `"Servico indisponivel, tente mais tarde"`
+
+Teste no `main` com codigos **200**, **404** e **"timeout"**.
 
 ## Como executar
 

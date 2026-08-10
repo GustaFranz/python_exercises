@@ -26,9 +26,26 @@ Topico **Testes com assert**: validar comportamento com assercoes simples.
 
 ## Enunciado
 
-- Implemente media(notas).
-- Escreva pelo menos 3 asserts de teste.
-- Exiba "Todos os testes passaram." ao final.
+Implemente:
+
+```python
+def media(notas: list[float]) -> float:
+    return sum(notas) / len(notas)
+```
+
+Escreva testes com `assert` (sem framework externo):
+
+```python
+assert media([10, 8, 6]) == 8.0
+assert media([7]) == 7.0
+assert media([5, 5, 5, 5]) == 5.0
+```
+
+Ao final, exiba:
+
+```
+Todos os testes passaram.
+```
 
 ## Como executar
 

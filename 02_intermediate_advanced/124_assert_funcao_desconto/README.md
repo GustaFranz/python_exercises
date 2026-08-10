@@ -14,8 +14,22 @@ Testar funcao de desconto com asserts em multiplos cenarios.
 
 ## Enunciado
 
-- Implemente aplicar_desconto(valor, pct) com validacao de pct.
-- Teste desconto valido, zero e pct invalido com assert.
+Implemente:
+
+```python
+def aplicar_desconto(valor: float, pct: float) -> float:
+    # pct entre 0 e 1; se pct invalido retorna valor original
+```
+
+Regra: aplique desconto apenas se `0 <= pct <= 1`.
+
+Escreva asserts de teste:
+
+```python
+assert aplicar_desconto(100, 0.10) == 90.0
+assert aplicar_desconto(50, 0) == 50.0
+assert aplicar_desconto(80, 1.5) == 80.0   # pct invalido
+```
 
 ## Como executar
 

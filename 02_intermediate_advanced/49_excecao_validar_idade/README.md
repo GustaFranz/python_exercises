@@ -14,8 +14,30 @@ Crie IdadeInvalidaError e validar_idade(idade) com minimo 16.
 
 ## Enunciado
 
-- Crie IdadeInvalidaError e validar_idade(idade) com minimo 16.
-- Teste 15 (erro), 16 e 22 (ok).
+1) Crie a excecao:
+```python
+class IdadeInvalidaError(Exception):
+    pass
+```
+
+2) Implemente:
+```python
+def validar_idade(idade: int) -> None:
+    # levanta IdadeInvalidaError se idade < 16
+    # mensagem deve informar idade minima e valor recebido
+```
+
+3) Teste com idades `15`, `16` e `22`:
+   - Idade `15`: use `try/except` e exiba mensagem de erro.
+   - Idades `16` e `22`: exiba `"Cadastro liberado"`.
+
+Exemplo de saida:
+
+```
+Erro: Idade minima 16. Recebido: 15
+Cadastro liberado
+Cadastro liberado
+```
 
 ## Como executar
 
