@@ -60,8 +60,14 @@ print()
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# class Produto guarda nome, preco e estoque no __init__ via self
+# vender() valida antes de alterar: se quantidade > estoque, retorna False sem mudar nada
+# Guard clause evita venda invalida e mantem o estoque consistente
+# repor() aumenta self.estoque e devolve True (entrada de mercadoria)
+# Metodos alteram o estado do objeto; __str__ reflete o estoque atualizado
+# Retorno bool (True/False) permite tratar sucesso ou falha no codigo que chama
+# POO junta dados e regras de negocio (vender/repor) no mesmo lugar
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
