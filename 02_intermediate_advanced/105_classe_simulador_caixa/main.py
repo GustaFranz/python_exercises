@@ -23,12 +23,70 @@
 # # RESOLUCAO DO EXERCICIO
 # =============================================================================
 
+class ItemVenda:
 
+    def __init__(self, nome: str, preco: float, quantidade: int):
+        self.nome = nome
+        self.preco = preco
+        self.quantidade = quantidade
+
+    def subtotal(self) -> float:
+        return self.preco * self.quantidade 
+
+class Caixa:
+
+    def __init__(self, operador: str):
+        self.operador = operador
+        self.vendas = []
+
+    def registrar_venda(self, item: ItemVenda):
+        self.vendas.append(item)
+
+    def total_dia(self) -> float:
+        return sum(item.subtotal() for item in self.vendas)
+
+    def __str__(self):
+        titulo = "================================ RELATÓRIO DO CAIXA  ================================"
+        largura = len(titulo)
+        relatorio = (f'{titulo}\n'
+                     f'{self.operador:^{largura}}\n'
+                     f'\n')
+
+        for item in self.vendas:
+            relatorio += (
+                f'Produto: {item.nome:<12}  |  Vendas: {item.quantidade:<8}  |  Subtotal: R${item.subtotal():<15}\n')
+
+        relatorio += (
+            f'Total de vendas: {len(self.vendas)}\n'
+            f'Total do dia: R$ {self.total_dia():.2f}\n'
+        )
+
+        return relatorio
+        
+if __name__ == "__main__":
+
+    caixa_maria = Caixa("Maria")
+
+    caixa_maria.registrar_venda(ItemVenda("Livro", 25.5, 1))
+    caixa_maria.registrar_venda(ItemVenda("Caderno", 12.00, 6))
+    caixa_maria.registrar_venda(ItemVenda("Agenda", 28.45, 8))
+
+    print(caixa_maria)
+
+
+    
 # =============================================================================
 # # APRENDIZADOS E CONSOLIDACAO DE CONCEITOS
 # =============================================================================
-
 #
+# Duas classes com papeis distintos: ItemVenda (dados) e Caixa (agregador)
+# ItemVenda guarda nome, preco e quantidade; subtotal() calcula preco * quantidade
+# Caixa mantem self.vendas (lista) e o operador responsavel pelo PDV
+# registrar_venda recebe instancias de ItemVenda e faz append na lista
+# Composicao: um Caixa "tem" varios ItemVenda — objetos colaborando juntos
+# total_dia() soma os subtotais com sum() e generator expression
+# __str__ monta o relatorio: operador, itens, qtd de vendas e total do dia
+# Separar item e caixa deixa cada classe pequena e com responsabilidade clara
 #
 # OBRIGADO!
 # FIQUE A VONTADE PARA CONTRIBUIR COM O MEU APRENDIZADO
